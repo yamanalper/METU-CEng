@@ -1,0 +1,1022 @@
+
+--------------------------------------------------------------
+*** Drop tables ***
+Dropped 6 tables.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Create tables ***
+Created 6 tables.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Participants ***
+1000 participants were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Passengers ***
+700 passengers were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Drivers ***
+400 drivers were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Cars ***
+601 cars were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Trips ***
+1698 trips were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Insert Bookings ***
+2125 bookings were inserted.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find participants who are both passengers and drivers ***
+Participant{PIN=106828, p_name='Jane Johnson', age=35}
+Participant{PIN=122454, p_name='David Williams', age=44}
+Participant{PIN=123700, p_name='Olivia Williams', age=49}
+Participant{PIN=130883, p_name='Emily Taylor', age=27}
+Participant{PIN=150379, p_name='Sophia Wilson', age=39}
+Participant{PIN=161394, p_name='Olivia Brown', age=32}
+Participant{PIN=166188, p_name='Olivia Brown', age=55}
+Participant{PIN=178663, p_name='David Miller', age=68}
+Participant{PIN=178677, p_name='Chris Brown', age=19}
+Participant{PIN=188245, p_name='Sophia Taylor', age=47}
+Participant{PIN=195102, p_name='Emma Williams', age=67}
+Participant{PIN=200880, p_name='Emily Miller', age=28}
+Participant{PIN=203509, p_name='Sophia Miller', age=38}
+Participant{PIN=222143, p_name='Olivia Taylor', age=38}
+Participant{PIN=222596, p_name='Daniel Moore', age=38}
+Participant{PIN=226765, p_name='Emma Johnson', age=44}
+Participant{PIN=242780, p_name='Mike Wilson', age=54}
+Participant{PIN=247760, p_name='Olivia Smith', age=30}
+Participant{PIN=251498, p_name='Jane Taylor', age=34}
+Participant{PIN=254385, p_name='John Miller', age=28}
+Participant{PIN=273680, p_name='Sophia Taylor', age=64}
+Participant{PIN=294348, p_name='Emily Smith', age=60}
+Participant{PIN=302331, p_name='John Jones', age=57}
+Participant{PIN=317532, p_name='Jane Wilson', age=29}
+Participant{PIN=323323, p_name='Chris Taylor', age=24}
+Participant{PIN=329823, p_name='Mike Smith', age=42}
+Participant{PIN=333843, p_name='Daniel Smith', age=30}
+Participant{PIN=339429, p_name='Daniel Moore', age=43}
+Participant{PIN=343348, p_name='Olivia Taylor', age=45}
+Participant{PIN=348761, p_name='Daniel Wilson', age=64}
+Participant{PIN=354514, p_name='Chris Jones', age=51}
+Participant{PIN=365065, p_name='Daniel Wilson', age=57}
+Participant{PIN=367280, p_name='David Taylor', age=38}
+Participant{PIN=386808, p_name='Daniel Taylor', age=24}
+Participant{PIN=399379, p_name='Sophia Smith', age=58}
+Participant{PIN=405487, p_name='Emily Smith', age=37}
+Participant{PIN=407189, p_name='Mike Smith', age=56}
+Participant{PIN=410678, p_name='Emily Moore', age=64}
+Participant{PIN=416366, p_name='David Brown', age=41}
+Participant{PIN=420583, p_name='Daniel Moore', age=19}
+Participant{PIN=464918, p_name='Emily Taylor', age=21}
+Participant{PIN=486326, p_name='Sophia Smith', age=46}
+Participant{PIN=488597, p_name='Mike Davis', age=41}
+Participant{PIN=499815, p_name='Chris Davis', age=57}
+Participant{PIN=500901, p_name='John Williams', age=23}
+Participant{PIN=506314, p_name='Daniel Moore', age=31}
+Participant{PIN=511911, p_name='Emily Smith', age=39}
+Participant{PIN=523749, p_name='Emma Miller', age=20}
+Participant{PIN=525394, p_name='Olivia Brown', age=19}
+Participant{PIN=533177, p_name='Chris Moore', age=18}
+Participant{PIN=556082, p_name='Olivia Moore', age=37}
+Participant{PIN=561814, p_name='Jane Davis', age=51}
+Participant{PIN=569528, p_name='Emma Jones', age=46}
+Participant{PIN=571009, p_name='Olivia Taylor', age=37}
+Participant{PIN=581483, p_name='Emma Taylor', age=32}
+Participant{PIN=583913, p_name='Sophia Smith', age=24}
+Participant{PIN=621223, p_name='Jane Taylor', age=39}
+Participant{PIN=624041, p_name='Olivia Taylor', age=27}
+Participant{PIN=635323, p_name='Sophia Smith', age=20}
+Participant{PIN=636748, p_name='Chris Miller', age=62}
+Participant{PIN=637119, p_name='Daniel Davis', age=64}
+Participant{PIN=648910, p_name='Daniel Taylor', age=52}
+Participant{PIN=661428, p_name='Jane Brown', age=33}
+Participant{PIN=684888, p_name='Mike Smith', age=26}
+Participant{PIN=689062, p_name='Olivia Smith', age=58}
+Participant{PIN=696403, p_name='Olivia Jones', age=52}
+Participant{PIN=697726, p_name='Daniel Johnson', age=50}
+Participant{PIN=704380, p_name='Jane Brown', age=55}
+Participant{PIN=714520, p_name='Emma Taylor', age=37}
+Participant{PIN=722335, p_name='David Johnson', age=31}
+Participant{PIN=723263, p_name='John Brown', age=64}
+Participant{PIN=727972, p_name='Jane Brown', age=42}
+Participant{PIN=760311, p_name='Emma Moore', age=40}
+Participant{PIN=777866, p_name='Daniel Taylor', age=66}
+Participant{PIN=804097, p_name='David Wilson', age=40}
+Participant{PIN=806324, p_name='Sophia Brown', age=39}
+Participant{PIN=824681, p_name='Emily Wilson', age=30}
+Participant{PIN=828342, p_name='Jane Wilson', age=18}
+Participant{PIN=836379, p_name='Daniel Jones', age=45}
+Participant{PIN=845722, p_name='Chris Brown', age=70}
+Participant{PIN=848910, p_name='Olivia Wilson', age=34}
+Participant{PIN=851717, p_name='John Wilson', age=22}
+Participant{PIN=865587, p_name='Emma Moore', age=36}
+Participant{PIN=884288, p_name='Daniel Davis', age=34}
+Participant{PIN=899229, p_name='Emily Miller', age=35}
+Participant{PIN=899814, p_name='Emma Smith', age=67}
+Participant{PIN=899863, p_name='Mike Brown', age=68}
+Participant{PIN=903965, p_name='Emma Smith', age=27}
+Participant{PIN=914736, p_name='Chris Jones', age=38}
+Participant{PIN=933675, p_name='David Williams', age=30}
+Participant{PIN=934991, p_name='Daniel Taylor', age=67}
+Participant{PIN=941516, p_name='Chris Davis', age=60}
+Participant{PIN=950080, p_name='Olivia Wilson', age=69}
+Participant{PIN=950613, p_name='Mike Williams', age=67}
+Participant{PIN=956035, p_name='Sophia Miller', age=62}
+Participant{PIN=956258, p_name='David Brown', age=40}
+Participant{PIN=960204, p_name='Sophia Moore', age=44}
+Participant{PIN=961151, p_name='John Moore', age=58}
+Participant{PIN=990442, p_name='Daniel Johnson', age=43}
+Participant{PIN=991173, p_name='Chris Johnson', age=29}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find PINs, names, ages, and ratings of drivers who do not own any cars ***
+DriverPINNameAgeRating{PIN=110601, p_name='John Smith', age=35, rating=3.1}
+DriverPINNameAgeRating{PIN=119388, p_name='John Wilson', age=50, rating=3.1}
+DriverPINNameAgeRating{PIN=130883, p_name='Emily Taylor', age=27, rating=4.4}
+DriverPINNameAgeRating{PIN=140798, p_name='John Wilson', age=22, rating=2.5}
+DriverPINNameAgeRating{PIN=150379, p_name='Sophia Wilson', age=39, rating=2.7}
+DriverPINNameAgeRating{PIN=161394, p_name='Olivia Brown', age=32, rating=1.0}
+DriverPINNameAgeRating{PIN=168848, p_name='Chris Smith', age=27, rating=2.8}
+DriverPINNameAgeRating{PIN=171346, p_name='David Brown', age=37, rating=2.7}
+DriverPINNameAgeRating{PIN=178101, p_name='Mike Wilson', age=50, rating=2.1}
+DriverPINNameAgeRating{PIN=178663, p_name='David Miller', age=68, rating=2.4}
+DriverPINNameAgeRating{PIN=188245, p_name='Sophia Taylor', age=47, rating=1.1}
+DriverPINNameAgeRating{PIN=188537, p_name='Daniel Williams', age=56, rating=1.4}
+DriverPINNameAgeRating{PIN=205462, p_name='Chris Davis', age=47, rating=4.8}
+DriverPINNameAgeRating{PIN=205706, p_name='Mike Wilson', age=36, rating=4.6}
+DriverPINNameAgeRating{PIN=221771, p_name='Sophia Johnson', age=22, rating=2.9}
+DriverPINNameAgeRating{PIN=226765, p_name='Emma Johnson', age=44, rating=4.4}
+DriverPINNameAgeRating{PIN=240585, p_name='Daniel Smith', age=39, rating=3.7}
+DriverPINNameAgeRating{PIN=247298, p_name='Emily Taylor', age=61, rating=3.6}
+DriverPINNameAgeRating{PIN=251533, p_name='Emma Moore', age=53, rating=2.8}
+DriverPINNameAgeRating{PIN=252825, p_name='Emily Taylor', age=41, rating=3.2}
+DriverPINNameAgeRating{PIN=274658, p_name='Emma Johnson', age=49, rating=4.9}
+DriverPINNameAgeRating{PIN=279641, p_name='Jane Taylor', age=24, rating=1.5}
+DriverPINNameAgeRating{PIN=291590, p_name='Jane Wilson', age=47, rating=3.5}
+DriverPINNameAgeRating{PIN=317532, p_name='Jane Wilson', age=29, rating=2.1}
+DriverPINNameAgeRating{PIN=323323, p_name='Chris Taylor', age=24, rating=4.4}
+DriverPINNameAgeRating{PIN=323475, p_name='Daniel Williams', age=53, rating=3.8}
+DriverPINNameAgeRating{PIN=333843, p_name='Daniel Smith', age=30, rating=3.3}
+DriverPINNameAgeRating{PIN=336231, p_name='Emily Taylor', age=23, rating=2.6}
+DriverPINNameAgeRating{PIN=339429, p_name='Daniel Moore', age=43, rating=4.3}
+DriverPINNameAgeRating{PIN=341013, p_name='Jane Jones', age=54, rating=2.2}
+DriverPINNameAgeRating{PIN=347198, p_name='Olivia Smith', age=31, rating=1.7}
+DriverPINNameAgeRating{PIN=354514, p_name='Chris Jones', age=51, rating=2.5}
+DriverPINNameAgeRating{PIN=356099, p_name='David Williams', age=38, rating=2.4}
+DriverPINNameAgeRating{PIN=359669, p_name='Mike Johnson', age=44, rating=4.4}
+DriverPINNameAgeRating{PIN=372386, p_name='Jane Moore', age=36, rating=3.3}
+DriverPINNameAgeRating{PIN=381673, p_name='Olivia Jones', age=56, rating=4.3}
+DriverPINNameAgeRating{PIN=392043, p_name='David Miller', age=21, rating=1.5}
+DriverPINNameAgeRating{PIN=420583, p_name='Daniel Moore', age=19, rating=1.9}
+DriverPINNameAgeRating{PIN=422820, p_name='Emma Jones', age=69, rating=1.5}
+DriverPINNameAgeRating{PIN=426264, p_name='Mike Williams', age=20, rating=4.9}
+DriverPINNameAgeRating{PIN=431432, p_name='Daniel Brown', age=30, rating=1.1}
+DriverPINNameAgeRating{PIN=450150, p_name='John Williams', age=33, rating=1.9}
+DriverPINNameAgeRating{PIN=452065, p_name='Emily Jones', age=67, rating=1.5}
+DriverPINNameAgeRating{PIN=459405, p_name='Chris Smith', age=26, rating=2.4}
+DriverPINNameAgeRating{PIN=486326, p_name='Sophia Smith', age=46, rating=3.8}
+DriverPINNameAgeRating{PIN=487065, p_name='Emma Johnson', age=23, rating=1.0}
+DriverPINNameAgeRating{PIN=494233, p_name='Olivia Jones', age=52, rating=2.5}
+DriverPINNameAgeRating{PIN=502955, p_name='Mike Jones', age=22, rating=3.7}
+DriverPINNameAgeRating{PIN=506314, p_name='Daniel Moore', age=31, rating=3.8}
+DriverPINNameAgeRating{PIN=508736, p_name='Olivia Taylor', age=41, rating=1.9}
+DriverPINNameAgeRating{PIN=511911, p_name='Emily Smith', age=39, rating=2.3}
+DriverPINNameAgeRating{PIN=571009, p_name='Olivia Taylor', age=37, rating=3.9}
+DriverPINNameAgeRating{PIN=576585, p_name='Jane Williams', age=33, rating=3.4}
+DriverPINNameAgeRating{PIN=581483, p_name='Emma Taylor', age=32, rating=2.3}
+DriverPINNameAgeRating{PIN=583610, p_name='David Williams', age=41, rating=4.0}
+DriverPINNameAgeRating{PIN=587380, p_name='John Williams', age=34, rating=1.4}
+DriverPINNameAgeRating{PIN=604226, p_name='John Williams', age=62, rating=4.4}
+DriverPINNameAgeRating{PIN=605006, p_name='Olivia Wilson', age=58, rating=4.5}
+DriverPINNameAgeRating{PIN=614119, p_name='Chris Johnson', age=51, rating=3.8}
+DriverPINNameAgeRating{PIN=624041, p_name='Olivia Taylor', age=27, rating=4.4}
+DriverPINNameAgeRating{PIN=636926, p_name='John Davis', age=58, rating=1.6}
+DriverPINNameAgeRating{PIN=637119, p_name='Daniel Davis', age=64, rating=1.3}
+DriverPINNameAgeRating{PIN=645443, p_name='Jane Johnson', age=41, rating=2.5}
+DriverPINNameAgeRating{PIN=650940, p_name='David Moore', age=29, rating=2.6}
+DriverPINNameAgeRating{PIN=670582, p_name='Chris Brown', age=48, rating=4.8}
+DriverPINNameAgeRating{PIN=675352, p_name='Olivia Wilson', age=29, rating=2.5}
+DriverPINNameAgeRating{PIN=683008, p_name='Olivia Jones', age=43, rating=4.8}
+DriverPINNameAgeRating{PIN=689062, p_name='Olivia Smith', age=58, rating=4.6}
+DriverPINNameAgeRating{PIN=703766, p_name='John Johnson', age=35, rating=2.6}
+DriverPINNameAgeRating{PIN=711588, p_name='Daniel Moore', age=53, rating=1.3}
+DriverPINNameAgeRating{PIN=714520, p_name='Emma Taylor', age=37, rating=5.0}
+DriverPINNameAgeRating{PIN=729046, p_name='Daniel Moore', age=40, rating=3.6}
+DriverPINNameAgeRating{PIN=734228, p_name='Mike Miller', age=69, rating=2.6}
+DriverPINNameAgeRating{PIN=760311, p_name='Emma Moore', age=40, rating=2.6}
+DriverPINNameAgeRating{PIN=777866, p_name='Daniel Taylor', age=66, rating=1.9}
+DriverPINNameAgeRating{PIN=789357, p_name='Daniel Smith', age=39, rating=2.5}
+DriverPINNameAgeRating{PIN=792313, p_name='Emily Williams', age=22, rating=1.8}
+DriverPINNameAgeRating{PIN=793609, p_name='David Smith', age=50, rating=4.0}
+DriverPINNameAgeRating{PIN=804967, p_name='Sophia Wilson', age=30, rating=1.4}
+DriverPINNameAgeRating{PIN=836379, p_name='Daniel Jones', age=45, rating=4.9}
+DriverPINNameAgeRating{PIN=845302, p_name='Olivia Williams', age=24, rating=1.5}
+DriverPINNameAgeRating{PIN=847089, p_name='Emma Wilson', age=26, rating=2.4}
+DriverPINNameAgeRating{PIN=848910, p_name='Olivia Wilson', age=34, rating=3.5}
+DriverPINNameAgeRating{PIN=850804, p_name='Jane Davis', age=24, rating=3.1}
+DriverPINNameAgeRating{PIN=851717, p_name='John Wilson', age=22, rating=2.4}
+DriverPINNameAgeRating{PIN=865587, p_name='Emma Moore', age=36, rating=1.4}
+DriverPINNameAgeRating{PIN=879306, p_name='John Jones', age=20, rating=4.3}
+DriverPINNameAgeRating{PIN=881685, p_name='David Brown', age=24, rating=2.0}
+DriverPINNameAgeRating{PIN=899229, p_name='Emily Miller', age=35, rating=3.1}
+DriverPINNameAgeRating{PIN=899863, p_name='Mike Brown', age=68, rating=4.1}
+DriverPINNameAgeRating{PIN=903965, p_name='Emma Smith', age=27, rating=4.4}
+DriverPINNameAgeRating{PIN=910664, p_name='Emma Jones', age=40, rating=3.7}
+DriverPINNameAgeRating{PIN=927681, p_name='Daniel Taylor', age=33, rating=4.4}
+DriverPINNameAgeRating{PIN=927958, p_name='Mike Smith', age=58, rating=3.5}
+DriverPINNameAgeRating{PIN=950613, p_name='Mike Williams', age=67, rating=2.8}
+DriverPINNameAgeRating{PIN=954542, p_name='John Moore', age=22, rating=1.3}
+DriverPINNameAgeRating{PIN=954761, p_name='Mike Smith', age=21, rating=3.1}
+DriverPINNameAgeRating{PIN=956035, p_name='Sophia Miller', age=62, rating=2.7}
+DriverPINNameAgeRating{PIN=960204, p_name='Sophia Moore', age=44, rating=1.8}
+DriverPINNameAgeRating{PIN=965906, p_name='David Smith', age=31, rating=4.9}
+DriverPINNameAgeRating{PIN=974127, p_name='Olivia Brown', age=45, rating=4.4}
+DriverPINNameAgeRating{PIN=981941, p_name='Sophia Davis', age=34, rating=1.5}
+DriverPINNameAgeRating{PIN=982279, p_name='David Smith', age=44, rating=4.2}
+DriverPINNameAgeRating{PIN=990442, p_name='Daniel Johnson', age=43, rating=3.0}
+DriverPINNameAgeRating{PIN=996597, p_name='David Smith', age=24, rating=3.8}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Delete Drivers with No Cars ***
+105 drivers were deleted from Drivers.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Testing 5.5: Find the PINs, names, ages, and ratings of drivers who do not own any cars ***
+No drivers without cars found.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find all cars that are not taken part in any trips ***
+Car{CarID=11, PIN=740161, color='White', brand='Audi'}
+Car{CarID=20, PIN=612096, color='Blue', brand='Subaru'}
+Car{CarID=22, PIN=650883, color='Black', brand='Nissan'}
+Car{CarID=52, PIN=838323, color='White', brand='Jeep'}
+Car{CarID=53, PIN=838323, color='Blue', brand='Audi'}
+Car{CarID=65, PIN=896399, color='Blue', brand='Jeep'}
+Car{CarID=66, PIN=896399, color='White', brand='Honda'}
+Car{CarID=71, PIN=829221, color='White', brand='BMW'}
+Car{CarID=79, PIN=471871, color='Green', brand='Nissan'}
+Car{CarID=123, PIN=106866, color='Blue', brand='Nissan'}
+Car{CarID=152, PIN=867311, color='Red', brand='Honda'}
+Car{CarID=240, PIN=583515, color='Blue', brand='Mercedes-Benz'}
+Car{CarID=270, PIN=218523, color='Black', brand='Mercedes-Benz'}
+Car{CarID=283, PIN=553325, color='Green', brand='Chevrolet'}
+Car{CarID=289, PIN=564189, color='Black', brand='Honda'}
+Car{CarID=296, PIN=164932, color='Green', brand='Jeep'}
+Car{CarID=300, PIN=530722, color='White', brand='Audi'}
+Car{CarID=317, PIN=242981, color='Blue', brand='Toyota'}
+Car{CarID=318, PIN=242981, color='Blue', brand='Subaru'}
+Car{CarID=319, PIN=242981, color='Black', brand='Jeep'}
+Car{CarID=358, PIN=146019, color='Red', brand='Honda'}
+Car{CarID=399, PIN=557115, color='Green', brand='Toyota'}
+Car{CarID=403, PIN=357141, color='Red', brand='Toyota'}
+Car{CarID=416, PIN=213146, color='Red', brand='BMW'}
+Car{CarID=418, PIN=154144, color='White', brand='Ford'}
+Car{CarID=424, PIN=261055, color='Black', brand='Subaru'}
+Car{CarID=439, PIN=566475, color='Red', brand='Honda'}
+Car{CarID=551, PIN=583913, color='Black', brand='Jeep'}
+Car{CarID=552, PIN=914736, color='Blue', brand='Nissan'}
+Car{CarID=587, PIN=302331, color='Black', brand='Honda'}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find all passengers who didn’t book any trips ***
+Passenger{PIN=108782, membership_status='Bronze'}
+Passenger{PIN=141424, membership_status='Silver'}
+Passenger{PIN=153268, membership_status='Bronze'}
+Passenger{PIN=240541, membership_status='Bronze'}
+Passenger{PIN=258474, membership_status='None'}
+Passenger{PIN=274563, membership_status='Silver'}
+Passenger{PIN=283369, membership_status='None'}
+Passenger{PIN=294687, membership_status='Bronze'}
+Passenger{PIN=317532, membership_status='Bronze'}
+Passenger{PIN=386808, membership_status='Silver'}
+Passenger{PIN=400253, membership_status='None'}
+Passenger{PIN=405487, membership_status='Bronze'}
+Passenger{PIN=412383, membership_status='Gold'}
+Passenger{PIN=503714, membership_status='Gold'}
+Passenger{PIN=515759, membership_status='Bronze'}
+Passenger{PIN=525051, membership_status='Bronze'}
+Passenger{PIN=611356, membership_status='Gold'}
+Passenger{PIN=624653, membership_status='Silver'}
+Passenger{PIN=651491, membership_status='None'}
+Passenger{PIN=737306, membership_status='Bronze'}
+Passenger{PIN=805381, membership_status='None'}
+Passenger{PIN=805547, membership_status='Gold'}
+Passenger{PIN=867296, membership_status='Gold'}
+Passenger{PIN=872825, membership_status='Bronze'}
+Passenger{PIN=882042, membership_status='Bronze'}
+Passenger{PIN=882635, membership_status='None'}
+Passenger{PIN=894091, membership_status='Gold'}
+Passenger{PIN=921396, membership_status='Silver'}
+Passenger{PIN=969861, membership_status='Silver'}
+Passenger{PIN=973325, membership_status='Gold'}
+Passenger{PIN=973491, membership_status='None'}
+Passenger{PIN=991133, membership_status='None'}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find trips departing from: New York to: Chicago on: 2024-12-07 ***
+Trip{TripID=1485, CarID=525, date='2024-12-07', departure='New York', destination='Chicago', num_seats_available=3}
+Trip{TripID=1518, CarID=533, date='2024-12-07', departure='New York', destination='Chicago', num_seats_available=1}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find passengers booked on all trips destined at Seattle ***
+PassengerPINNameAgeMembershipStatus{PIN=999998, p_name='Bill Gates', age=69, membership_status='Gold'}
+PassengerPINNameAgeMembershipStatus{PIN=999999, p_name='Elon Musk', age=53, membership_status='Gold'}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find CarIDs owned by driver 464159 with at most 2 bookings ***
+CarID: 115
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find average age of passengers with confirmed bookings for trips departing from city New York within the date range: 2024-12-05 to 2024-12-15 ***
+Average Age: 33.200
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find Passengers in a Given Trip 1698 ***
+PassengerPINNameAgeMembershipStatus{PIN=999996, p_name='Jake Paul', age=27, membership_status='Gold'}
+PassengerPINNameAgeMembershipStatus{PIN=999997, p_name='Mike Tyson', age=58, membership_status='Gold'}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find Drivers' Scores ***
+DriverScoreRatingNumberOfBookingsPIN{driver_score=75.200, rating=4.7, numberOfBookings=16, DriverPIN=527054}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=71.400, rating=4.2, numberOfBookings=17, DriverPIN=715140}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=69.000, rating=4.6, numberOfBookings=15, DriverPIN=505196}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=67.500, rating=4.5, numberOfBookings=15, DriverPIN=183170}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=65.800, rating=4.7, numberOfBookings=14, DriverPIN=542577}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=65.600, rating=4.1, numberOfBookings=16, DriverPIN=991173}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=65.000, rating=2.6, numberOfBookings=25, DriverPIN=114893}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=63.000, rating=4.5, numberOfBookings=14, DriverPIN=288644}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=63.000, rating=3.5, numberOfBookings=18, DriverPIN=607121}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=61.600, rating=4.4, numberOfBookings=14, DriverPIN=533507}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=60.000, rating=4.0, numberOfBookings=15, DriverPIN=807476}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=59.800, rating=4.6, numberOfBookings=13, DriverPIN=569528}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=57.600, rating=4.8, numberOfBookings=12, DriverPIN=528384}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=56.000, rating=2.8, numberOfBookings=20, DriverPIN=191549}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=55.200, rating=4.6, numberOfBookings=12, DriverPIN=247760}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=55.200, rating=4.6, numberOfBookings=12, DriverPIN=339760}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=55.000, rating=5.0, numberOfBookings=11, DriverPIN=564189}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=54.600, rating=3.9, numberOfBookings=14, DriverPIN=289112}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=54.600, rating=4.2, numberOfBookings=13, DriverPIN=767850}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=53.200, rating=3.8, numberOfBookings=14, DriverPIN=220778}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=52.500, rating=2.5, numberOfBookings=21, DriverPIN=145785}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=52.000, rating=4.0, numberOfBookings=13, DriverPIN=583913}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=51.700, rating=4.7, numberOfBookings=11, DriverPIN=201871}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=49.500, rating=4.5, numberOfBookings=11, DriverPIN=608200}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=49.400, rating=3.8, numberOfBookings=13, DriverPIN=991087}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=47.000, rating=4.7, numberOfBookings=10, DriverPIN=845722}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=46.800, rating=3.9, numberOfBookings=12, DriverPIN=837953}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=46.400, rating=2.9, numberOfBookings=16, DriverPIN=532390}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=45.500, rating=3.5, numberOfBookings=13, DriverPIN=671232}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=44.000, rating=4.4, numberOfBookings=10, DriverPIN=294348}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=43.400, rating=3.1, numberOfBookings=14, DriverPIN=561831}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=43.200, rating=3.6, numberOfBookings=12, DriverPIN=399379}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=43.200, rating=3.6, numberOfBookings=12, DriverPIN=775938}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=42.900, rating=3.9, numberOfBookings=11, DriverPIN=355119}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=42.900, rating=3.9, numberOfBookings=11, DriverPIN=403340}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=42.000, rating=3.5, numberOfBookings=12, DriverPIN=428941}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=41.800, rating=3.8, numberOfBookings=11, DriverPIN=729783}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=41.000, rating=4.1, numberOfBookings=10, DriverPIN=533177}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=40.800, rating=2.4, numberOfBookings=17, DriverPIN=401651}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=40.800, rating=2.4, numberOfBookings=17, DriverPIN=814756}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=40.500, rating=4.5, numberOfBookings=9, DriverPIN=488597}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=40.000, rating=2.0, numberOfBookings=20, DriverPIN=807014}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=39.200, rating=4.9, numberOfBookings=8, DriverPIN=218523}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=39.200, rating=4.9, numberOfBookings=8, DriverPIN=992701}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=39.000, rating=2.6, numberOfBookings=15, DriverPIN=484503}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=38.700, rating=4.3, numberOfBookings=9, DriverPIN=984108}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=37.600, rating=4.7, numberOfBookings=8, DriverPIN=714073}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.800, rating=4.6, numberOfBookings=8, DriverPIN=523749}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.800, rating=2.3, numberOfBookings=16, DriverPIN=804097}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.300, rating=3.3, numberOfBookings=11, DriverPIN=884288}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.000, rating=4.5, numberOfBookings=8, DriverPIN=485825}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.000, rating=3.6, numberOfBookings=10, DriverPIN=658558}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.000, rating=4.5, numberOfBookings=8, DriverPIN=737377}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=36.000, rating=2.4, numberOfBookings=15, DriverPIN=962271}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=35.200, rating=4.4, numberOfBookings=8, DriverPIN=200880}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=35.100, rating=2.7, numberOfBookings=13, DriverPIN=819670}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=35.000, rating=5.0, numberOfBookings=7, DriverPIN=667706}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=34.400, rating=4.3, numberOfBookings=8, DriverPIN=258332}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=34.300, rating=4.9, numberOfBookings=7, DriverPIN=556082}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=34.200, rating=3.8, numberOfBookings=9, DriverPIN=727972}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=34.000, rating=2.0, numberOfBookings=17, DriverPIN=821901}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=33.800, rating=2.6, numberOfBookings=13, DriverPIN=118093}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=33.600, rating=4.2, numberOfBookings=8, DriverPIN=385993}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=33.600, rating=2.8, numberOfBookings=12, DriverPIN=696403}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=33.300, rating=3.7, numberOfBookings=9, DriverPIN=480613}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=33.000, rating=2.2, numberOfBookings=15, DriverPIN=863264}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=32.800, rating=4.1, numberOfBookings=8, DriverPIN=242780}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=32.000, rating=2.0, numberOfBookings=16, DriverPIN=108749}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=32.000, rating=4.0, numberOfBookings=8, DriverPIN=801474}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=31.900, rating=2.9, numberOfBookings=11, DriverPIN=153262}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=31.200, rating=2.6, numberOfBookings=12, DriverPIN=946780}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=31.000, rating=3.1, numberOfBookings=10, DriverPIN=650992}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=31.000, rating=3.1, numberOfBookings=10, DriverPIN=920606}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=31.000, rating=3.1, numberOfBookings=10, DriverPIN=926021}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=30.800, rating=2.2, numberOfBookings=14, DriverPIN=123700}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=30.800, rating=2.2, numberOfBookings=14, DriverPIN=904986}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=30.600, rating=1.8, numberOfBookings=17, DriverPIN=405266}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=30.400, rating=3.8, numberOfBookings=8, DriverPIN=941516}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=29.600, rating=3.7, numberOfBookings=8, DriverPIN=354495}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=29.400, rating=4.2, numberOfBookings=7, DriverPIN=720112}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=29.000, rating=2.9, numberOfBookings=10, DriverPIN=895791}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.800, rating=3.2, numberOfBookings=9, DriverPIN=104016}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.800, rating=4.8, numberOfBookings=6, DriverPIN=140624}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.800, rating=1.6, numberOfBookings=18, DriverPIN=312575}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.800, rating=3.2, numberOfBookings=9, DriverPIN=357141}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.700, rating=4.1, numberOfBookings=7, DriverPIN=533362}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.600, rating=2.6, numberOfBookings=11, DriverPIN=471871}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.200, rating=4.7, numberOfBookings=6, DriverPIN=388267}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=28.200, rating=4.7, numberOfBookings=6, DriverPIN=496960}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=27.900, rating=3.1, numberOfBookings=9, DriverPIN=386808}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=27.900, rating=3.1, numberOfBookings=9, DriverPIN=487434}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=27.300, rating=3.9, numberOfBookings=7, DriverPIN=796988}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=27.200, rating=1.6, numberOfBookings=17, DriverPIN=458434}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=27.000, rating=4.5, numberOfBookings=6, DriverPIN=660921}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=26.600, rating=1.9, numberOfBookings=14, DriverPIN=525394}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=26.400, rating=3.3, numberOfBookings=8, DriverPIN=178677}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=25.900, rating=3.7, numberOfBookings=7, DriverPIN=183118}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=25.300, rating=2.3, numberOfBookings=11, DriverPIN=476570}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=25.200, rating=2.8, numberOfBookings=9, DriverPIN=208534}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=25.200, rating=4.2, numberOfBookings=6, DriverPIN=470266}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.700, rating=1.3, numberOfBookings=19, DriverPIN=768308}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.500, rating=3.5, numberOfBookings=7, DriverPIN=106828}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.500, rating=3.5, numberOfBookings=7, DriverPIN=828342}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.300, rating=2.7, numberOfBookings=9, DriverPIN=514372}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.000, rating=4.0, numberOfBookings=6, DriverPIN=137381}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.000, rating=4.0, numberOfBookings=6, DriverPIN=423240}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=24.000, rating=4.0, numberOfBookings=6, DriverPIN=901630}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.800, rating=3.4, numberOfBookings=7, DriverPIN=504636}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.800, rating=1.7, numberOfBookings=14, DriverPIN=824681}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.800, rating=3.4, numberOfBookings=7, DriverPIN=829221}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.200, rating=2.9, numberOfBookings=8, DriverPIN=698922}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.100, rating=2.1, numberOfBookings=11, DriverPIN=398218}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.000, rating=2.3, numberOfBookings=10, DriverPIN=250972}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=23.000, rating=2.3, numberOfBookings=10, DriverPIN=365065}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.800, rating=3.8, numberOfBookings=6, DriverPIN=405487}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.800, rating=1.2, numberOfBookings=19, DriverPIN=464918}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.400, rating=2.8, numberOfBookings=8, DriverPIN=531559}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.400, rating=2.8, numberOfBookings=8, DriverPIN=807640}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.100, rating=1.7, numberOfBookings=13, DriverPIN=138373}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=22.000, rating=2.0, numberOfBookings=11, DriverPIN=956258}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=21.600, rating=1.8, numberOfBookings=12, DriverPIN=222784}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=21.600, rating=2.7, numberOfBookings=8, DriverPIN=740161}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=21.600, rating=3.6, numberOfBookings=6, DriverPIN=856289}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=21.500, rating=4.3, numberOfBookings=5, DriverPIN=733252}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=21.000, rating=3.0, numberOfBookings=7, DriverPIN=140330}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.800, rating=2.6, numberOfBookings=8, DriverPIN=934991}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.700, rating=2.3, numberOfBookings=9, DriverPIN=203509}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.500, rating=4.1, numberOfBookings=5, DriverPIN=361398}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.300, rating=2.9, numberOfBookings=7, DriverPIN=987961}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.000, rating=2.0, numberOfBookings=10, DriverPIN=122454}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.000, rating=5.0, numberOfBookings=4, DriverPIN=259898}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=20.000, rating=2.5, numberOfBookings=8, DriverPIN=520394}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=19.800, rating=3.3, numberOfBookings=6, DriverPIN=230568}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=19.800, rating=3.3, numberOfBookings=6, DriverPIN=410678}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=19.600, rating=2.8, numberOfBookings=7, DriverPIN=439334}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=19.600, rating=2.8, numberOfBookings=7, DriverPIN=971204}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=19.200, rating=4.8, numberOfBookings=4, DriverPIN=778829}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.900, rating=2.1, numberOfBookings=9, DriverPIN=549063}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.900, rating=2.1, numberOfBookings=9, DriverPIN=561922}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.900, rating=2.1, numberOfBookings=9, DriverPIN=723263}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.900, rating=2.1, numberOfBookings=9, DriverPIN=922533}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.800, rating=4.7, numberOfBookings=4, DriverPIN=612078}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.700, rating=1.1, numberOfBookings=17, DriverPIN=621215}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.700, rating=1.1, numberOfBookings=17, DriverPIN=922063}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.000, rating=2.0, numberOfBookings=9, DriverPIN=573997}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=18.000, rating=4.5, numberOfBookings=4, DriverPIN=870728}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=17.500, rating=3.5, numberOfBookings=5, DriverPIN=558804}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=17.500, rating=2.5, numberOfBookings=7, DriverPIN=574367}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=17.500, rating=3.5, numberOfBookings=5, DriverPIN=806324}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.800, rating=2.1, numberOfBookings=8, DriverPIN=367280}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.800, rating=2.4, numberOfBookings=7, DriverPIN=557115}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.800, rating=4.2, numberOfBookings=4, DriverPIN=621223}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.800, rating=4.2, numberOfBookings=4, DriverPIN=858979}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.800, rating=4.2, numberOfBookings=4, DriverPIN=890447}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.500, rating=3.3, numberOfBookings=5, DriverPIN=282229}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.000, rating=3.2, numberOfBookings=5, DriverPIN=112592}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=16.000, rating=3.2, numberOfBookings=5, DriverPIN=222596}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.600, rating=1.3, numberOfBookings=12, DriverPIN=909029}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.500, rating=3.1, numberOfBookings=5, DriverPIN=846887}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.400, rating=1.4, numberOfBookings=11, DriverPIN=480587}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.200, rating=3.8, numberOfBookings=4, DriverPIN=499815}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.200, rating=3.8, numberOfBookings=4, DriverPIN=658572}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.200, rating=1.9, numberOfBookings=8, DriverPIN=690761}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.000, rating=5.0, numberOfBookings=3, DriverPIN=220505}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=15.000, rating=2.5, numberOfBookings=6, DriverPIN=261055}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.700, rating=2.1, numberOfBookings=7, DriverPIN=302331}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.700, rating=2.1, numberOfBookings=7, DriverPIN=650883}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.400, rating=4.8, numberOfBookings=3, DriverPIN=165640}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.400, rating=3.6, numberOfBookings=4, DriverPIN=213146}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.400, rating=1.6, numberOfBookings=9, DriverPIN=488137}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.400, rating=1.6, numberOfBookings=9, DriverPIN=530722}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.400, rating=3.6, numberOfBookings=4, DriverPIN=635323}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.100, rating=4.7, numberOfBookings=3, DriverPIN=251498}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.000, rating=1.4, numberOfBookings=10, DriverPIN=287736}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=14.000, rating=2.8, numberOfBookings=5, DriverPIN=732868}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.800, rating=4.6, numberOfBookings=3, DriverPIN=646074}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.300, rating=1.9, numberOfBookings=7, DriverPIN=859018}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.200, rating=4.4, numberOfBookings=3, DriverPIN=106866}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.200, rating=3.3, numberOfBookings=4, DriverPIN=887923}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.000, rating=2.6, numberOfBookings=5, DriverPIN=102417}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=13.000, rating=2.6, numberOfBookings=5, DriverPIN=396496}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.900, rating=4.3, numberOfBookings=3, DriverPIN=296911}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.800, rating=1.6, numberOfBookings=8, DriverPIN=290059}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.800, rating=1.6, numberOfBookings=8, DriverPIN=636748}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.600, rating=4.2, numberOfBookings=3, DriverPIN=348761}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.600, rating=2.1, numberOfBookings=6, DriverPIN=867311}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.500, rating=2.5, numberOfBookings=5, DriverPIN=918855}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=4.0, numberOfBookings=3, DriverPIN=166188}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=4.0, numberOfBookings=3, DriverPIN=209601}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=2.0, numberOfBookings=6, DriverPIN=464159}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=1.5, numberOfBookings=8, DriverPIN=567170}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=2.0, numberOfBookings=6, DriverPIN=583515}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=12.000, rating=2.0, numberOfBookings=6, DriverPIN=811497}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=11.700, rating=3.9, numberOfBookings=3, DriverPIN=162026}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=11.600, rating=2.9, numberOfBookings=4, DriverPIN=661428}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=11.400, rating=1.9, numberOfBookings=6, DriverPIN=273680}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=11.200, rating=1.4, numberOfBookings=8, DriverPIN=697726}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.800, rating=2.7, numberOfBookings=4, DriverPIN=242535}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.800, rating=1.2, numberOfBookings=9, DriverPIN=540112}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.800, rating=2.7, numberOfBookings=4, DriverPIN=741974}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.500, rating=3.5, numberOfBookings=3, DriverPIN=317016}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.400, rating=1.3, numberOfBookings=8, DriverPIN=942039}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.400, rating=1.3, numberOfBookings=8, DriverPIN=950080}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.200, rating=1.7, numberOfBookings=6, DriverPIN=519519}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=10.200, rating=1.7, numberOfBookings=6, DriverPIN=755213}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.900, rating=3.3, numberOfBookings=3, DriverPIN=500901}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.800, rating=4.9, numberOfBookings=2, DriverPIN=152351}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.800, rating=1.4, numberOfBookings=7, DriverPIN=154144}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.800, rating=4.9, numberOfBookings=2, DriverPIN=975224}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.600, rating=2.4, numberOfBookings=4, DriverPIN=213573}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.600, rating=2.4, numberOfBookings=4, DriverPIN=222143}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.600, rating=3.2, numberOfBookings=3, DriverPIN=404937}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.600, rating=1.2, numberOfBookings=8, DriverPIN=561814}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.600, rating=3.2, numberOfBookings=3, DriverPIN=937920}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.000, rating=1.8, numberOfBookings=5, DriverPIN=416366}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=9.000, rating=1.8, numberOfBookings=5, DriverPIN=643541}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.800, rating=1.1, numberOfBookings=8, DriverPIN=164932}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.800, rating=4.4, numberOfBookings=2, DriverPIN=322938}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.800, rating=1.1, numberOfBookings=8, DriverPIN=409351}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.600, rating=4.3, numberOfBookings=2, DriverPIN=973273}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.500, rating=1.7, numberOfBookings=5, DriverPIN=519660}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.400, rating=1.2, numberOfBookings=7, DriverPIN=463237}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.400, rating=1.4, numberOfBookings=6, DriverPIN=850420}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.400, rating=2.1, numberOfBookings=4, DriverPIN=933675}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=2.0, numberOfBookings=4, DriverPIN=195102}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=4.0, numberOfBookings=2, DriverPIN=254385}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=1.6, numberOfBookings=5, DriverPIN=343348}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=1.6, numberOfBookings=5, DriverPIN=403642}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=4.0, numberOfBookings=2, DriverPIN=648910}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=8.000, rating=4.0, numberOfBookings=2, DriverPIN=722335}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.800, rating=1.3, numberOfBookings=6, DriverPIN=316310}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.800, rating=2.6, numberOfBookings=3, DriverPIN=550501}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.800, rating=3.9, numberOfBookings=2, DriverPIN=612096}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.800, rating=2.6, numberOfBookings=3, DriverPIN=759014}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.800, rating=2.6, numberOfBookings=3, DriverPIN=815745}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.700, rating=1.1, numberOfBookings=7, DriverPIN=668702}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.600, rating=3.8, numberOfBookings=2, DriverPIN=403278}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.600, rating=1.9, numberOfBookings=4, DriverPIN=684888}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.400, rating=3.7, numberOfBookings=2, DriverPIN=468143}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=7.200, rating=1.8, numberOfBookings=4, DriverPIN=814792}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.600, rating=2.2, numberOfBookings=3, DriverPIN=311955}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.400, rating=3.2, numberOfBookings=2, DriverPIN=206720}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.300, rating=2.1, numberOfBookings=3, DriverPIN=613818}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.200, rating=3.1, numberOfBookings=2, DriverPIN=764676}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.000, rating=1.2, numberOfBookings=5, DriverPIN=185413}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=6.000, rating=3.0, numberOfBookings=2, DriverPIN=939136}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=5.800, rating=2.9, numberOfBookings=2, DriverPIN=957048}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=5.400, rating=2.7, numberOfBookings=2, DriverPIN=557890}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.900, rating=4.9, numberOfBookings=1, DriverPIN=671290}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.800, rating=1.6, numberOfBookings=3, DriverPIN=559850}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.800, rating=1.6, numberOfBookings=3, DriverPIN=776956}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.800, rating=2.4, numberOfBookings=2, DriverPIN=873341}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.500, rating=4.5, numberOfBookings=1, DriverPIN=407189}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.400, rating=2.2, numberOfBookings=2, DriverPIN=194960}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.400, rating=2.2, numberOfBookings=2, DriverPIN=535667}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.400, rating=1.1, numberOfBookings=4, DriverPIN=685822}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.200, rating=4.2, numberOfBookings=1, DriverPIN=704380}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=4.000, rating=4.0, numberOfBookings=1, DriverPIN=972499}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.900, rating=3.9, numberOfBookings=1, DriverPIN=118707}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.900, rating=1.3, numberOfBookings=3, DriverPIN=181885}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.800, rating=1.9, numberOfBookings=2, DriverPIN=211085}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.800, rating=3.8, numberOfBookings=1, DriverPIN=742007}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.500, rating=3.5, numberOfBookings=1, DriverPIN=243534}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.500, rating=3.5, numberOfBookings=1, DriverPIN=914736}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.400, rating=1.7, numberOfBookings=2, DriverPIN=329823}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.400, rating=3.4, numberOfBookings=1, DriverPIN=961202}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.400, rating=1.7, numberOfBookings=2, DriverPIN=997594}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.000, rating=1.0, numberOfBookings=3, DriverPIN=830388}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=3.000, rating=1.5, numberOfBookings=2, DriverPIN=961151}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=2.800, rating=1.4, numberOfBookings=2, DriverPIN=864177}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=2.600, rating=1.3, numberOfBookings=2, DriverPIN=278730}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=2.400, rating=1.2, numberOfBookings=2, DriverPIN=912575}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=2.300, rating=2.3, numberOfBookings=1, DriverPIN=713660}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=2.100, rating=2.1, numberOfBookings=1, DriverPIN=631704}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.900, rating=1.9, numberOfBookings=1, DriverPIN=293970}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.900, rating=1.9, numberOfBookings=1, DriverPIN=879155}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.800, rating=1.8, numberOfBookings=1, DriverPIN=933286}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.600, rating=1.6, numberOfBookings=1, DriverPIN=982810}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.500, rating=1.5, numberOfBookings=1, DriverPIN=471731}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.200, rating=1.2, numberOfBookings=1, DriverPIN=298450}
+DriverScoreRatingNumberOfBookingsPIN{driver_score=1.200, rating=1.2, numberOfBookings=1, DriverPIN=604517}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find Average Ratings of Drivers Who Have Trips Destined to Each City ***
+CityAndAverageDriverRating{destination_city='Chicago', average_rating_of_drivers=2.998}
+CityAndAverageDriverRating{destination_city='Dallas', average_rating_of_drivers=2.947}
+CityAndAverageDriverRating{destination_city='Denver', average_rating_of_drivers=2.400}
+CityAndAverageDriverRating{destination_city='Houston', average_rating_of_drivers=2.922}
+CityAndAverageDriverRating{destination_city='Los Angeles', average_rating_of_drivers=2.994}
+CityAndAverageDriverRating{destination_city='New York', average_rating_of_drivers=2.940}
+CityAndAverageDriverRating{destination_city='Philadelphia', average_rating_of_drivers=3.033}
+CityAndAverageDriverRating{destination_city='Phoenix', average_rating_of_drivers=3.036}
+CityAndAverageDriverRating{destination_city='San Antonio', average_rating_of_drivers=2.958}
+CityAndAverageDriverRating{destination_city='San Diego', average_rating_of_drivers=3.075}
+CityAndAverageDriverRating{destination_city='San Jose', average_rating_of_drivers=2.996}
+CityAndAverageDriverRating{destination_city='Seattle', average_rating_of_drivers=2.100}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find Total Number of Bookings of Passengers for Each Membership Status ***
+MembershipStatusAndTotalBookings{membership_status='Bronze', total_number_of_bookings=587}
+MembershipStatusAndTotalBookings{membership_status='Gold', total_number_of_bookings=579}
+MembershipStatusAndTotalBookings{membership_status='None', total_number_of_bookings=479}
+MembershipStatusAndTotalBookings{membership_status='Silver', total_number_of_bookings=480}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Update drivers' ratings where the rating is smaller than or equal to 2.0 ***
+Number of rows updated: 73.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Testing 5.16: All Drivers after Updating the Ratings ***
+Driver{PIN=102417, rating=2.6}
+Driver{PIN=104016, rating=3.2}
+Driver{PIN=106828, rating=3.5}
+Driver{PIN=106866, rating=4.4}
+Driver{PIN=108749, rating=2.5}
+Driver{PIN=112592, rating=3.2}
+Driver{PIN=114893, rating=2.6}
+Driver{PIN=118093, rating=2.6}
+Driver{PIN=118707, rating=3.9}
+Driver{PIN=122454, rating=2.5}
+Driver{PIN=123700, rating=2.2}
+Driver{PIN=125608, rating=3.0}
+Driver{PIN=137381, rating=4.0}
+Driver{PIN=138373, rating=2.2}
+Driver{PIN=140330, rating=3.0}
+Driver{PIN=140624, rating=4.8}
+Driver{PIN=145785, rating=2.5}
+Driver{PIN=146019, rating=4.6}
+Driver{PIN=152315, rating=4.0}
+Driver{PIN=152351, rating=4.9}
+Driver{PIN=153262, rating=2.9}
+Driver{PIN=154144, rating=1.9}
+Driver{PIN=162026, rating=3.9}
+Driver{PIN=164932, rating=1.6}
+Driver{PIN=165640, rating=4.8}
+Driver{PIN=166188, rating=4.0}
+Driver{PIN=178677, rating=3.3}
+Driver{PIN=181885, rating=1.8}
+Driver{PIN=183118, rating=3.7}
+Driver{PIN=183170, rating=4.5}
+Driver{PIN=185413, rating=1.7}
+Driver{PIN=191549, rating=2.8}
+Driver{PIN=194960, rating=2.2}
+Driver{PIN=195102, rating=2.5}
+Driver{PIN=200880, rating=4.4}
+Driver{PIN=201871, rating=4.7}
+Driver{PIN=203509, rating=2.3}
+Driver{PIN=206720, rating=3.2}
+Driver{PIN=208534, rating=2.8}
+Driver{PIN=209601, rating=4.0}
+Driver{PIN=211085, rating=2.4}
+Driver{PIN=213146, rating=3.6}
+Driver{PIN=213573, rating=2.4}
+Driver{PIN=218523, rating=4.9}
+Driver{PIN=220505, rating=5.0}
+Driver{PIN=220778, rating=3.8}
+Driver{PIN=222143, rating=2.4}
+Driver{PIN=222596, rating=3.2}
+Driver{PIN=222784, rating=2.3}
+Driver{PIN=230568, rating=3.3}
+Driver{PIN=242535, rating=2.7}
+Driver{PIN=242780, rating=4.1}
+Driver{PIN=242981, rating=4.7}
+Driver{PIN=243534, rating=3.5}
+Driver{PIN=247760, rating=4.6}
+Driver{PIN=250972, rating=2.3}
+Driver{PIN=251498, rating=4.7}
+Driver{PIN=254385, rating=4.0}
+Driver{PIN=258332, rating=4.3}
+Driver{PIN=259898, rating=5.0}
+Driver{PIN=261055, rating=2.5}
+Driver{PIN=273680, rating=2.4}
+Driver{PIN=276685, rating=4.9}
+Driver{PIN=278730, rating=1.8}
+Driver{PIN=282229, rating=3.3}
+Driver{PIN=287736, rating=1.9}
+Driver{PIN=288644, rating=4.5}
+Driver{PIN=289112, rating=3.9}
+Driver{PIN=290059, rating=2.1}
+Driver{PIN=293970, rating=2.4}
+Driver{PIN=294348, rating=4.4}
+Driver{PIN=296911, rating=4.3}
+Driver{PIN=298450, rating=1.7}
+Driver{PIN=302331, rating=2.1}
+Driver{PIN=311955, rating=2.2}
+Driver{PIN=312575, rating=2.1}
+Driver{PIN=316310, rating=1.8}
+Driver{PIN=317016, rating=3.5}
+Driver{PIN=322938, rating=4.4}
+Driver{PIN=329823, rating=2.2}
+Driver{PIN=339760, rating=4.6}
+Driver{PIN=343348, rating=2.1}
+Driver{PIN=348761, rating=4.2}
+Driver{PIN=354495, rating=3.7}
+Driver{PIN=355119, rating=3.9}
+Driver{PIN=357141, rating=3.2}
+Driver{PIN=361398, rating=4.1}
+Driver{PIN=365065, rating=2.3}
+Driver{PIN=367280, rating=2.1}
+Driver{PIN=385993, rating=4.2}
+Driver{PIN=386808, rating=3.1}
+Driver{PIN=388267, rating=4.7}
+Driver{PIN=396496, rating=2.6}
+Driver{PIN=398218, rating=2.1}
+Driver{PIN=399379, rating=3.6}
+Driver{PIN=401651, rating=2.4}
+Driver{PIN=403278, rating=3.8}
+Driver{PIN=403340, rating=3.9}
+Driver{PIN=403642, rating=2.1}
+Driver{PIN=404937, rating=3.2}
+Driver{PIN=405266, rating=2.3}
+Driver{PIN=405487, rating=3.8}
+Driver{PIN=407189, rating=4.5}
+Driver{PIN=409351, rating=1.6}
+Driver{PIN=410678, rating=3.3}
+Driver{PIN=416366, rating=2.3}
+Driver{PIN=423240, rating=4.0}
+Driver{PIN=428941, rating=3.5}
+Driver{PIN=439334, rating=2.8}
+Driver{PIN=458434, rating=2.1}
+Driver{PIN=463237, rating=1.7}
+Driver{PIN=464159, rating=2.5}
+Driver{PIN=464918, rating=1.7}
+Driver{PIN=468143, rating=3.7}
+Driver{PIN=470266, rating=4.2}
+Driver{PIN=471731, rating=2.0}
+Driver{PIN=471871, rating=2.6}
+Driver{PIN=476570, rating=2.3}
+Driver{PIN=480587, rating=1.9}
+Driver{PIN=480613, rating=3.7}
+Driver{PIN=484503, rating=2.6}
+Driver{PIN=485825, rating=4.5}
+Driver{PIN=487434, rating=3.1}
+Driver{PIN=488137, rating=2.1}
+Driver{PIN=488597, rating=4.5}
+Driver{PIN=496960, rating=4.7}
+Driver{PIN=499815, rating=3.8}
+Driver{PIN=500901, rating=3.3}
+Driver{PIN=504636, rating=3.4}
+Driver{PIN=505196, rating=4.6}
+Driver{PIN=514372, rating=2.7}
+Driver{PIN=519519, rating=2.2}
+Driver{PIN=519660, rating=2.2}
+Driver{PIN=520394, rating=2.5}
+Driver{PIN=523749, rating=4.6}
+Driver{PIN=525394, rating=2.4}
+Driver{PIN=527054, rating=4.7}
+Driver{PIN=528384, rating=4.8}
+Driver{PIN=530722, rating=2.1}
+Driver{PIN=531559, rating=2.8}
+Driver{PIN=532390, rating=2.9}
+Driver{PIN=533162, rating=3.7}
+Driver{PIN=533177, rating=4.1}
+Driver{PIN=533362, rating=4.1}
+Driver{PIN=533507, rating=4.4}
+Driver{PIN=535667, rating=2.2}
+Driver{PIN=540112, rating=1.7}
+Driver{PIN=542577, rating=4.7}
+Driver{PIN=543810, rating=3.2}
+Driver{PIN=549063, rating=2.1}
+Driver{PIN=550501, rating=2.6}
+Driver{PIN=553325, rating=4.3}
+Driver{PIN=556082, rating=4.9}
+Driver{PIN=557115, rating=2.4}
+Driver{PIN=557890, rating=2.7}
+Driver{PIN=558804, rating=3.5}
+Driver{PIN=559850, rating=2.1}
+Driver{PIN=561814, rating=1.7}
+Driver{PIN=561831, rating=3.1}
+Driver{PIN=561922, rating=2.1}
+Driver{PIN=564189, rating=5.0}
+Driver{PIN=566475, rating=3.3}
+Driver{PIN=567170, rating=2.0}
+Driver{PIN=569528, rating=4.6}
+Driver{PIN=573997, rating=2.5}
+Driver{PIN=574367, rating=2.5}
+Driver{PIN=583515, rating=2.5}
+Driver{PIN=583913, rating=4.0}
+Driver{PIN=604517, rating=1.7}
+Driver{PIN=607121, rating=3.5}
+Driver{PIN=608200, rating=4.5}
+Driver{PIN=612078, rating=4.7}
+Driver{PIN=612096, rating=3.9}
+Driver{PIN=613818, rating=2.1}
+Driver{PIN=621215, rating=1.6}
+Driver{PIN=621223, rating=4.2}
+Driver{PIN=631704, rating=2.1}
+Driver{PIN=635323, rating=3.6}
+Driver{PIN=636748, rating=2.1}
+Driver{PIN=643541, rating=2.3}
+Driver{PIN=646074, rating=4.6}
+Driver{PIN=648910, rating=4.0}
+Driver{PIN=650883, rating=2.1}
+Driver{PIN=650992, rating=3.1}
+Driver{PIN=657186, rating=3.4}
+Driver{PIN=658558, rating=3.6}
+Driver{PIN=658572, rating=3.8}
+Driver{PIN=660921, rating=4.5}
+Driver{PIN=661428, rating=2.9}
+Driver{PIN=667706, rating=5.0}
+Driver{PIN=668702, rating=1.6}
+Driver{PIN=671232, rating=3.5}
+Driver{PIN=671290, rating=4.9}
+Driver{PIN=684888, rating=2.4}
+Driver{PIN=685822, rating=1.6}
+Driver{PIN=690761, rating=2.4}
+Driver{PIN=696403, rating=2.8}
+Driver{PIN=697726, rating=1.9}
+Driver{PIN=698922, rating=2.9}
+Driver{PIN=704380, rating=4.2}
+Driver{PIN=713660, rating=2.3}
+Driver{PIN=714073, rating=4.7}
+Driver{PIN=715140, rating=4.2}
+Driver{PIN=720112, rating=4.2}
+Driver{PIN=722335, rating=4.0}
+Driver{PIN=723263, rating=2.1}
+Driver{PIN=727972, rating=3.8}
+Driver{PIN=729783, rating=3.8}
+Driver{PIN=732868, rating=2.8}
+Driver{PIN=733252, rating=4.3}
+Driver{PIN=737377, rating=4.5}
+Driver{PIN=740161, rating=2.7}
+Driver{PIN=741974, rating=2.7}
+Driver{PIN=742007, rating=3.8}
+Driver{PIN=755213, rating=2.2}
+Driver{PIN=759014, rating=2.6}
+Driver{PIN=764676, rating=3.1}
+Driver{PIN=767850, rating=4.2}
+Driver{PIN=768308, rating=1.8}
+Driver{PIN=775938, rating=3.6}
+Driver{PIN=776956, rating=2.1}
+Driver{PIN=778829, rating=4.8}
+Driver{PIN=796988, rating=3.9}
+Driver{PIN=801474, rating=4.0}
+Driver{PIN=804097, rating=2.3}
+Driver{PIN=806324, rating=3.5}
+Driver{PIN=807014, rating=2.5}
+Driver{PIN=807476, rating=4.0}
+Driver{PIN=807640, rating=2.8}
+Driver{PIN=811497, rating=2.5}
+Driver{PIN=814756, rating=2.4}
+Driver{PIN=814792, rating=2.3}
+Driver{PIN=815745, rating=2.6}
+Driver{PIN=819670, rating=2.7}
+Driver{PIN=821901, rating=2.5}
+Driver{PIN=824681, rating=2.2}
+Driver{PIN=828342, rating=3.5}
+Driver{PIN=829221, rating=3.4}
+Driver{PIN=830388, rating=1.5}
+Driver{PIN=837953, rating=3.9}
+Driver{PIN=838323, rating=3.7}
+Driver{PIN=845722, rating=4.7}
+Driver{PIN=846887, rating=3.1}
+Driver{PIN=850420, rating=1.9}
+Driver{PIN=856289, rating=3.6}
+Driver{PIN=858979, rating=4.2}
+Driver{PIN=859018, rating=2.4}
+Driver{PIN=863264, rating=2.2}
+Driver{PIN=864177, rating=1.9}
+Driver{PIN=867311, rating=2.1}
+Driver{PIN=870728, rating=4.5}
+Driver{PIN=873341, rating=2.4}
+Driver{PIN=879155, rating=2.4}
+Driver{PIN=884288, rating=3.3}
+Driver{PIN=887923, rating=3.3}
+Driver{PIN=890447, rating=4.2}
+Driver{PIN=895791, rating=2.9}
+Driver{PIN=896399, rating=3.7}
+Driver{PIN=899814, rating=3.3}
+Driver{PIN=901630, rating=4.0}
+Driver{PIN=904986, rating=2.2}
+Driver{PIN=909029, rating=1.8}
+Driver{PIN=912575, rating=1.7}
+Driver{PIN=914736, rating=3.5}
+Driver{PIN=918855, rating=2.5}
+Driver{PIN=920606, rating=3.1}
+Driver{PIN=922063, rating=1.6}
+Driver{PIN=922533, rating=2.1}
+Driver{PIN=926021, rating=3.1}
+Driver{PIN=933286, rating=2.3}
+Driver{PIN=933675, rating=2.1}
+Driver{PIN=934991, rating=2.6}
+Driver{PIN=937920, rating=3.2}
+Driver{PIN=939136, rating=3.0}
+Driver{PIN=941516, rating=3.8}
+Driver{PIN=942039, rating=1.8}
+Driver{PIN=946780, rating=2.6}
+Driver{PIN=950080, rating=1.8}
+Driver{PIN=956258, rating=2.5}
+Driver{PIN=957048, rating=2.9}
+Driver{PIN=961151, rating=2.0}
+Driver{PIN=961202, rating=3.4}
+Driver{PIN=962271, rating=2.4}
+Driver{PIN=971204, rating=2.8}
+Driver{PIN=972499, rating=4.0}
+Driver{PIN=973273, rating=4.3}
+Driver{PIN=975224, rating=4.9}
+Driver{PIN=981431, rating=3.0}
+Driver{PIN=982810, rating=2.1}
+Driver{PIN=984108, rating=4.3}
+Driver{PIN=987961, rating=2.9}
+Driver{PIN=991087, rating=3.8}
+Driver{PIN=991173, rating=4.1}
+Driver{PIN=992701, rating=4.9}
+Driver{PIN=997594, rating=2.2}
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find trips departing from the city: New York ***
+No trips found departing from New York
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find all trips that have never been booked ***
+No trips without bookings found.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find the most booked trips per driver ***
+No trips found.
+
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+*** Find Full Cars ***
+No full cars found.
+
+--------------------------------------------------------------

@@ -1,0 +1,1699 @@
+TripID	CarID	date	departure	destination	num_seats_available
+1	1	2025-02-09	San Diego	Dallas	4
+2	1	2025-02-23	Philadelphia	Phoenix	4
+3	1	2024-12-04	Philadelphia	Chicago	1
+4	1	2024-12-14	Dallas	Los Angeles	3
+5	2	2024-12-30	New York	Chicago	4
+6	2	2025-01-30	Philadelphia	Phoenix	2
+7	2	2024-12-16	Philadelphia	Dallas	4
+8	2	2024-12-24	Chicago	New York	3
+9	2	2024-12-14	New York	San Jose	4
+10	3	2024-12-15	San Jose	Houston	4
+11	4	2025-01-14	Phoenix	San Jose	3
+12	4	2025-02-23	New York	Chicago	3
+13	4	2025-01-28	Philadelphia	San Jose	1
+14	5	2025-01-30	San Jose	Los Angeles	3
+15	5	2025-01-31	Los Angeles	Phoenix	1
+16	6	2024-12-26	Phoenix	San Jose	2
+17	6	2025-01-22	San Diego	Houston	2
+18	7	2025-01-31	San Antonio	New York	1
+19	7	2024-12-22	San Jose	Philadelphia	1
+20	7	2024-12-16	Houston	Dallas	2
+21	8	2025-01-23	Los Angeles	New York	4
+22	8	2025-01-21	Phoenix	Philadelphia	4
+23	8	2024-12-06	Houston	New York	4
+24	8	2024-12-02	Houston	San Antonio	3
+25	9	2024-12-15	Chicago	Los Angeles	3
+26	9	2025-02-24	New York	San Jose	2
+27	9	2024-12-19	Dallas	San Jose	4
+28	9	2025-01-06	Dallas	San Antonio	3
+29	10	2024-12-26	San Diego	Phoenix	2
+30	10	2025-01-11	San Jose	Los Angeles	1
+31	10	2024-12-04	San Jose	Los Angeles	1
+32	10	2025-02-20	San Jose	New York	4
+33	10	2025-02-22	Houston	Phoenix	3
+34	12	2025-02-16	Phoenix	San Antonio	3
+35	12	2025-01-18	Dallas	Philadelphia	4
+36	12	2024-11-29	San Jose	Dallas	3
+37	13	2025-02-12	New York	San Diego	4
+38	13	2025-01-25	Houston	San Jose	4
+39	13	2024-12-31	San Diego	San Antonio	2
+40	13	2024-12-06	San Jose	San Antonio	1
+41	13	2025-01-06	Dallas	Phoenix	4
+42	14	2025-02-14	Chicago	Los Angeles	3
+43	14	2025-01-22	Los Angeles	Dallas	3
+44	14	2025-01-27	Phoenix	Chicago	3
+45	14	2024-11-29	Houston	San Diego	2
+46	14	2024-12-11	San Jose	Los Angeles	1
+47	15	2025-01-25	Phoenix	Los Angeles	4
+48	15	2025-02-09	Chicago	New York	1
+49	16	2025-02-02	New York	Los Angeles	2
+50	17	2025-02-18	San Antonio	San Jose	3
+51	17	2025-01-04	San Antonio	Philadelphia	4
+52	17	2025-01-11	San Jose	New York	2
+53	17	2025-01-26	Chicago	Houston	1
+54	17	2025-01-05	Los Angeles	Phoenix	1
+55	18	2024-12-22	Los Angeles	Phoenix	2
+56	19	2024-12-19	San Diego	Phoenix	1
+57	19	2025-01-09	New York	San Diego	4
+58	19	2024-11-29	San Diego	Houston	4
+59	21	2025-02-12	Chicago	Philadelphia	1
+60	23	2024-12-28	San Jose	San Diego	4
+61	23	2024-11-30	Dallas	Chicago	4
+62	23	2025-02-18	New York	San Jose	2
+63	23	2025-02-16	San Diego	Houston	4
+64	24	2024-12-28	San Jose	Houston	1
+65	24	2024-12-31	San Jose	Los Angeles	4
+66	24	2025-01-30	Chicago	San Diego	3
+67	24	2025-01-27	Dallas	Chicago	4
+68	24	2025-01-28	Philadelphia	San Antonio	2
+69	25	2024-12-08	New York	San Diego	3
+70	25	2024-12-05	Chicago	Houston	4
+71	26	2024-12-15	San Antonio	Dallas	1
+72	26	2025-01-31	Dallas	San Jose	3
+73	26	2025-01-20	Chicago	Phoenix	4
+74	26	2024-11-30	Dallas	New York	3
+75	27	2025-02-17	New York	San Jose	3
+76	28	2025-02-17	San Antonio	Phoenix	3
+77	28	2024-12-11	San Diego	Chicago	4
+78	29	2025-02-10	Dallas	San Jose	4
+79	29	2025-02-15	Chicago	Phoenix	1
+80	29	2025-01-25	Chicago	San Antonio	4
+81	29	2025-01-14	Los Angeles	Dallas	3
+82	30	2024-12-28	Los Angeles	Phoenix	4
+83	30	2024-12-13	New York	Chicago	4
+84	30	2025-02-04	Houston	Philadelphia	4
+85	30	2025-01-09	San Diego	New York	3
+86	31	2024-12-06	Los Angeles	San Antonio	1
+87	31	2025-01-24	New York	Philadelphia	1
+88	31	2025-02-18	San Antonio	Los Angeles	4
+89	31	2024-12-11	Los Angeles	Philadelphia	3
+90	32	2024-12-01	Houston	Phoenix	1
+91	32	2024-12-19	New York	Chicago	3
+92	32	2025-01-29	Houston	San Antonio	3
+93	32	2024-12-21	San Antonio	Phoenix	2
+94	32	2024-12-07	Chicago	San Jose	1
+95	33	2024-12-11	Philadelphia	Houston	3
+96	33	2025-01-26	San Jose	San Diego	3
+97	34	2025-02-03	Philadelphia	Chicago	1
+98	34	2024-12-16	Phoenix	San Diego	1
+99	34	2025-01-17	Philadelphia	Chicago	1
+100	34	2025-01-22	Chicago	Philadelphia	2
+101	34	2025-02-24	Los Angeles	Dallas	4
+102	35	2025-01-27	Dallas	San Diego	1
+103	35	2024-12-19	Houston	Los Angeles	3
+104	36	2025-01-16	Dallas	Chicago	3
+105	36	2025-01-11	New York	Chicago	4
+106	36	2025-01-02	San Jose	Dallas	4
+107	36	2025-01-13	San Diego	Chicago	2
+108	36	2024-12-23	Philadelphia	Los Angeles	2
+109	37	2025-02-18	Chicago	Phoenix	2
+110	38	2025-01-06	San Antonio	New York	1
+111	38	2024-12-23	San Diego	Dallas	2
+112	39	2024-12-12	Phoenix	Philadelphia	2
+113	39	2025-01-18	San Jose	Houston	1
+114	39	2025-01-24	San Diego	Houston	3
+115	39	2025-01-09	Chicago	Houston	2
+116	40	2025-01-31	Phoenix	Dallas	3
+117	41	2024-12-22	New York	Houston	4
+118	41	2024-11-29	Philadelphia	San Antonio	3
+119	41	2025-01-13	Dallas	San Jose	4
+120	42	2024-12-03	Los Angeles	Philadelphia	2
+121	42	2024-12-18	Houston	San Antonio	2
+122	43	2025-01-22	New York	Phoenix	1
+123	43	2024-12-09	San Diego	Chicago	1
+124	43	2024-12-12	Phoenix	Chicago	3
+125	43	2024-12-17	Philadelphia	Chicago	1
+126	44	2024-12-05	Phoenix	Dallas	2
+127	44	2024-12-24	Chicago	San Jose	1
+128	44	2025-01-22	Philadelphia	Chicago	2
+129	44	2024-12-28	San Jose	Los Angeles	3
+130	44	2025-01-31	New York	Houston	1
+131	45	2025-01-09	New York	San Antonio	3
+132	45	2024-11-28	Philadelphia	Los Angeles	2
+133	45	2025-02-05	Chicago	San Antonio	3
+134	45	2025-01-13	Phoenix	Houston	2
+135	46	2025-01-17	San Diego	San Jose	2
+136	46	2025-01-18	Houston	New York	4
+137	46	2025-01-01	New York	Dallas	1
+138	46	2025-01-03	Chicago	Houston	4
+139	47	2025-01-02	Philadelphia	Dallas	2
+140	48	2024-12-20	Philadelphia	San Diego	2
+141	48	2025-02-14	San Antonio	San Diego	1
+142	48	2024-12-25	New York	Los Angeles	2
+143	49	2025-01-02	San Jose	New York	1
+144	49	2025-01-31	San Antonio	San Diego	4
+145	49	2024-12-27	Philadelphia	New York	3
+146	50	2024-12-10	Dallas	Phoenix	3
+147	50	2025-02-19	San Antonio	Chicago	4
+148	50	2025-02-09	Chicago	Philadelphia	4
+149	51	2025-02-21	San Diego	Phoenix	1
+150	51	2024-12-18	Dallas	San Jose	2
+151	54	2025-01-22	San Antonio	Chicago	1
+152	54	2024-11-28	Dallas	New York	4
+153	54	2025-01-09	Chicago	Dallas	1
+154	54	2025-01-23	Los Angeles	Phoenix	2
+155	55	2025-02-10	San Antonio	Los Angeles	2
+156	55	2025-02-12	San Jose	New York	1
+157	56	2025-01-20	New York	San Antonio	2
+158	56	2025-02-13	Phoenix	San Jose	4
+159	56	2024-12-14	Houston	Philadelphia	2
+160	57	2024-12-26	Phoenix	Los Angeles	2
+161	57	2025-01-17	New York	San Antonio	4
+162	57	2024-12-03	San Antonio	Dallas	3
+163	58	2025-01-14	Dallas	San Jose	1
+164	59	2025-02-22	San Antonio	San Jose	4
+165	59	2025-02-05	Houston	Los Angeles	1
+166	59	2024-12-19	Chicago	San Antonio	2
+167	60	2025-01-12	New York	San Diego	1
+168	61	2025-01-25	Philadelphia	San Antonio	1
+169	62	2025-01-13	Philadelphia	Los Angeles	1
+170	62	2025-02-12	San Diego	Chicago	1
+171	62	2025-02-13	Phoenix	Philadelphia	3
+172	62	2024-12-19	New York	San Diego	2
+173	62	2025-02-04	San Diego	Dallas	1
+174	63	2025-02-10	Houston	Chicago	4
+175	63	2025-01-19	Los Angeles	New York	4
+176	63	2025-01-16	Los Angeles	Philadelphia	1
+177	63	2025-02-18	San Diego	Chicago	4
+178	64	2025-02-01	San Diego	Los Angeles	4
+179	64	2024-12-20	San Diego	Los Angeles	4
+180	64	2024-12-04	Chicago	San Diego	4
+181	64	2025-01-24	Phoenix	Philadelphia	3
+182	67	2024-12-11	Phoenix	Chicago	1
+183	67	2025-01-12	Houston	San Diego	2
+184	68	2025-02-01	San Diego	Houston	2
+185	68	2025-01-31	Houston	San Antonio	1
+186	69	2024-12-16	Phoenix	San Jose	2
+187	69	2024-12-24	Houston	New York	2
+188	70	2024-12-01	San Diego	Chicago	3
+189	70	2024-12-08	San Antonio	Houston	3
+190	70	2024-12-02	New York	San Antonio	1
+191	70	2025-02-17	Chicago	Houston	2
+192	70	2025-02-21	Dallas	Phoenix	1
+193	72	2024-12-18	San Jose	San Antonio	3
+194	73	2025-02-21	Houston	Chicago	1
+195	73	2025-02-01	Los Angeles	Philadelphia	2
+196	73	2025-01-12	San Jose	Houston	2
+197	73	2025-01-26	New York	San Jose	1
+198	73	2024-11-29	Philadelphia	Los Angeles	2
+199	74	2025-02-05	San Jose	New York	1
+200	74	2025-02-08	New York	Phoenix	4
+201	75	2025-01-02	Philadelphia	San Antonio	2
+202	76	2025-01-31	Philadelphia	Los Angeles	3
+203	76	2024-12-11	San Diego	Chicago	3
+204	77	2025-02-13	Houston	Los Angeles	3
+205	78	2025-01-27	San Diego	Chicago	2
+206	78	2025-01-06	Dallas	Houston	2
+207	78	2024-12-07	New York	Dallas	2
+208	80	2025-02-25	San Antonio	Phoenix	1
+209	80	2024-12-01	Houston	Philadelphia	1
+210	80	2025-01-07	Houston	San Jose	3
+211	80	2025-01-23	San Antonio	Houston	4
+212	80	2024-12-16	Phoenix	Houston	4
+213	81	2024-12-04	San Antonio	Chicago	4
+214	81	2024-12-19	Houston	San Antonio	2
+215	82	2024-12-19	Chicago	San Diego	4
+216	82	2024-12-07	Los Angeles	Phoenix	1
+217	82	2024-11-28	Houston	San Diego	3
+218	83	2024-11-30	Dallas	Phoenix	3
+219	83	2025-02-06	Philadelphia	Phoenix	4
+220	83	2025-01-16	San Jose	Los Angeles	4
+221	84	2024-12-18	Phoenix	Houston	3
+222	85	2024-12-23	Phoenix	New York	1
+223	85	2025-01-22	Houston	New York	1
+224	85	2025-01-24	Dallas	Los Angeles	4
+225	86	2024-11-28	San Diego	San Jose	2
+226	87	2025-01-11	Philadelphia	Los Angeles	3
+227	87	2024-12-22	Phoenix	Los Angeles	2
+228	87	2024-12-15	Dallas	Phoenix	2
+229	87	2025-01-12	San Antonio	Philadelphia	3
+230	88	2025-02-06	Chicago	Dallas	1
+231	88	2024-12-30	San Jose	Philadelphia	1
+232	88	2024-12-01	Dallas	Los Angeles	1
+233	88	2024-12-09	Philadelphia	Dallas	3
+234	89	2025-02-10	Chicago	San Antonio	2
+235	89	2025-02-04	Chicago	New York	4
+236	89	2025-01-01	San Jose	Dallas	1
+237	89	2025-01-03	San Jose	New York	4
+238	90	2024-12-03	Dallas	Phoenix	2
+239	91	2024-12-25	Dallas	Chicago	4
+240	92	2025-01-09	Dallas	Philadelphia	4
+241	93	2024-12-03	Philadelphia	Houston	1
+242	94	2025-01-10	Phoenix	San Jose	4
+243	94	2025-02-10	Chicago	Dallas	1
+244	94	2024-12-03	Dallas	Los Angeles	2
+245	95	2025-01-03	Chicago	Houston	1
+246	95	2025-02-08	Chicago	San Antonio	4
+247	95	2024-12-05	San Diego	San Antonio	2
+248	96	2025-02-02	Dallas	Chicago	3
+249	96	2025-01-11	Los Angeles	New York	3
+250	96	2024-12-28	Chicago	Phoenix	2
+251	96	2024-12-13	San Antonio	Phoenix	4
+252	96	2024-12-11	San Antonio	Houston	1
+253	97	2025-01-25	Philadelphia	Dallas	4
+254	98	2025-02-16	Los Angeles	San Diego	3
+255	98	2025-01-22	Philadelphia	Phoenix	4
+256	98	2025-02-12	Phoenix	San Jose	3
+257	99	2025-01-31	Dallas	Phoenix	2
+258	99	2024-12-03	Philadelphia	San Antonio	4
+259	99	2024-12-31	Phoenix	San Antonio	2
+260	99	2025-01-22	San Diego	San Antonio	4
+261	100	2025-02-03	Philadelphia	Houston	2
+262	100	2025-02-13	San Jose	Phoenix	4
+263	100	2024-12-29	Phoenix	Los Angeles	1
+264	100	2024-12-30	Chicago	San Diego	4
+265	101	2024-12-22	Philadelphia	New York	3
+266	101	2024-12-20	Dallas	Phoenix	2
+267	101	2025-02-03	San Jose	San Antonio	2
+268	101	2025-02-07	Chicago	San Jose	4
+269	102	2025-01-09	Dallas	San Diego	4
+270	103	2025-02-15	Dallas	Phoenix	2
+271	104	2024-12-15	Los Angeles	Philadelphia	2
+272	104	2024-12-20	Chicago	Dallas	2
+273	104	2025-01-17	Los Angeles	San Jose	1
+274	104	2024-12-10	Philadelphia	San Antonio	2
+275	105	2024-12-30	New York	Houston	3
+276	105	2025-02-03	Chicago	San Jose	3
+277	106	2025-01-07	Los Angeles	San Antonio	2
+278	106	2025-01-08	New York	Houston	3
+279	106	2025-02-06	Los Angeles	San Antonio	4
+280	107	2025-01-31	Phoenix	Houston	4
+281	107	2024-12-26	Chicago	San Diego	4
+282	107	2025-02-21	Phoenix	Chicago	4
+283	107	2025-02-20	New York	Philadelphia	3
+284	108	2025-01-16	Phoenix	San Diego	2
+285	108	2025-01-02	Los Angeles	Dallas	3
+286	108	2025-01-04	Houston	Philadelphia	1
+287	109	2025-01-09	Phoenix	Chicago	1
+288	110	2025-02-08	Los Angeles	New York	3
+289	111	2025-02-13	San Antonio	San Diego	4
+290	112	2024-12-05	San Diego	New York	4
+291	112	2024-12-15	San Diego	Phoenix	1
+292	112	2024-12-12	San Antonio	Phoenix	3
+293	113	2024-12-13	New York	San Antonio	1
+294	113	2025-01-30	San Diego	Los Angeles	2
+295	114	2024-12-05	San Jose	Chicago	1
+296	114	2024-12-20	Houston	San Antonio	3
+297	114	2025-01-16	Chicago	San Jose	3
+298	114	2025-01-28	Philadelphia	Phoenix	3
+299	114	2024-12-07	San Jose	Chicago	3
+300	115	2025-01-29	San Diego	Phoenix	3
+301	115	2025-01-02	San Diego	Dallas	1
+302	115	2025-01-20	Dallas	Phoenix	1
+303	115	2024-12-02	San Jose	San Diego	3
+304	116	2025-01-03	Phoenix	Los Angeles	4
+305	116	2025-02-24	San Antonio	Philadelphia	1
+306	116	2024-12-10	Phoenix	San Antonio	3
+307	116	2025-02-14	Chicago	San Diego	4
+308	117	2025-01-10	San Diego	Philadelphia	3
+309	118	2025-02-20	Phoenix	Philadelphia	2
+310	118	2025-01-05	Phoenix	San Diego	1
+311	118	2025-02-09	New York	Houston	1
+312	119	2025-02-01	San Diego	Philadelphia	4
+313	119	2024-11-28	Dallas	New York	2
+314	119	2025-01-10	Los Angeles	San Jose	3
+315	120	2025-02-16	San Jose	Phoenix	2
+316	120	2025-02-09	Chicago	Philadelphia	2
+317	121	2025-02-24	San Antonio	New York	1
+318	122	2025-01-18	Houston	New York	4
+319	122	2025-02-17	San Diego	Dallas	1
+320	122	2024-11-30	San Jose	Philadelphia	1
+321	124	2025-02-17	Los Angeles	New York	2
+322	125	2025-01-08	San Jose	Chicago	3
+323	126	2025-02-17	Philadelphia	Los Angeles	1
+324	126	2025-02-19	New York	Dallas	2
+325	126	2024-12-03	Philadelphia	San Diego	4
+326	127	2024-12-20	San Jose	Dallas	3
+327	127	2025-01-08	Phoenix	San Antonio	2
+328	127	2025-02-09	Philadelphia	San Antonio	2
+329	127	2024-12-27	San Antonio	Philadelphia	2
+330	128	2025-02-02	Houston	Dallas	1
+331	128	2024-12-10	Dallas	Houston	2
+332	128	2025-02-04	Philadelphia	San Jose	4
+333	128	2025-02-19	Phoenix	San Jose	1
+334	129	2025-02-11	Los Angeles	Houston	2
+335	130	2024-12-07	San Antonio	Philadelphia	4
+336	131	2024-12-17	San Diego	San Antonio	2
+337	131	2024-12-05	San Diego	Houston	2
+338	131	2025-02-19	New York	Houston	3
+339	132	2025-02-19	Dallas	San Antonio	1
+340	132	2024-12-03	San Diego	Chicago	1
+341	133	2024-12-29	Dallas	Los Angeles	1
+342	133	2025-02-17	Philadelphia	San Jose	4
+343	134	2025-02-15	San Antonio	Houston	2
+344	134	2024-12-15	Phoenix	Houston	3
+345	134	2024-12-10	San Diego	Phoenix	4
+346	134	2025-01-13	Dallas	San Diego	1
+347	134	2025-02-17	San Jose	San Antonio	4
+348	135	2025-01-23	Dallas	Philadelphia	3
+349	135	2025-02-21	Houston	New York	3
+350	136	2024-12-04	New York	San Antonio	1
+351	136	2025-02-24	New York	Houston	4
+352	136	2025-02-25	Houston	Dallas	3
+353	136	2025-02-16	Houston	New York	2
+354	136	2025-01-05	Los Angeles	Dallas	3
+355	137	2024-12-10	Chicago	Los Angeles	3
+356	138	2025-01-15	Philadelphia	New York	3
+357	138	2024-12-23	Chicago	New York	2
+358	138	2025-02-12	Phoenix	Philadelphia	1
+359	138	2024-12-24	Phoenix	San Antonio	4
+360	138	2024-12-02	Los Angeles	San Antonio	4
+361	139	2025-01-28	San Jose	Philadelphia	2
+362	140	2025-01-18	Houston	New York	2
+363	141	2025-01-11	Philadelphia	San Diego	4
+364	141	2024-12-24	Philadelphia	San Diego	2
+365	141	2024-12-23	Dallas	Los Angeles	3
+366	142	2024-12-14	New York	Los Angeles	1
+367	142	2024-12-15	Chicago	Philadelphia	2
+368	142	2025-02-06	Dallas	Philadelphia	2
+369	143	2025-01-01	Houston	Los Angeles	1
+370	143	2025-02-16	Philadelphia	New York	1
+371	143	2024-12-05	Los Angeles	New York	3
+372	143	2024-12-26	Chicago	San Antonio	4
+373	144	2024-12-24	Dallas	San Jose	1
+374	144	2024-12-30	Phoenix	San Antonio	2
+375	145	2024-12-05	Chicago	San Diego	3
+376	146	2024-12-22	Houston	San Jose	1
+377	146	2025-02-13	Houston	New York	4
+378	146	2024-12-14	Chicago	San Antonio	2
+379	147	2025-01-31	Philadelphia	Dallas	2
+380	147	2025-01-12	Dallas	New York	2
+381	147	2024-12-26	San Jose	Philadelphia	1
+382	147	2025-01-16	San Antonio	Los Angeles	2
+383	148	2025-01-28	Chicago	Houston	2
+384	149	2025-01-12	San Jose	Dallas	1
+385	149	2025-01-17	San Diego	San Jose	3
+386	149	2024-12-23	Chicago	Houston	2
+387	149	2025-01-14	New York	Houston	1
+388	149	2024-12-15	Phoenix	Houston	4
+389	150	2025-01-22	Dallas	Philadelphia	3
+390	151	2025-01-09	Houston	Chicago	2
+391	151	2024-12-26	San Diego	Los Angeles	4
+392	151	2025-01-17	San Antonio	New York	4
+393	151	2025-01-05	San Jose	San Antonio	4
+394	151	2025-01-01	Dallas	New York	3
+395	153	2024-12-03	Philadelphia	Los Angeles	4
+396	153	2024-12-16	San Antonio	San Diego	2
+397	153	2025-02-23	Chicago	New York	3
+398	153	2025-02-12	San Diego	Philadelphia	4
+399	153	2025-02-25	Phoenix	Los Angeles	4
+400	154	2025-01-12	San Antonio	Dallas	4
+401	154	2025-01-06	San Jose	San Diego	2
+402	154	2025-02-21	New York	Chicago	2
+403	155	2025-02-23	San Diego	Los Angeles	4
+404	155	2025-01-31	Philadelphia	Chicago	2
+405	155	2025-01-04	Los Angeles	San Jose	3
+406	156	2025-02-18	Phoenix	New York	2
+407	156	2024-12-27	Dallas	San Diego	3
+408	156	2024-12-26	Houston	Los Angeles	2
+409	156	2025-01-25	San Antonio	San Jose	4
+410	156	2025-02-10	San Jose	Phoenix	4
+411	157	2024-12-10	Phoenix	Dallas	4
+412	157	2025-02-11	Chicago	Phoenix	4
+413	157	2024-12-18	San Antonio	Philadelphia	2
+414	157	2024-12-27	New York	San Jose	2
+415	157	2025-01-06	Houston	San Antonio	3
+416	158	2025-02-25	San Diego	San Jose	2
+417	158	2025-01-25	Dallas	Chicago	3
+418	158	2024-12-03	San Diego	Los Angeles	1
+419	158	2025-02-11	Houston	San Antonio	2
+420	159	2024-12-04	Dallas	New York	4
+421	159	2025-01-11	San Jose	San Antonio	2
+422	160	2025-01-19	San Jose	Dallas	3
+423	160	2024-12-01	Houston	Los Angeles	3
+424	160	2024-12-07	Chicago	New York	4
+425	160	2025-01-06	Houston	San Antonio	2
+426	161	2025-01-11	San Antonio	Philadelphia	2
+427	161	2024-12-05	New York	Chicago	4
+428	161	2025-02-18	Los Angeles	Philadelphia	3
+429	161	2025-02-19	New York	San Diego	1
+430	161	2025-01-19	Philadelphia	San Diego	4
+431	162	2025-01-12	Chicago	San Antonio	4
+432	163	2024-12-16	Chicago	Phoenix	4
+433	163	2024-12-30	New York	Philadelphia	3
+434	163	2025-01-31	Phoenix	Chicago	1
+435	163	2025-01-26	Phoenix	Philadelphia	1
+436	164	2024-12-15	New York	Dallas	4
+437	164	2025-01-27	San Antonio	Philadelphia	2
+438	165	2025-01-22	San Jose	Houston	3
+439	166	2024-11-30	Houston	San Jose	2
+440	166	2024-12-08	Phoenix	San Antonio	4
+441	166	2025-02-10	Los Angeles	Houston	2
+442	166	2025-01-03	Philadelphia	Phoenix	4
+443	166	2025-01-26	New York	Dallas	3
+444	167	2025-01-05	Chicago	Philadelphia	2
+445	167	2025-02-21	Philadelphia	Los Angeles	4
+446	167	2025-01-11	Chicago	New York	2
+447	168	2024-12-31	San Jose	Phoenix	1
+448	168	2024-12-25	Houston	San Diego	3
+449	168	2024-12-18	San Antonio	New York	4
+450	168	2025-02-19	Chicago	Houston	4
+451	169	2024-12-23	San Antonio	San Diego	1
+452	169	2024-12-02	Dallas	Phoenix	3
+453	169	2024-12-10	New York	Houston	3
+454	169	2025-01-24	San Antonio	Philadelphia	3
+455	169	2025-02-19	Phoenix	Houston	2
+456	170	2025-02-04	San Antonio	Dallas	4
+457	170	2024-12-14	Dallas	Chicago	3
+458	171	2025-02-19	Philadelphia	New York	1
+459	171	2025-01-18	Chicago	San Jose	1
+460	172	2025-02-23	New York	San Diego	3
+461	172	2025-01-18	New York	Los Angeles	2
+462	173	2024-12-18	San Antonio	New York	1
+463	173	2024-12-04	New York	San Jose	3
+464	173	2024-12-13	Dallas	New York	1
+465	173	2025-02-22	Dallas	San Antonio	4
+466	174	2025-01-30	New York	San Jose	1
+467	174	2024-12-06	Dallas	Chicago	3
+468	174	2024-12-26	Philadelphia	San Antonio	3
+469	175	2024-12-31	Phoenix	New York	2
+470	176	2025-01-25	Phoenix	Los Angeles	1
+471	176	2025-02-08	Philadelphia	Chicago	3
+472	176	2024-12-10	Phoenix	San Antonio	2
+473	177	2025-02-21	San Antonio	Houston	3
+474	177	2024-12-22	Phoenix	Houston	3
+475	177	2025-02-22	Los Angeles	San Jose	1
+476	178	2024-12-01	San Diego	Dallas	4
+477	178	2024-12-19	Dallas	New York	3
+478	178	2024-12-25	New York	San Antonio	4
+479	178	2024-12-30	San Diego	Chicago	3
+480	178	2024-12-04	San Jose	Phoenix	3
+481	179	2025-02-06	San Jose	Houston	1
+482	179	2025-01-10	Philadelphia	San Antonio	4
+483	179	2024-12-02	Houston	Philadelphia	1
+484	180	2024-12-26	Phoenix	New York	4
+485	181	2025-02-20	Phoenix	San Jose	3
+486	181	2025-01-03	Los Angeles	Chicago	1
+487	181	2025-02-01	Chicago	Houston	3
+488	181	2025-01-09	Houston	San Jose	4
+489	181	2025-01-29	San Jose	Phoenix	1
+490	182	2024-12-22	Los Angeles	Philadelphia	2
+491	182	2025-02-04	Los Angeles	San Diego	2
+492	182	2025-02-24	San Diego	Phoenix	2
+493	182	2025-02-15	Dallas	Houston	3
+494	182	2025-01-06	San Antonio	New York	2
+495	183	2024-12-04	Philadelphia	San Jose	3
+496	183	2024-12-23	Phoenix	Los Angeles	4
+497	184	2024-12-14	Los Angeles	San Antonio	1
+498	184	2025-01-27	Philadelphia	Phoenix	2
+499	184	2025-01-01	Houston	San Antonio	3
+500	184	2024-12-28	Los Angeles	San Jose	1
+501	184	2025-01-13	Dallas	Houston	4
+502	185	2025-01-08	Philadelphia	Los Angeles	3
+503	185	2025-02-06	New York	Chicago	1
+504	186	2024-11-30	Dallas	Phoenix	4
+505	187	2025-01-30	New York	Los Angeles	3
+506	187	2025-01-21	New York	Chicago	1
+507	187	2024-12-15	Phoenix	Philadelphia	2
+508	188	2025-02-17	Dallas	San Jose	2
+509	188	2025-01-19	San Antonio	Los Angeles	4
+510	188	2025-01-28	Los Angeles	Chicago	3
+511	189	2024-12-29	San Jose	San Antonio	2
+512	189	2024-11-29	New York	Dallas	3
+513	189	2025-02-16	Houston	San Antonio	4
+514	189	2025-02-15	Philadelphia	San Diego	2
+515	190	2024-12-19	Phoenix	Philadelphia	4
+516	190	2024-12-14	Dallas	Houston	2
+517	190	2024-12-21	Los Angeles	San Antonio	3
+518	190	2025-01-10	Philadelphia	Dallas	1
+519	191	2025-01-06	Phoenix	Philadelphia	3
+520	191	2025-01-30	Houston	San Diego	2
+521	191	2024-12-09	San Antonio	Phoenix	2
+522	191	2025-01-02	San Jose	Dallas	3
+523	192	2024-12-25	Houston	San Diego	3
+524	192	2024-12-02	San Antonio	Dallas	3
+525	192	2025-01-18	San Jose	Houston	3
+526	192	2025-01-31	New York	San Antonio	4
+527	192	2024-12-24	Dallas	San Antonio	1
+528	193	2025-01-03	San Jose	Chicago	2
+529	194	2025-02-14	San Antonio	Phoenix	2
+530	195	2024-12-26	New York	Chicago	1
+531	195	2024-11-28	Los Angeles	Philadelphia	1
+532	195	2024-12-15	Phoenix	Houston	3
+533	196	2024-12-12	San Jose	San Diego	1
+534	197	2024-12-12	Los Angeles	New York	2
+535	197	2025-01-11	San Diego	San Antonio	1
+536	197	2024-12-06	San Antonio	San Diego	2
+537	197	2024-12-27	Chicago	Phoenix	3
+538	197	2025-02-07	San Jose	Dallas	3
+539	198	2024-11-29	Chicago	Phoenix	3
+540	198	2024-12-17	Philadelphia	Phoenix	1
+541	198	2024-12-01	San Diego	San Jose	1
+542	199	2025-01-21	Los Angeles	Phoenix	2
+543	199	2025-02-16	San Jose	Phoenix	2
+544	200	2024-12-29	San Jose	San Diego	1
+545	200	2025-01-03	Phoenix	San Diego	3
+546	201	2024-12-06	San Diego	Houston	3
+547	201	2025-01-31	Dallas	Houston	3
+548	201	2025-02-19	Phoenix	San Jose	1
+549	201	2025-01-11	San Jose	San Antonio	4
+550	202	2024-12-03	Los Angeles	Phoenix	2
+551	202	2024-12-02	Dallas	New York	3
+552	202	2025-01-05	San Diego	Phoenix	1
+553	203	2024-12-05	San Antonio	San Jose	1
+554	203	2024-12-10	Los Angeles	Houston	4
+555	203	2024-12-13	Phoenix	San Antonio	1
+556	203	2024-12-04	San Antonio	San Diego	4
+557	203	2025-01-29	San Antonio	Dallas	3
+558	204	2025-02-19	Dallas	Philadelphia	1
+559	204	2025-02-02	San Antonio	Phoenix	1
+560	204	2025-02-07	San Diego	Los Angeles	2
+561	205	2025-02-03	Phoenix	Los Angeles	3
+562	205	2025-02-14	San Jose	Los Angeles	4
+563	205	2024-12-17	San Diego	Phoenix	4
+564	206	2025-02-11	New York	Phoenix	3
+565	206	2025-01-31	San Jose	Los Angeles	4
+566	206	2024-12-01	New York	San Jose	4
+567	207	2024-12-24	Los Angeles	Chicago	2
+568	208	2025-02-09	San Diego	New York	3
+569	208	2025-01-04	Philadelphia	San Diego	4
+570	208	2024-12-19	Houston	Chicago	1
+571	209	2025-02-09	San Antonio	Houston	3
+572	210	2025-02-05	Houston	New York	4
+573	210	2025-01-19	Dallas	New York	3
+574	210	2024-12-24	San Diego	Philadelphia	4
+575	210	2025-01-04	Los Angeles	Philadelphia	2
+576	210	2025-01-26	Dallas	Los Angeles	4
+577	211	2025-02-02	San Jose	San Antonio	2
+578	211	2024-11-29	San Jose	Houston	4
+579	211	2025-01-24	Dallas	Philadelphia	1
+580	212	2025-02-08	San Antonio	Philadelphia	3
+581	212	2025-01-09	Phoenix	Los Angeles	3
+582	213	2025-02-14	Chicago	San Diego	2
+583	213	2025-01-06	Dallas	Phoenix	2
+584	213	2024-12-22	Phoenix	New York	1
+585	213	2024-12-03	Philadelphia	San Diego	1
+586	213	2024-12-13	Los Angeles	San Diego	4
+587	214	2025-01-30	San Diego	Chicago	3
+588	214	2025-01-03	Philadelphia	Phoenix	2
+589	214	2025-01-12	Dallas	Philadelphia	3
+590	214	2025-02-23	Philadelphia	San Jose	3
+591	214	2025-01-22	Dallas	Los Angeles	3
+592	215	2024-12-23	Dallas	Phoenix	4
+593	215	2024-12-29	San Antonio	Houston	3
+594	215	2025-01-20	Phoenix	Chicago	4
+595	215	2025-02-01	Phoenix	San Diego	1
+596	215	2024-12-12	Dallas	Los Angeles	3
+597	216	2024-11-30	San Diego	Philadelphia	2
+598	216	2025-01-27	Chicago	San Jose	1
+599	216	2024-12-10	Philadelphia	Los Angeles	4
+600	216	2025-01-26	San Diego	San Antonio	2
+601	217	2024-12-02	San Jose	San Antonio	3
+602	217	2025-02-09	Chicago	Philadelphia	3
+603	217	2025-02-13	Chicago	San Jose	4
+604	218	2025-02-18	San Jose	San Antonio	3
+605	218	2024-12-10	Chicago	Los Angeles	2
+606	218	2025-01-07	Chicago	Phoenix	2
+607	218	2025-02-07	San Antonio	Chicago	3
+608	219	2024-12-01	New York	Houston	1
+609	219	2024-12-17	San Diego	Dallas	2
+610	220	2024-12-29	San Diego	Chicago	2
+611	221	2025-01-06	Philadelphia	Chicago	1
+612	222	2025-02-10	San Jose	San Antonio	1
+613	222	2024-12-20	San Jose	Dallas	2
+614	222	2025-01-08	San Diego	San Jose	3
+615	223	2025-02-10	Chicago	New York	2
+616	223	2024-12-27	Philadelphia	Los Angeles	3
+617	223	2025-02-02	San Antonio	Chicago	1
+618	223	2024-11-29	Houston	Los Angeles	1
+619	223	2024-12-03	San Antonio	Phoenix	3
+620	224	2024-12-30	San Antonio	Dallas	2
+621	224	2025-01-26	San Jose	San Antonio	1
+622	224	2024-12-03	New York	Houston	4
+623	225	2025-01-29	Phoenix	New York	3
+624	226	2025-01-28	Houston	Chicago	2
+625	226	2024-12-12	Houston	San Antonio	3
+626	226	2025-01-31	Houston	Dallas	2
+627	226	2025-01-08	New York	Philadelphia	2
+628	227	2024-12-21	Dallas	San Jose	2
+629	228	2025-02-24	San Jose	San Diego	2
+630	228	2024-11-28	San Antonio	San Diego	2
+631	228	2025-01-06	Los Angeles	Dallas	4
+632	229	2025-02-17	San Diego	Dallas	4
+633	229	2025-01-17	Houston	Philadelphia	2
+634	229	2025-01-30	Dallas	Los Angeles	1
+635	229	2025-02-22	San Diego	Philadelphia	2
+636	230	2025-02-09	New York	Dallas	2
+637	230	2024-12-13	Chicago	Los Angeles	1
+638	230	2025-02-23	Los Angeles	San Diego	4
+639	230	2024-12-10	San Jose	Phoenix	4
+640	230	2025-01-05	San Antonio	San Diego	1
+641	231	2024-12-06	New York	Philadelphia	4
+642	232	2025-02-05	San Jose	San Diego	3
+643	232	2024-12-31	Houston	Los Angeles	1
+644	232	2025-01-04	Phoenix	Houston	3
+645	233	2025-02-01	Dallas	Los Angeles	3
+646	233	2024-12-15	San Jose	Houston	3
+647	233	2025-02-06	New York	San Antonio	3
+648	233	2024-12-25	Chicago	San Diego	1
+649	233	2025-01-11	Los Angeles	New York	4
+650	234	2024-12-07	San Antonio	Los Angeles	2
+651	235	2025-02-16	San Antonio	Phoenix	4
+652	235	2025-01-12	Los Angeles	Phoenix	4
+653	235	2024-12-24	New York	San Antonio	2
+654	235	2025-01-04	Phoenix	New York	1
+655	236	2025-01-29	Phoenix	Los Angeles	2
+656	236	2025-01-05	San Jose	San Diego	4
+657	236	2025-02-05	Dallas	Philadelphia	2
+658	236	2025-01-27	Phoenix	San Jose	2
+659	237	2025-01-02	Dallas	Los Angeles	4
+660	237	2024-12-19	Phoenix	San Jose	2
+661	237	2024-12-29	Chicago	New York	4
+662	237	2025-02-19	Philadelphia	Los Angeles	3
+663	237	2024-12-23	Chicago	New York	4
+664	238	2025-01-14	Chicago	San Antonio	1
+665	238	2025-02-18	San Jose	Phoenix	3
+666	238	2024-12-16	San Jose	San Diego	2
+667	239	2024-12-30	Philadelphia	San Diego	1
+668	239	2024-12-28	Philadelphia	San Antonio	2
+669	239	2024-12-27	San Antonio	San Diego	1
+670	241	2025-01-25	Los Angeles	Phoenix	2
+671	241	2024-12-31	New York	Houston	2
+672	241	2024-12-26	Phoenix	Houston	1
+673	242	2024-12-01	San Antonio	Chicago	2
+674	242	2025-02-22	Chicago	New York	4
+675	242	2025-01-01	Philadelphia	Los Angeles	4
+676	242	2025-01-20	Los Angeles	Dallas	1
+677	243	2024-12-29	San Jose	Chicago	2
+678	243	2024-12-03	San Antonio	New York	4
+679	243	2024-12-28	Los Angeles	New York	3
+680	243	2025-02-24	New York	San Jose	1
+681	243	2025-01-14	Houston	Los Angeles	2
+682	244	2025-01-26	Chicago	Los Angeles	4
+683	244	2025-01-25	Philadelphia	San Antonio	1
+684	245	2025-01-30	Phoenix	San Antonio	2
+685	245	2024-12-16	San Diego	San Antonio	3
+686	245	2025-01-23	New York	Philadelphia	2
+687	245	2025-02-02	San Antonio	Los Angeles	2
+688	246	2025-02-01	Philadelphia	Houston	4
+689	246	2025-02-09	Philadelphia	Chicago	4
+690	246	2025-01-22	Dallas	San Antonio	2
+691	246	2025-01-02	Phoenix	San Diego	2
+692	246	2025-02-21	San Jose	Philadelphia	2
+693	247	2025-01-07	San Antonio	New York	1
+694	248	2025-02-03	San Antonio	Chicago	4
+695	248	2025-01-27	Philadelphia	New York	4
+696	248	2024-12-21	Philadelphia	Los Angeles	3
+697	248	2025-02-11	San Diego	Dallas	2
+698	249	2025-02-17	San Antonio	Houston	2
+699	249	2025-01-25	Los Angeles	New York	4
+700	249	2024-12-12	Houston	San Antonio	1
+701	249	2025-01-11	Houston	New York	3
+702	249	2024-12-01	San Diego	San Jose	3
+703	250	2024-12-15	San Jose	New York	2
+704	251	2025-02-16	Houston	San Jose	3
+705	251	2024-12-19	San Antonio	San Jose	3
+706	251	2024-12-17	New York	Philadelphia	1
+707	251	2025-01-16	San Jose	Los Angeles	3
+708	251	2025-01-14	San Diego	New York	3
+709	252	2025-02-15	Dallas	San Jose	1
+710	252	2025-02-08	Houston	San Jose	4
+711	252	2025-02-20	New York	Philadelphia	3
+712	252	2024-12-08	Houston	New York	3
+713	252	2024-11-30	New York	Phoenix	4
+714	253	2025-02-20	Dallas	San Antonio	3
+715	253	2025-01-25	San Jose	Houston	3
+716	253	2024-12-24	Philadelphia	San Diego	2
+717	254	2025-02-12	San Diego	Phoenix	1
+718	254	2024-12-02	Dallas	Phoenix	4
+719	255	2024-12-10	New York	Philadelphia	3
+720	256	2025-01-22	San Diego	San Jose	1
+721	256	2024-12-02	San Diego	San Jose	2
+722	256	2024-12-24	Los Angeles	San Diego	4
+723	257	2025-01-04	Phoenix	San Antonio	3
+724	257	2025-01-25	Los Angeles	Dallas	1
+725	257	2025-02-05	Dallas	Chicago	4
+726	258	2025-02-14	Philadelphia	San Jose	3
+727	259	2025-02-06	Philadelphia	Phoenix	4
+728	259	2024-12-08	Dallas	Philadelphia	2
+729	260	2025-01-08	San Diego	Los Angeles	1
+730	261	2024-12-25	Houston	Philadelphia	1
+731	261	2024-12-10	Houston	San Antonio	2
+732	261	2025-01-24	Philadelphia	Houston	2
+733	262	2024-12-10	San Diego	San Jose	3
+734	262	2025-02-14	San Antonio	Houston	1
+735	262	2024-12-22	San Antonio	New York	1
+736	262	2024-11-28	San Jose	New York	3
+737	262	2024-12-26	San Antonio	San Jose	2
+738	263	2025-01-06	Los Angeles	San Jose	4
+739	263	2024-12-13	Los Angeles	Houston	4
+740	263	2025-02-10	Philadelphia	Phoenix	4
+741	264	2024-12-02	Houston	Chicago	3
+742	264	2024-12-29	Los Angeles	San Jose	1
+743	264	2025-02-19	New York	Dallas	1
+744	264	2025-02-14	Philadelphia	San Diego	3
+745	264	2025-02-07	Dallas	Phoenix	4
+746	265	2024-12-19	Chicago	San Antonio	2
+747	265	2024-12-31	Dallas	Los Angeles	1
+748	265	2024-12-04	Phoenix	San Jose	1
+749	265	2024-12-28	Philadelphia	San Antonio	1
+750	266	2025-01-16	Philadelphia	San Antonio	1
+751	266	2025-02-21	San Antonio	Chicago	4
+752	267	2024-12-21	Houston	Philadelphia	1
+753	267	2024-12-24	Phoenix	Chicago	3
+754	267	2024-12-11	Houston	Phoenix	4
+755	267	2025-02-06	Los Angeles	New York	4
+756	267	2025-02-18	Chicago	San Jose	3
+757	268	2025-01-28	Philadelphia	San Diego	3
+758	268	2024-12-30	Houston	Chicago	1
+759	268	2024-12-27	Houston	Los Angeles	4
+760	268	2024-12-26	New York	Chicago	4
+761	269	2025-02-07	Los Angeles	Philadelphia	2
+762	269	2025-01-20	San Antonio	Philadelphia	4
+763	269	2025-02-02	Phoenix	Philadelphia	4
+764	269	2025-01-17	San Antonio	Dallas	1
+765	271	2025-01-21	Houston	Phoenix	1
+766	271	2025-01-18	Chicago	Phoenix	4
+767	271	2025-01-12	Phoenix	San Jose	3
+768	272	2025-02-17	San Jose	Philadelphia	4
+769	272	2024-11-29	San Diego	Philadelphia	2
+770	273	2025-02-01	Phoenix	Chicago	2
+771	274	2025-01-06	Los Angeles	Dallas	1
+772	275	2024-12-21	New York	Phoenix	4
+773	275	2025-02-14	Chicago	Philadelphia	1
+774	276	2025-01-15	Philadelphia	Dallas	1
+775	276	2025-01-29	New York	Philadelphia	1
+776	276	2025-02-22	Los Angeles	San Jose	4
+777	276	2025-01-16	San Diego	Philadelphia	1
+778	276	2024-12-14	Los Angeles	Phoenix	3
+779	277	2025-01-07	Chicago	New York	1
+780	277	2024-12-19	Phoenix	Dallas	2
+781	277	2024-12-18	Chicago	Philadelphia	4
+782	277	2024-12-07	Philadelphia	Phoenix	4
+783	278	2025-02-08	Dallas	New York	3
+784	278	2025-02-21	Chicago	San Jose	4
+785	278	2025-01-27	Houston	San Jose	4
+786	279	2024-12-22	Phoenix	Houston	3
+787	280	2025-02-07	Dallas	San Antonio	3
+788	280	2025-01-24	San Antonio	San Jose	1
+789	280	2025-01-14	San Antonio	Phoenix	1
+790	280	2025-02-21	San Antonio	San Diego	1
+791	280	2024-12-17	San Antonio	Philadelphia	1
+792	281	2024-12-19	New York	Chicago	4
+793	281	2025-02-25	San Antonio	San Jose	2
+794	281	2024-12-08	San Diego	San Antonio	3
+795	281	2025-01-23	Phoenix	Dallas	4
+796	282	2025-02-20	New York	San Antonio	1
+797	284	2025-01-14	New York	San Jose	1
+798	284	2025-01-04	Chicago	San Antonio	3
+799	285	2025-02-13	San Jose	Philadelphia	3
+800	285	2024-12-11	New York	Los Angeles	4
+801	286	2024-12-10	Phoenix	San Jose	3
+802	287	2025-02-21	Chicago	Houston	4
+803	287	2025-01-24	Chicago	Houston	2
+804	287	2025-01-05	Dallas	Philadelphia	3
+805	288	2025-02-24	Chicago	Philadelphia	3
+806	288	2025-01-05	Chicago	Houston	4
+807	288	2024-11-29	Phoenix	Los Angeles	3
+808	288	2025-01-31	San Diego	San Antonio	4
+809	290	2025-01-05	Houston	San Antonio	3
+810	291	2025-02-15	New York	Los Angeles	4
+811	291	2024-12-08	Los Angeles	San Antonio	2
+812	292	2025-01-08	New York	San Jose	3
+813	292	2025-02-23	San Diego	Dallas	3
+814	292	2024-12-24	Houston	San Antonio	4
+815	292	2025-02-05	San Antonio	Phoenix	2
+816	293	2025-01-09	New York	Houston	1
+817	293	2024-12-31	Los Angeles	Phoenix	3
+818	294	2025-01-29	San Antonio	Houston	3
+819	295	2024-12-25	New York	San Jose	3
+820	295	2025-01-18	Philadelphia	San Diego	1
+821	295	2024-12-21	San Antonio	Los Angeles	1
+822	295	2024-12-30	Dallas	Phoenix	2
+823	295	2025-02-01	Houston	San Diego	3
+824	297	2025-02-22	Los Angeles	San Diego	1
+825	297	2025-02-14	Los Angeles	Houston	2
+826	297	2025-01-15	Philadelphia	Dallas	3
+827	298	2024-12-27	New York	Los Angeles	1
+828	298	2024-12-01	Dallas	Philadelphia	2
+829	298	2024-12-07	Dallas	San Antonio	2
+830	298	2025-01-03	Phoenix	Dallas	2
+831	299	2024-12-08	San Antonio	Philadelphia	3
+832	299	2025-02-05	Philadelphia	Dallas	1
+833	299	2024-11-28	Dallas	Phoenix	3
+834	299	2025-02-11	Dallas	Chicago	1
+835	299	2025-01-27	San Jose	San Diego	2
+836	301	2024-12-01	Dallas	San Antonio	4
+837	301	2025-02-08	Dallas	San Jose	3
+838	302	2025-01-08	Los Angeles	New York	2
+839	302	2024-11-28	Los Angeles	San Antonio	3
+840	303	2024-12-05	Philadelphia	New York	1
+841	303	2025-02-22	Philadelphia	Los Angeles	3
+842	304	2025-01-23	Phoenix	San Diego	3
+843	305	2025-02-11	San Diego	Los Angeles	1
+844	305	2025-02-09	San Diego	Houston	1
+845	305	2024-12-15	San Antonio	Chicago	4
+846	305	2025-02-05	San Diego	San Jose	2
+847	306	2025-02-07	Houston	Philadelphia	1
+848	306	2025-02-20	Dallas	Houston	1
+849	307	2025-02-13	Chicago	San Jose	4
+850	307	2025-02-24	Houston	New York	1
+851	307	2024-12-15	Los Angeles	Houston	1
+852	308	2025-01-19	Phoenix	Philadelphia	4
+853	308	2025-02-07	Los Angeles	San Diego	1
+854	308	2024-12-19	Chicago	Houston	2
+855	308	2024-12-13	Houston	Philadelphia	1
+856	308	2024-11-29	San Antonio	Dallas	2
+857	309	2025-01-09	New York	San Jose	1
+858	309	2025-02-14	Los Angeles	San Antonio	3
+859	310	2025-02-18	Chicago	San Antonio	4
+860	310	2024-12-15	Chicago	Los Angeles	2
+861	311	2025-02-01	New York	Phoenix	1
+862	311	2025-02-22	Los Angeles	Philadelphia	1
+863	311	2025-01-22	San Jose	San Diego	3
+864	311	2025-01-18	San Jose	San Diego	3
+865	311	2025-02-14	San Jose	Chicago	4
+866	312	2025-01-23	Philadelphia	Houston	1
+867	312	2025-01-04	San Jose	Philadelphia	1
+868	312	2025-01-25	Houston	Los Angeles	4
+869	312	2024-12-27	Dallas	Phoenix	2
+870	312	2025-01-11	Philadelphia	New York	4
+871	313	2025-01-03	New York	Dallas	4
+872	314	2025-02-05	Los Angeles	San Jose	4
+873	314	2025-02-11	Chicago	San Diego	4
+874	314	2025-02-20	Houston	Dallas	3
+875	314	2025-01-05	Chicago	Dallas	3
+876	314	2024-12-28	San Diego	Phoenix	2
+877	315	2025-01-25	Houston	Chicago	1
+878	315	2025-02-16	Philadelphia	Dallas	2
+879	315	2024-12-13	Los Angeles	Chicago	4
+880	315	2025-01-22	San Diego	Philadelphia	1
+881	316	2025-02-02	Phoenix	San Diego	4
+882	316	2024-12-16	San Jose	Phoenix	1
+883	316	2024-12-18	San Jose	Dallas	2
+884	316	2025-01-19	Dallas	San Antonio	1
+885	316	2024-12-06	San Antonio	Dallas	3
+886	320	2024-12-27	San Antonio	Dallas	4
+887	320	2024-12-08	New York	San Jose	3
+888	320	2024-12-04	San Antonio	Chicago	2
+889	321	2025-02-20	Phoenix	New York	2
+890	321	2025-01-11	Los Angeles	Chicago	4
+891	321	2025-01-02	Los Angeles	Philadelphia	1
+892	322	2024-12-01	Los Angeles	Philadelphia	3
+893	322	2024-12-26	Dallas	Chicago	1
+894	322	2025-01-14	San Jose	Dallas	1
+895	323	2024-12-31	New York	San Antonio	2
+896	324	2025-01-30	Los Angeles	Dallas	4
+897	324	2025-01-17	New York	Chicago	4
+898	325	2025-01-05	New York	Houston	1
+899	325	2025-01-08	Dallas	Los Angeles	1
+900	325	2024-12-10	San Jose	Philadelphia	4
+901	325	2024-12-27	Dallas	Houston	3
+902	326	2024-12-19	Los Angeles	San Diego	4
+903	326	2024-12-08	Philadelphia	New York	4
+904	326	2025-01-12	San Jose	Phoenix	3
+905	327	2024-12-28	Dallas	Philadelphia	3
+906	327	2024-12-06	San Diego	Los Angeles	3
+907	327	2024-11-30	Dallas	San Antonio	2
+908	327	2024-12-10	San Antonio	New York	4
+909	327	2025-01-05	New York	Houston	4
+910	328	2025-02-12	Houston	Phoenix	2
+911	328	2024-12-16	Phoenix	Philadelphia	2
+912	328	2024-12-21	New York	San Antonio	3
+913	328	2025-02-18	New York	Philadelphia	3
+914	329	2025-02-02	San Jose	Phoenix	1
+915	329	2025-02-06	San Antonio	Houston	4
+916	330	2025-01-06	San Antonio	Phoenix	1
+917	331	2024-12-11	Phoenix	Philadelphia	1
+918	331	2024-12-26	San Diego	New York	2
+919	332	2024-12-13	Philadelphia	Chicago	3
+920	332	2024-12-14	Chicago	San Jose	2
+921	332	2024-12-17	Philadelphia	San Diego	2
+922	333	2024-12-30	Philadelphia	Chicago	3
+923	334	2025-01-16	Philadelphia	San Jose	1
+924	334	2025-01-17	Houston	Los Angeles	2
+925	334	2025-02-17	Dallas	San Diego	2
+926	334	2025-01-08	San Antonio	San Jose	1
+927	335	2025-01-28	Philadelphia	San Antonio	3
+928	335	2025-01-02	Chicago	Philadelphia	3
+929	335	2025-01-18	Los Angeles	Dallas	4
+930	335	2025-02-02	Dallas	Chicago	4
+931	336	2025-01-25	San Antonio	Houston	3
+932	336	2024-12-23	Phoenix	Chicago	3
+933	337	2024-12-27	Chicago	Philadelphia	1
+934	337	2025-01-22	Dallas	Chicago	1
+935	337	2025-01-28	Houston	Los Angeles	1
+936	337	2025-02-13	Phoenix	San Diego	2
+937	337	2025-01-14	Philadelphia	Phoenix	2
+938	338	2025-01-31	San Jose	Chicago	2
+939	338	2024-11-30	Philadelphia	Los Angeles	4
+940	339	2024-11-30	San Antonio	Philadelphia	4
+941	339	2025-02-16	Chicago	San Antonio	4
+942	339	2024-12-23	Chicago	New York	1
+943	339	2025-01-05	New York	Philadelphia	1
+944	340	2024-12-03	New York	San Jose	4
+945	340	2024-12-21	Dallas	San Antonio	3
+946	340	2024-12-13	San Diego	New York	1
+947	340	2024-12-22	Houston	San Antonio	4
+948	341	2025-02-12	Los Angeles	Houston	1
+949	341	2025-02-18	Houston	Dallas	3
+950	342	2024-12-30	Dallas	San Antonio	1
+951	342	2025-02-15	San Antonio	San Diego	4
+952	342	2025-02-17	Dallas	San Diego	1
+953	343	2025-02-22	Houston	San Antonio	1
+954	344	2024-12-26	New York	Phoenix	4
+955	345	2025-01-13	Phoenix	Philadelphia	1
+956	345	2025-01-07	Chicago	Houston	1
+957	345	2025-02-19	Houston	New York	1
+958	345	2024-12-14	San Diego	Philadelphia	3
+959	345	2025-02-14	Chicago	Dallas	2
+960	346	2024-12-30	Chicago	Los Angeles	4
+961	346	2025-02-20	San Antonio	Dallas	3
+962	346	2025-01-10	San Antonio	Houston	1
+963	347	2025-02-18	Phoenix	San Diego	2
+964	347	2025-02-06	New York	San Diego	1
+965	347	2024-12-15	Phoenix	Houston	4
+966	347	2025-01-02	Chicago	San Antonio	2
+967	347	2025-02-17	New York	San Antonio	3
+968	348	2025-01-09	Philadelphia	Dallas	4
+969	348	2024-12-18	Chicago	San Antonio	1
+970	349	2024-12-31	Los Angeles	Dallas	4
+971	349	2025-01-09	Phoenix	New York	1
+972	349	2025-02-11	Philadelphia	San Jose	3
+973	350	2025-01-09	Chicago	Philadelphia	3
+974	350	2025-01-04	Houston	San Diego	4
+975	350	2025-01-03	San Antonio	Chicago	4
+976	350	2025-01-08	Los Angeles	Dallas	3
+977	351	2025-02-15	Philadelphia	San Diego	4
+978	351	2025-01-28	Philadelphia	San Jose	1
+979	351	2025-02-10	San Antonio	San Jose	1
+980	351	2024-12-18	Los Angeles	San Diego	4
+981	351	2024-12-15	Philadelphia	New York	3
+982	352	2024-12-28	San Jose	Los Angeles	4
+983	352	2025-01-20	San Jose	Phoenix	4
+984	352	2024-12-20	Phoenix	Dallas	1
+985	353	2025-02-10	San Antonio	Los Angeles	2
+986	353	2025-02-06	Phoenix	Houston	2
+987	353	2025-01-10	San Antonio	San Diego	4
+988	353	2025-02-18	San Antonio	Houston	1
+989	354	2025-01-26	Chicago	San Antonio	2
+990	354	2024-12-06	Philadelphia	Phoenix	2
+991	355	2024-12-04	Los Angeles	San Antonio	2
+992	355	2024-12-30	Los Angeles	New York	2
+993	355	2024-12-08	Los Angeles	Phoenix	4
+994	355	2025-01-02	San Jose	Chicago	4
+995	355	2025-02-06	New York	Houston	1
+996	356	2025-01-24	San Diego	New York	3
+997	357	2025-02-06	San Diego	Houston	3
+998	359	2025-01-06	Phoenix	New York	1
+999	359	2025-01-15	Phoenix	Dallas	1
+1000	359	2024-12-24	Phoenix	San Jose	1
+1001	359	2025-02-24	Houston	Philadelphia	2
+1002	360	2024-12-13	San Antonio	Philadelphia	1
+1003	361	2024-12-30	Los Angeles	San Antonio	4
+1004	361	2025-01-15	New York	Dallas	3
+1005	361	2024-12-13	San Antonio	Philadelphia	1
+1006	361	2024-12-29	San Antonio	Philadelphia	3
+1007	362	2024-12-31	San Diego	New York	3
+1008	362	2025-01-08	San Jose	San Diego	1
+1009	362	2024-12-11	Chicago	San Diego	2
+1010	362	2025-01-04	San Jose	San Antonio	1
+1011	363	2025-01-12	San Diego	Dallas	4
+1012	363	2025-01-05	San Antonio	San Diego	2
+1013	363	2025-01-11	San Antonio	Philadelphia	2
+1014	363	2025-02-10	San Jose	San Diego	2
+1015	363	2025-01-27	San Jose	Los Angeles	1
+1016	364	2025-02-05	Phoenix	San Antonio	2
+1017	364	2025-02-25	Dallas	Chicago	1
+1018	364	2024-12-18	San Diego	Dallas	4
+1019	364	2024-12-30	Los Angeles	San Antonio	4
+1020	365	2025-01-01	San Antonio	Houston	4
+1021	365	2025-02-02	San Antonio	Dallas	2
+1022	365	2024-12-29	San Jose	Los Angeles	3
+1023	365	2025-02-04	San Antonio	Philadelphia	2
+1024	365	2025-02-18	San Antonio	Chicago	1
+1025	366	2025-01-13	San Diego	Los Angeles	1
+1026	366	2025-02-21	San Antonio	Chicago	2
+1027	366	2025-01-12	Houston	San Antonio	3
+1028	367	2024-12-20	Houston	Chicago	2
+1029	367	2025-01-05	Chicago	New York	1
+1030	367	2024-12-21	Dallas	New York	3
+1031	368	2025-01-13	San Antonio	Houston	4
+1032	369	2024-12-14	Houston	San Jose	2
+1033	369	2024-12-19	Houston	San Jose	4
+1034	370	2024-11-29	Dallas	San Diego	3
+1035	370	2024-12-20	San Diego	San Antonio	2
+1036	370	2024-12-10	Los Angeles	Houston	1
+1037	370	2025-02-10	Philadelphia	San Antonio	2
+1038	370	2024-12-24	Dallas	New York	2
+1039	371	2025-01-31	New York	Philadelphia	1
+1040	371	2025-01-04	New York	Dallas	1
+1041	371	2025-01-21	Philadelphia	New York	4
+1042	372	2024-11-28	Chicago	Dallas	2
+1043	372	2025-01-19	San Diego	Philadelphia	1
+1044	372	2025-02-22	Los Angeles	San Antonio	3
+1045	372	2024-12-26	Philadelphia	Los Angeles	4
+1046	372	2024-12-09	San Diego	San Jose	4
+1047	373	2025-01-22	Phoenix	Chicago	1
+1048	373	2024-12-10	New York	San Diego	2
+1049	374	2025-01-25	New York	Los Angeles	3
+1050	374	2024-12-17	San Diego	San Jose	2
+1051	374	2025-02-07	New York	San Diego	2
+1052	374	2025-02-20	New York	Dallas	3
+1053	375	2024-12-30	Phoenix	Philadelphia	2
+1054	376	2025-01-04	Dallas	San Jose	2
+1055	376	2025-01-25	Dallas	Chicago	2
+1056	376	2025-02-02	Dallas	San Diego	3
+1057	376	2024-12-20	Houston	New York	2
+1058	376	2025-02-14	San Diego	Dallas	2
+1059	377	2024-12-07	Philadelphia	Chicago	2
+1060	377	2025-01-31	Chicago	San Antonio	2
+1061	377	2025-01-12	Phoenix	Los Angeles	2
+1062	378	2024-12-10	San Diego	Chicago	3
+1063	378	2025-02-12	San Jose	New York	1
+1064	378	2025-01-09	Dallas	Chicago	2
+1065	379	2025-02-04	New York	Los Angeles	1
+1066	379	2024-12-01	Philadelphia	New York	3
+1067	379	2025-02-01	Dallas	Philadelphia	2
+1068	380	2025-01-02	Phoenix	Chicago	3
+1069	381	2024-12-24	Los Angeles	Dallas	2
+1070	381	2025-02-21	San Jose	Philadelphia	3
+1071	381	2025-02-07	Philadelphia	Los Angeles	1
+1072	381	2025-01-29	Dallas	New York	4
+1073	381	2024-12-02	Houston	Los Angeles	1
+1074	382	2025-01-15	Phoenix	Philadelphia	3
+1075	382	2025-02-10	New York	Dallas	2
+1076	382	2025-01-04	New York	Phoenix	1
+1077	383	2025-01-18	Philadelphia	Houston	3
+1078	383	2025-01-16	Houston	New York	3
+1079	383	2025-02-01	Philadelphia	Houston	1
+1080	383	2025-01-02	Chicago	Houston	1
+1081	384	2025-01-10	Chicago	Dallas	1
+1082	384	2024-12-10	Phoenix	San Diego	3
+1083	384	2025-01-14	New York	San Diego	3
+1084	385	2024-12-30	Dallas	Los Angeles	1
+1085	386	2024-12-09	San Antonio	Houston	1
+1086	386	2025-01-13	Los Angeles	Philadelphia	4
+1087	387	2025-01-07	San Antonio	Houston	3
+1088	388	2025-01-13	New York	San Antonio	4
+1089	388	2025-01-19	New York	San Antonio	1
+1090	388	2025-02-20	San Diego	San Jose	1
+1091	388	2024-12-20	New York	Los Angeles	1
+1092	389	2025-01-15	San Jose	Philadelphia	1
+1093	389	2025-01-25	San Jose	Philadelphia	3
+1094	390	2025-01-05	Chicago	San Antonio	3
+1095	391	2024-12-14	Dallas	Philadelphia	4
+1096	392	2024-12-19	New York	Phoenix	4
+1097	392	2025-01-17	Phoenix	New York	3
+1098	392	2025-01-12	Los Angeles	Chicago	2
+1099	392	2025-01-13	Los Angeles	New York	4
+1100	393	2025-02-18	Dallas	San Antonio	3
+1101	393	2025-02-01	Philadelphia	San Jose	2
+1102	393	2025-02-09	Houston	Philadelphia	2
+1103	393	2024-12-16	New York	Philadelphia	2
+1104	393	2025-01-06	Chicago	Phoenix	4
+1105	394	2024-12-18	San Diego	Chicago	2
+1106	394	2025-01-09	Chicago	Phoenix	3
+1107	395	2024-11-29	New York	Dallas	4
+1108	395	2024-12-07	Dallas	Philadelphia	3
+1109	395	2025-01-04	San Jose	San Antonio	4
+1110	395	2024-12-01	Houston	San Jose	1
+1111	396	2025-01-07	Los Angeles	Houston	4
+1112	396	2024-12-22	San Jose	San Antonio	4
+1113	396	2024-11-29	Dallas	San Jose	1
+1114	396	2024-12-26	Chicago	San Jose	3
+1115	396	2025-01-24	San Antonio	Los Angeles	2
+1116	397	2024-11-28	San Antonio	Phoenix	2
+1117	397	2025-02-24	Houston	San Diego	1
+1118	397	2025-01-21	Philadelphia	Dallas	1
+1119	398	2025-01-03	Los Angeles	New York	1
+1120	398	2025-01-20	Houston	Chicago	3
+1121	398	2025-02-05	Los Angeles	Phoenix	1
+1122	398	2024-12-03	Philadelphia	San Jose	3
+1123	398	2025-01-18	San Diego	Phoenix	2
+1124	400	2024-12-26	San Diego	Houston	2
+1125	401	2024-12-16	Phoenix	Philadelphia	4
+1126	401	2025-02-20	Chicago	Phoenix	3
+1127	401	2025-01-06	Chicago	Dallas	1
+1128	401	2024-12-23	Los Angeles	San Diego	1
+1129	402	2024-11-28	Houston	Phoenix	1
+1130	402	2025-01-22	Philadelphia	Phoenix	4
+1131	402	2025-01-20	Chicago	Houston	4
+1132	402	2025-02-25	Phoenix	San Antonio	3
+1133	404	2025-01-19	New York	San Jose	2
+1134	405	2024-12-20	Dallas	Los Angeles	3
+1135	406	2024-12-09	San Diego	Philadelphia	2
+1136	406	2025-02-09	San Jose	New York	2
+1137	407	2025-01-25	Dallas	Phoenix	1
+1138	407	2024-12-30	Chicago	Los Angeles	4
+1139	407	2025-02-23	Houston	New York	2
+1140	408	2025-02-11	San Antonio	Houston	3
+1141	408	2025-01-26	San Jose	Houston	4
+1142	408	2025-01-24	Chicago	Los Angeles	4
+1143	408	2025-02-19	Chicago	San Jose	2
+1144	408	2025-01-05	Philadelphia	San Diego	2
+1145	409	2025-02-05	Los Angeles	San Antonio	1
+1146	409	2025-01-12	San Antonio	Los Angeles	2
+1147	409	2025-02-17	Chicago	Dallas	1
+1148	409	2025-01-25	Chicago	New York	1
+1149	410	2025-01-21	Phoenix	San Antonio	3
+1150	410	2025-01-13	San Diego	San Jose	2
+1151	410	2025-01-18	San Diego	Dallas	3
+1152	411	2024-12-14	New York	Chicago	2
+1153	411	2025-01-20	New York	San Diego	1
+1154	412	2025-02-08	San Diego	San Jose	3
+1155	412	2024-12-14	Los Angeles	Dallas	1
+1156	413	2025-02-02	Los Angeles	New York	2
+1157	413	2025-01-18	New York	Phoenix	1
+1158	414	2025-01-30	Chicago	San Jose	2
+1159	415	2025-02-21	San Antonio	Philadelphia	2
+1160	415	2024-12-28	Los Angeles	Philadelphia	2
+1161	417	2025-02-06	Dallas	Phoenix	3
+1162	417	2024-12-02	San Jose	San Diego	4
+1163	417	2025-02-13	Chicago	Houston	2
+1164	417	2024-12-09	Philadelphia	Houston	1
+1165	419	2025-02-12	Philadelphia	Los Angeles	3
+1166	419	2024-12-07	San Antonio	Philadelphia	2
+1167	419	2025-02-24	Phoenix	Chicago	4
+1168	420	2025-01-12	Phoenix	San Diego	1
+1169	420	2025-01-04	Philadelphia	Chicago	4
+1170	420	2025-01-01	San Jose	Houston	1
+1171	420	2025-02-25	San Diego	Philadelphia	3
+1172	421	2025-02-19	Chicago	San Jose	2
+1173	421	2025-02-15	San Antonio	Philadelphia	2
+1174	421	2025-01-07	San Diego	Philadelphia	1
+1175	421	2024-12-31	Phoenix	Chicago	3
+1176	421	2025-01-23	Los Angeles	San Jose	3
+1177	422	2025-02-12	Dallas	San Antonio	2
+1178	422	2024-12-25	Houston	San Antonio	2
+1179	423	2024-12-19	Houston	San Jose	1
+1180	423	2025-02-09	Chicago	New York	3
+1181	423	2025-01-06	San Antonio	Houston	3
+1182	423	2025-02-17	San Jose	Houston	2
+1183	423	2024-12-14	San Jose	Phoenix	2
+1184	425	2024-12-15	San Diego	San Antonio	2
+1185	426	2025-02-15	Los Angeles	San Diego	1
+1186	427	2024-11-28	Phoenix	Chicago	2
+1187	427	2024-12-26	Dallas	Philadelphia	2
+1188	427	2024-12-31	Philadelphia	Los Angeles	3
+1189	427	2025-01-12	Chicago	Houston	4
+1190	428	2025-01-25	San Antonio	Phoenix	1
+1191	428	2025-01-04	San Jose	Los Angeles	2
+1192	428	2025-01-29	Los Angeles	Philadelphia	1
+1193	428	2025-01-05	San Antonio	New York	2
+1194	429	2025-01-14	Los Angeles	Phoenix	1
+1195	429	2025-01-01	San Jose	New York	2
+1196	430	2025-01-17	Dallas	New York	3
+1197	430	2025-02-15	San Antonio	Philadelphia	2
+1198	430	2025-02-08	San Diego	New York	1
+1199	430	2025-02-07	San Diego	New York	3
+1200	431	2025-02-01	Dallas	San Diego	1
+1201	431	2025-01-17	Philadelphia	San Diego	4
+1202	431	2024-12-28	Los Angeles	New York	1
+1203	431	2025-01-19	San Antonio	San Diego	1
+1204	432	2024-12-19	Dallas	San Jose	2
+1205	432	2025-01-06	Philadelphia	Houston	3
+1206	432	2024-12-06	Los Angeles	New York	4
+1207	433	2024-12-16	Los Angeles	San Antonio	1
+1208	433	2025-02-12	Dallas	Philadelphia	4
+1209	434	2024-12-18	New York	Los Angeles	4
+1210	434	2025-01-26	Houston	Phoenix	2
+1211	434	2024-12-08	San Jose	Chicago	2
+1212	434	2025-02-15	San Jose	Philadelphia	3
+1213	435	2024-12-24	Dallas	Phoenix	4
+1214	435	2024-12-23	New York	Houston	3
+1215	435	2025-01-01	Dallas	Chicago	3
+1216	435	2025-01-11	San Diego	Houston	2
+1217	435	2024-12-30	New York	Chicago	4
+1218	436	2025-02-18	San Jose	New York	4
+1219	436	2024-12-06	San Antonio	New York	3
+1220	436	2024-12-02	New York	Philadelphia	4
+1221	436	2025-02-03	New York	Los Angeles	1
+1222	437	2025-01-29	Phoenix	New York	4
+1223	437	2025-02-16	Chicago	San Jose	4
+1224	437	2024-12-08	Dallas	New York	4
+1225	437	2024-12-19	Phoenix	New York	1
+1226	438	2025-02-06	San Diego	Phoenix	1
+1227	438	2024-12-08	San Antonio	New York	1
+1228	438	2025-02-13	New York	Chicago	2
+1229	440	2025-02-21	Philadelphia	San Jose	2
+1230	440	2024-12-19	San Jose	Los Angeles	1
+1231	441	2025-01-09	Philadelphia	San Diego	3
+1232	442	2024-11-28	San Antonio	San Diego	1
+1233	442	2024-12-04	Phoenix	Houston	4
+1234	443	2025-01-22	Philadelphia	Chicago	1
+1235	443	2025-02-23	San Diego	Los Angeles	3
+1236	443	2025-01-29	Philadelphia	Houston	1
+1237	443	2024-11-30	Los Angeles	Philadelphia	2
+1238	443	2025-01-25	San Diego	New York	2
+1239	444	2025-01-25	Phoenix	Houston	4
+1240	444	2024-12-09	San Antonio	Los Angeles	4
+1241	444	2025-02-12	San Diego	New York	3
+1242	445	2025-01-06	San Jose	Phoenix	3
+1243	445	2025-01-28	Chicago	New York	1
+1244	445	2025-02-22	Houston	San Antonio	1
+1245	446	2025-02-24	Phoenix	Dallas	1
+1246	446	2024-12-04	San Jose	Houston	2
+1247	446	2025-02-16	New York	San Antonio	4
+1248	446	2024-12-29	San Diego	New York	1
+1249	447	2025-02-02	San Jose	San Diego	4
+1250	448	2024-12-12	Philadelphia	Chicago	3
+1251	448	2024-12-31	Chicago	San Jose	2
+1252	448	2024-12-21	Phoenix	Philadelphia	3
+1253	448	2025-01-25	New York	Dallas	4
+1254	449	2025-01-10	New York	Houston	4
+1255	449	2025-01-27	San Diego	Chicago	2
+1256	449	2025-01-26	Philadelphia	San Antonio	2
+1257	449	2024-12-14	Dallas	San Jose	3
+1258	449	2025-02-14	San Jose	San Antonio	3
+1259	450	2025-01-02	San Antonio	Chicago	1
+1260	450	2025-02-24	New York	San Antonio	4
+1261	450	2025-01-05	San Jose	Philadelphia	2
+1262	450	2025-02-21	Dallas	New York	2
+1263	451	2025-02-17	Dallas	Philadelphia	2
+1264	451	2025-02-08	Phoenix	Dallas	2
+1265	451	2025-02-04	Los Angeles	San Jose	1
+1266	452	2025-02-20	San Jose	Dallas	3
+1267	453	2024-12-05	Chicago	San Diego	1
+1268	453	2025-02-05	Philadelphia	San Jose	1
+1269	454	2025-01-23	Dallas	San Antonio	1
+1270	454	2025-02-09	San Antonio	Dallas	1
+1271	455	2025-02-07	San Jose	Houston	4
+1272	455	2025-01-27	San Diego	Houston	3
+1273	455	2025-02-23	Phoenix	San Antonio	1
+1274	456	2024-12-17	Houston	Philadelphia	4
+1275	457	2024-12-02	Chicago	San Diego	2
+1276	457	2025-02-02	Los Angeles	New York	3
+1277	457	2025-01-27	Dallas	San Jose	2
+1278	457	2025-01-09	Chicago	New York	1
+1279	458	2025-01-28	Phoenix	New York	3
+1280	458	2024-12-24	Philadelphia	Houston	2
+1281	458	2025-02-16	Phoenix	Los Angeles	1
+1282	458	2025-01-06	San Diego	Philadelphia	1
+1283	458	2025-01-23	Phoenix	Dallas	3
+1284	459	2024-12-30	Phoenix	Philadelphia	3
+1285	459	2025-01-24	Los Angeles	Houston	1
+1286	459	2025-02-13	San Antonio	San Jose	4
+1287	460	2024-12-23	Los Angeles	Chicago	1
+1288	460	2025-02-19	Houston	San Antonio	3
+1289	461	2025-02-18	San Antonio	Dallas	3
+1290	461	2024-12-22	Dallas	San Diego	4
+1291	461	2025-02-20	New York	San Jose	2
+1292	461	2024-12-20	San Jose	Chicago	4
+1293	462	2024-11-29	San Jose	Chicago	4
+1294	463	2025-02-14	San Jose	Houston	4
+1295	463	2025-01-06	Philadelphia	Dallas	4
+1296	463	2025-01-19	Phoenix	San Antonio	2
+1297	464	2025-02-02	Dallas	Phoenix	2
+1298	464	2024-12-14	Los Angeles	Philadelphia	4
+1299	464	2024-12-23	Dallas	Houston	4
+1300	464	2025-02-19	San Diego	Phoenix	2
+1301	465	2024-12-07	Dallas	New York	2
+1302	465	2024-12-13	Dallas	San Antonio	4
+1303	466	2025-01-17	Houston	San Antonio	4
+1304	466	2025-02-22	San Diego	Phoenix	3
+1305	466	2024-12-16	San Antonio	Los Angeles	3
+1306	467	2024-12-08	New York	San Diego	4
+1307	467	2025-01-03	Dallas	San Diego	2
+1308	467	2025-01-19	Dallas	Los Angeles	2
+1309	468	2025-01-30	San Diego	New York	1
+1310	468	2024-12-23	San Jose	San Antonio	3
+1311	468	2025-01-20	New York	Philadelphia	4
+1312	468	2025-01-08	Dallas	San Diego	2
+1313	469	2024-12-05	Chicago	San Jose	4
+1314	469	2025-01-26	Philadelphia	Houston	1
+1315	469	2024-12-04	Philadelphia	San Diego	2
+1316	469	2024-11-28	Houston	Los Angeles	1
+1317	469	2024-12-23	Dallas	Los Angeles	1
+1318	470	2024-12-07	Houston	Dallas	1
+1319	470	2024-12-03	Houston	San Jose	2
+1320	470	2024-12-11	Dallas	Philadelphia	1
+1321	470	2025-01-13	Chicago	Phoenix	4
+1322	470	2025-01-07	New York	Philadelphia	2
+1323	471	2025-01-08	Phoenix	San Diego	2
+1324	471	2025-01-11	San Jose	Los Angeles	2
+1325	471	2025-02-03	Dallas	San Antonio	1
+1326	471	2025-02-04	Phoenix	San Diego	2
+1327	472	2025-02-18	Dallas	Phoenix	2
+1328	472	2024-12-03	San Antonio	Houston	3
+1329	472	2025-02-07	Houston	San Antonio	1
+1330	473	2024-12-17	Dallas	Houston	1
+1331	474	2024-12-07	Los Angeles	San Diego	1
+1332	474	2025-01-22	Los Angeles	San Diego	1
+1333	474	2025-02-07	Dallas	Houston	3
+1334	474	2024-12-08	Chicago	Los Angeles	1
+1335	474	2025-01-08	Phoenix	Los Angeles	4
+1336	475	2025-02-23	New York	Dallas	4
+1337	475	2025-02-08	Philadelphia	Phoenix	1
+1338	475	2024-12-19	San Diego	New York	2
+1339	476	2025-02-08	New York	San Jose	4
+1340	476	2024-12-16	Los Angeles	Dallas	3
+1341	476	2025-02-20	Houston	New York	2
+1342	476	2025-01-04	Dallas	San Jose	2
+1343	477	2024-11-29	Houston	Dallas	4
+1344	478	2024-12-01	Philadelphia	San Jose	1
+1345	478	2024-12-26	New York	San Antonio	4
+1346	478	2025-02-06	Los Angeles	Phoenix	3
+1347	478	2025-02-17	San Antonio	Houston	3
+1348	479	2025-02-04	San Diego	Philadelphia	1
+1349	480	2024-12-20	Chicago	Los Angeles	4
+1350	480	2025-01-27	San Antonio	Phoenix	2
+1351	480	2025-02-17	Los Angeles	New York	3
+1352	481	2025-02-20	San Jose	Los Angeles	2
+1353	481	2025-01-26	Phoenix	New York	3
+1354	481	2024-12-03	Houston	New York	3
+1355	481	2025-01-23	Phoenix	Chicago	3
+1356	481	2025-02-04	Dallas	San Antonio	1
+1357	482	2025-02-10	San Antonio	Phoenix	3
+1358	482	2025-02-17	San Antonio	Houston	3
+1359	482	2025-01-15	Philadelphia	San Jose	1
+1360	482	2024-11-30	Philadelphia	San Jose	1
+1361	483	2025-01-20	New York	Chicago	2
+1362	483	2025-02-22	Houston	Dallas	2
+1363	483	2024-11-28	Philadelphia	New York	4
+1364	483	2024-12-02	Houston	Philadelphia	2
+1365	484	2024-12-06	San Antonio	Dallas	1
+1366	485	2024-12-31	Los Angeles	Dallas	2
+1367	486	2025-01-21	Philadelphia	Chicago	2
+1368	486	2025-01-12	Dallas	Chicago	4
+1369	486	2025-01-22	Phoenix	San Antonio	3
+1370	486	2025-02-19	Philadelphia	New York	3
+1371	487	2024-12-31	San Diego	San Antonio	1
+1372	487	2025-01-07	Los Angeles	San Jose	2
+1373	487	2024-12-29	Los Angeles	Houston	2
+1374	487	2024-12-05	San Diego	Philadelphia	4
+1375	487	2025-01-18	San Antonio	Chicago	3
+1376	488	2024-12-03	Dallas	San Antonio	1
+1377	488	2025-01-20	Chicago	New York	2
+1378	489	2024-12-04	Chicago	New York	3
+1379	489	2025-02-22	San Jose	San Diego	4
+1380	489	2025-01-09	Los Angeles	Chicago	4
+1381	489	2025-01-28	San Jose	Los Angeles	1
+1382	489	2025-01-21	San Diego	Los Angeles	1
+1383	490	2024-12-04	New York	San Jose	2
+1384	491	2025-01-31	Dallas	Philadelphia	4
+1385	491	2024-12-02	Philadelphia	Phoenix	4
+1386	491	2025-01-22	Chicago	Philadelphia	2
+1387	492	2024-12-27	San Jose	San Diego	4
+1388	493	2025-02-03	San Antonio	Dallas	3
+1389	493	2024-12-25	Dallas	Chicago	4
+1390	493	2024-11-28	Houston	San Antonio	4
+1391	494	2025-01-01	San Antonio	Los Angeles	2
+1392	494	2025-02-05	San Jose	Houston	1
+1393	495	2025-02-19	San Diego	San Jose	2
+1394	495	2024-11-28	Houston	Philadelphia	3
+1395	495	2025-01-22	San Antonio	Chicago	4
+1396	495	2025-01-21	Philadelphia	Houston	2
+1397	496	2025-01-08	San Antonio	Houston	1
+1398	497	2024-12-12	Houston	Los Angeles	1
+1399	497	2024-12-25	Chicago	Los Angeles	3
+1400	497	2025-01-22	Dallas	San Antonio	1
+1401	497	2025-02-14	Phoenix	Los Angeles	2
+1402	497	2025-01-09	San Diego	Los Angeles	1
+1403	498	2025-01-23	Dallas	New York	4
+1404	498	2025-01-28	Phoenix	San Diego	1
+1405	498	2025-01-11	Los Angeles	Dallas	2
+1406	498	2024-12-06	Houston	Dallas	4
+1407	499	2025-02-09	San Diego	San Jose	3
+1408	500	2024-11-29	San Antonio	Houston	1
+1409	500	2024-12-31	San Diego	Philadelphia	3
+1410	500	2025-01-16	San Diego	New York	1
+1411	500	2024-12-21	San Jose	Chicago	3
+1412	501	2025-02-24	Los Angeles	San Antonio	2
+1413	502	2024-12-06	Houston	Phoenix	1
+1414	502	2025-02-12	Los Angeles	New York	1
+1415	502	2025-01-17	Phoenix	Dallas	3
+1416	502	2024-12-30	Phoenix	Philadelphia	2
+1417	503	2025-02-24	Philadelphia	Los Angeles	1
+1418	504	2025-01-11	Houston	San Jose	2
+1419	504	2025-01-17	Philadelphia	Phoenix	2
+1420	505	2025-02-05	San Diego	Los Angeles	3
+1421	505	2024-12-06	Philadelphia	Dallas	2
+1422	505	2025-01-17	Dallas	San Antonio	1
+1423	505	2024-12-14	San Antonio	Philadelphia	3
+1424	506	2024-12-07	Los Angeles	San Jose	1
+1425	506	2024-12-13	Los Angeles	New York	1
+1426	506	2025-01-01	San Diego	Philadelphia	3
+1427	506	2025-01-16	Los Angeles	Dallas	4
+1428	506	2024-12-04	San Jose	Phoenix	4
+1429	507	2024-12-30	San Jose	San Diego	1
+1430	507	2025-02-05	Phoenix	Dallas	4
+1431	507	2024-12-02	New York	Dallas	4
+1432	508	2025-02-01	San Antonio	Los Angeles	4
+1433	508	2025-01-05	Dallas	Chicago	3
+1434	508	2024-12-20	San Jose	Philadelphia	4
+1435	509	2024-12-23	Phoenix	Dallas	2
+1436	509	2025-01-18	Los Angeles	New York	3
+1437	509	2024-12-04	Dallas	San Antonio	3
+1438	509	2025-01-08	San Jose	New York	4
+1439	509	2025-01-20	Philadelphia	New York	3
+1440	510	2025-01-19	Phoenix	Houston	3
+1441	510	2025-02-14	San Diego	Phoenix	4
+1442	510	2025-02-22	Los Angeles	San Antonio	1
+1443	510	2025-01-10	Houston	Los Angeles	3
+1444	511	2025-02-09	Houston	Los Angeles	4
+1445	511	2025-02-03	Houston	San Diego	1
+1446	511	2025-01-05	Philadelphia	San Antonio	1
+1447	511	2024-12-31	New York	Phoenix	4
+1448	512	2025-01-07	Dallas	San Antonio	2
+1449	512	2025-02-15	Houston	Philadelphia	4
+1450	512	2025-01-26	San Diego	New York	3
+1451	513	2025-01-10	Dallas	San Antonio	2
+1452	513	2024-11-29	Chicago	San Antonio	4
+1453	513	2024-12-20	Dallas	San Diego	2
+1454	513	2025-02-10	Chicago	San Antonio	2
+1455	514	2025-01-23	Dallas	New York	2
+1456	514	2024-12-27	San Diego	Dallas	4
+1457	515	2024-12-26	Dallas	San Jose	2
+1458	515	2025-01-03	New York	San Jose	2
+1459	516	2025-01-26	San Diego	Los Angeles	4
+1460	516	2025-02-06	San Jose	Houston	1
+1461	516	2025-01-24	Philadelphia	Phoenix	1
+1462	516	2024-12-01	San Jose	San Diego	2
+1463	516	2024-11-28	San Antonio	San Jose	4
+1464	517	2025-01-24	Dallas	New York	4
+1465	517	2025-01-08	Dallas	Houston	2
+1466	517	2024-12-20	San Diego	New York	1
+1467	517	2025-01-16	Los Angeles	San Antonio	1
+1468	518	2024-12-24	San Antonio	New York	4
+1469	519	2024-11-28	Dallas	San Jose	4
+1470	519	2025-01-23	San Jose	Philadelphia	1
+1471	520	2025-01-26	Los Angeles	New York	4
+1472	520	2024-12-04	Chicago	Houston	3
+1473	521	2025-02-12	Chicago	Houston	4
+1474	522	2024-12-24	New York	San Jose	4
+1475	523	2025-02-23	Los Angeles	San Antonio	2
+1476	523	2024-12-29	Los Angeles	San Diego	4
+1477	523	2024-12-23	Philadelphia	Phoenix	1
+1478	523	2025-01-28	San Antonio	New York	3
+1479	524	2024-12-19	New York	Houston	4
+1480	524	2025-01-29	Chicago	Phoenix	2
+1481	524	2025-01-30	Dallas	San Jose	2
+1482	524	2025-01-02	Chicago	Philadelphia	4
+1483	525	2024-11-28	New York	San Antonio	2
+1484	525	2025-02-23	San Antonio	Phoenix	2
+1485	525	2024-12-07	New York	Chicago	3
+1486	525	2025-02-09	Houston	San Antonio	2
+1487	526	2025-01-22	San Antonio	Chicago	4
+1488	526	2024-12-21	Houston	San Jose	4
+1489	526	2024-12-10	San Jose	Los Angeles	2
+1490	526	2024-12-23	San Antonio	Phoenix	2
+1491	527	2024-12-09	San Antonio	Phoenix	2
+1492	527	2024-12-30	Chicago	Los Angeles	3
+1493	527	2024-12-02	Phoenix	Philadelphia	2
+1494	527	2024-12-08	Los Angeles	Houston	4
+1495	527	2025-02-04	San Antonio	New York	4
+1496	528	2024-12-15	Philadelphia	Dallas	1
+1497	528	2024-12-11	Philadelphia	New York	2
+1498	529	2025-01-07	Chicago	Houston	3
+1499	529	2025-02-15	San Antonio	Philadelphia	4
+1500	529	2025-02-07	Philadelphia	Houston	3
+1501	529	2025-02-05	Chicago	Houston	2
+1502	529	2024-12-08	San Antonio	Houston	3
+1503	530	2025-01-16	Los Angeles	San Antonio	2
+1504	530	2025-01-06	San Jose	Phoenix	2
+1505	530	2025-01-05	San Antonio	Phoenix	1
+1506	530	2024-12-27	Houston	New York	2
+1507	530	2024-12-20	Los Angeles	New York	1
+1508	531	2024-12-20	San Antonio	Phoenix	4
+1509	531	2025-02-19	Dallas	Phoenix	2
+1510	531	2025-01-13	Chicago	Philadelphia	2
+1511	532	2024-12-13	Philadelphia	San Diego	2
+1512	532	2024-12-28	Houston	Chicago	2
+1513	532	2024-12-15	Los Angeles	Houston	2
+1514	532	2024-12-21	Houston	Phoenix	1
+1515	533	2024-12-15	San Antonio	Houston	2
+1516	533	2025-02-06	San Antonio	Dallas	2
+1517	533	2024-12-29	Philadelphia	Dallas	2
+1518	533	2024-12-07	New York	Chicago	1
+1519	534	2025-01-15	Houston	Chicago	3
+1520	534	2025-02-12	San Jose	Phoenix	3
+1521	534	2024-12-09	Houston	Los Angeles	3
+1522	534	2024-12-18	San Jose	Chicago	4
+1523	534	2024-12-12	Philadelphia	San Antonio	1
+1524	535	2025-02-20	San Antonio	Houston	4
+1525	535	2025-01-26	San Antonio	Dallas	4
+1526	535	2024-12-19	San Antonio	Dallas	3
+1527	535	2025-02-14	Phoenix	Los Angeles	1
+1528	536	2025-02-20	Phoenix	Los Angeles	1
+1529	536	2025-02-11	San Diego	Dallas	4
+1530	536	2025-01-30	San Diego	Dallas	2
+1531	536	2025-01-21	San Diego	Philadelphia	3
+1532	536	2024-12-28	Philadelphia	San Antonio	3
+1533	537	2025-02-15	Houston	San Diego	4
+1534	537	2024-12-13	Los Angeles	Chicago	3
+1535	537	2025-01-03	San Jose	San Antonio	2
+1536	537	2024-12-16	New York	Los Angeles	4
+1537	537	2025-01-28	Philadelphia	San Antonio	2
+1538	538	2024-12-14	San Antonio	New York	1
+1539	538	2025-01-22	Philadelphia	San Antonio	3
+1540	538	2024-12-01	Philadelphia	San Diego	3
+1541	538	2025-02-03	Philadelphia	San Jose	1
+1542	539	2025-01-18	San Diego	San Jose	4
+1543	540	2024-12-20	San Jose	Chicago	1
+1544	540	2025-02-04	Houston	Chicago	3
+1545	541	2025-02-18	San Jose	Philadelphia	3
+1546	541	2024-12-28	Phoenix	New York	3
+1547	542	2025-01-22	New York	San Jose	1
+1548	542	2025-02-03	Los Angeles	San Jose	2
+1549	542	2025-01-29	New York	Los Angeles	2
+1550	542	2025-01-01	Philadelphia	Phoenix	4
+1551	542	2025-01-24	Phoenix	Philadelphia	3
+1552	543	2025-02-25	Houston	Los Angeles	3
+1553	543	2025-01-11	Houston	Chicago	4
+1554	543	2025-01-02	Dallas	Phoenix	4
+1555	543	2025-02-07	Los Angeles	San Antonio	4
+1556	544	2024-12-11	Chicago	Dallas	3
+1557	544	2025-02-19	New York	San Jose	1
+1558	544	2025-02-07	Philadelphia	Chicago	3
+1559	545	2024-12-05	Los Angeles	New York	4
+1560	546	2024-12-10	Los Angeles	Houston	1
+1561	546	2025-01-12	Philadelphia	San Jose	1
+1562	547	2024-12-10	New York	San Antonio	1
+1563	547	2024-12-03	New York	San Antonio	1
+1564	547	2024-12-01	Phoenix	Houston	2
+1565	547	2025-01-14	San Jose	Houston	2
+1566	548	2025-01-02	San Diego	New York	4
+1567	549	2024-12-26	Houston	Phoenix	1
+1568	549	2024-12-28	Houston	Dallas	2
+1569	549	2025-01-29	Dallas	San Jose	2
+1570	549	2024-12-06	New York	Dallas	3
+1571	550	2024-12-20	San Diego	Houston	4
+1572	550	2024-12-19	Dallas	San Antonio	4
+1573	550	2025-01-02	Phoenix	Houston	1
+1574	553	2025-02-06	New York	Los Angeles	3
+1575	554	2025-02-01	Dallas	Chicago	2
+1576	554	2025-02-19	Los Angeles	San Diego	2
+1577	554	2024-11-30	New York	San Jose	2
+1578	554	2025-02-12	Dallas	Phoenix	2
+1579	554	2025-01-08	Los Angeles	Chicago	2
+1580	555	2025-01-24	Chicago	Philadelphia	1
+1581	555	2025-01-10	Houston	San Jose	1
+1582	556	2025-01-10	Los Angeles	New York	4
+1583	556	2025-01-14	Houston	San Diego	4
+1584	556	2025-02-22	San Diego	Chicago	3
+1585	556	2024-12-21	San Diego	Philadelphia	2
+1586	557	2025-01-21	Phoenix	Los Angeles	1
+1587	557	2024-12-09	Phoenix	Dallas	4
+1588	557	2025-02-08	Dallas	Chicago	4
+1589	557	2025-01-12	San Jose	New York	3
+1590	557	2025-01-09	San Jose	Los Angeles	2
+1591	558	2024-12-26	New York	Los Angeles	2
+1592	558	2025-01-08	Philadelphia	Los Angeles	3
+1593	559	2025-02-24	Los Angeles	San Jose	4
+1594	559	2024-12-28	Chicago	San Antonio	4
+1595	560	2025-01-16	New York	Dallas	3
+1596	560	2024-12-18	San Jose	Chicago	3
+1597	560	2024-12-25	Dallas	Houston	3
+1598	560	2025-02-22	New York	San Antonio	1
+1599	560	2025-01-19	Dallas	Chicago	2
+1600	561	2025-02-18	Dallas	Chicago	3
+1601	562	2024-11-30	Chicago	Phoenix	3
+1602	563	2025-02-02	Los Angeles	San Antonio	4
+1603	563	2024-12-08	San Antonio	New York	3
+1604	564	2024-12-28	San Diego	New York	3
+1605	564	2024-12-04	San Jose	Houston	4
+1606	564	2025-01-07	Philadelphia	San Diego	4
+1607	564	2024-12-22	San Jose	Philadelphia	3
+1608	565	2024-12-11	Houston	San Antonio	3
+1609	566	2025-01-14	Houston	Chicago	1
+1610	566	2025-01-05	San Diego	Los Angeles	1
+1611	566	2024-12-01	San Diego	Phoenix	1
+1612	566	2024-12-25	Los Angeles	Dallas	1
+1613	567	2025-01-07	San Jose	San Diego	3
+1614	567	2025-01-05	Phoenix	San Antonio	4
+1615	567	2025-01-17	San Diego	Houston	4
+1616	568	2025-02-22	Dallas	Los Angeles	2
+1617	568	2025-01-09	San Diego	Houston	2
+1618	568	2025-02-15	San Antonio	Los Angeles	2
+1619	569	2025-02-15	San Jose	Los Angeles	4
+1620	570	2024-12-12	Los Angeles	San Diego	2
+1621	570	2025-02-16	New York	Chicago	1
+1622	571	2025-01-24	Houston	Philadelphia	1
+1623	571	2025-01-28	San Jose	Houston	4
+1624	572	2025-01-09	Los Angeles	San Diego	2
+1625	572	2025-02-23	Chicago	Philadelphia	4
+1626	572	2025-01-16	Phoenix	Philadelphia	1
+1627	572	2025-02-14	Houston	San Jose	2
+1628	573	2025-01-14	New York	Dallas	1
+1629	574	2024-12-12	Los Angeles	San Jose	1
+1630	575	2025-02-23	San Diego	New York	4
+1631	575	2025-01-09	Chicago	San Jose	3
+1632	575	2025-02-21	San Diego	San Jose	3
+1633	576	2024-12-01	Houston	San Antonio	3
+1634	576	2025-01-02	Phoenix	Philadelphia	4
+1635	576	2025-02-06	San Diego	New York	1
+1636	576	2025-01-20	San Jose	New York	1
+1637	577	2025-02-01	San Jose	Phoenix	3
+1638	577	2025-02-10	San Jose	San Antonio	4
+1639	577	2025-02-03	Houston	Los Angeles	3
+1640	577	2025-01-21	Dallas	San Diego	4
+1641	578	2025-02-02	Los Angeles	Dallas	1
+1642	578	2025-01-16	Los Angeles	Phoenix	3
+1643	578	2025-01-14	Chicago	San Jose	4
+1644	578	2024-12-24	San Diego	Houston	3
+1645	579	2025-01-09	San Jose	Los Angeles	2
+1646	580	2024-12-31	Dallas	New York	4
+1647	580	2024-12-05	Los Angeles	San Jose	2
+1648	580	2025-02-11	San Diego	Philadelphia	3
+1649	581	2025-01-07	San Diego	Los Angeles	4
+1650	582	2025-02-13	San Diego	New York	4
+1651	582	2024-12-21	Phoenix	Los Angeles	2
+1652	583	2025-01-23	Phoenix	San Diego	3
+1653	583	2024-12-13	Los Angeles	San Jose	4
+1654	583	2024-12-16	Los Angeles	New York	1
+1655	583	2025-02-20	Houston	Chicago	3
+1656	583	2025-02-18	San Antonio	Dallas	3
+1657	584	2024-11-29	San Antonio	Chicago	4
+1658	584	2025-02-25	San Jose	Dallas	2
+1659	584	2025-02-06	Chicago	Phoenix	2
+1660	584	2025-01-17	Houston	New York	3
+1661	585	2025-01-02	New York	Chicago	3
+1662	585	2024-12-11	San Jose	San Diego	2
+1663	585	2024-12-30	Chicago	Phoenix	3
+1664	586	2025-02-15	San Antonio	Philadelphia	4
+1665	586	2025-02-05	Chicago	Philadelphia	1
+1666	586	2025-02-14	Chicago	Philadelphia	2
+1667	588	2025-01-09	San Diego	New York	3
+1668	588	2025-01-19	New York	Houston	4
+1669	589	2024-12-30	San Antonio	New York	2
+1670	590	2025-01-20	Philadelphia	San Antonio	4
+1671	590	2024-12-29	Philadelphia	San Antonio	1
+1672	591	2024-12-18	San Antonio	Houston	4
+1673	591	2025-02-17	San Jose	Los Angeles	2
+1674	591	2025-01-28	New York	Houston	3
+1675	592	2025-02-16	Chicago	Philadelphia	3
+1676	593	2025-01-01	San Diego	New York	1
+1677	593	2025-02-11	New York	San Diego	3
+1678	594	2024-12-20	Houston	Philadelphia	3
+1679	595	2025-02-12	San Jose	San Diego	4
+1680	595	2024-12-07	Chicago	Phoenix	3
+1681	596	2025-01-21	Los Angeles	Dallas	2
+1682	596	2024-12-01	San Jose	New York	1
+1683	596	2024-12-19	San Diego	Chicago	1
+1684	596	2025-01-14	San Antonio	Philadelphia	2
+1685	597	2025-02-07	Chicago	San Diego	3
+1686	597	2025-01-07	San Antonio	San Jose	4
+1687	598	2025-01-20	Los Angeles	Chicago	3
+1688	599	2024-12-12	Phoenix	Dallas	4
+1689	599	2025-01-09	Phoenix	San Diego	2
+1690	600	2024-11-29	Houston	San Antonio	1
+1691	600	2025-01-15	New York	San Diego	3
+1692	600	2024-12-20	Dallas	San Diego	2
+1693	600	2025-02-12	San Diego	San Jose	4
+1694	601	2024-12-09	Los Angeles	Houston	2
+1695	601	2024-12-31	Chicago	Phoenix	1
+1696	1	2024-12-28	Boston	Seattle	2
+1697	1	2024-12-11	Boston	Seattle	2
+1698	189	2025-02-21	Indianapolis	Denver	2
