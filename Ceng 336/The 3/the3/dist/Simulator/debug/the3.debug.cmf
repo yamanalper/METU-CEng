@@ -1,0 +1,1102 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/Simulator/debug/the3.debug.o
+cinit CODE 0 2A1E 2A1E 4A 1
+idloc IDLOC 5 200000 200000 8 1
+intcode_body CODE 0 20D6 20D6 148 1
+text0 CODE 0 2BCE 2BCE 14 1
+text1 CODE 0 2BE2 2BE2 E 1
+text2 CODE 0 2314 2314 C8 1
+text3 CODE 0 2B64 2B64 28 1
+text4 CODE 0 2BB2 2BB2 1C 1
+text6 CODE 0 1BEA 1BEA 22A 1
+text7 CODE 0 2964 2964 64 1
+text8 CODE 0 28F0 28F0 74 1
+text9 CODE 0 2B2E 2B2E 36 1
+text10 CODE 0 2608 2608 AA 1
+text11 CODE 0 2A68 2A68 46 1
+text12 CODE 0 29C8 29C8 56 1
+text13 CODE 0 1020 1020 BCA 1
+text14 CODE 0 2874 2874 7C 1
+text15 CODE 0 1E14 1E14 164 1
+text16 CODE 0 221E 221E F6 1
+text17 CODE 0 1F78 1F78 15E 1
+text18 CODE 0 2B8C 2B8C 26 1
+text19 CODE 0 2AF0 2AF0 3E 1
+text20 CODE 0 26B2 26B2 9A 1
+text21 CODE 0 274C 274C 98 1
+text22 CODE 0 2558 2558 B0 1
+text23 CODE 0 23DC 23DC C4 1
+text24 CODE 0 24A0 24A0 B8 1
+text25 CODE 0 2AAE 2AAE 42 1
+text26 CODE 0 27E4 27E4 90 1
+cstackCOMRAM COMRAM 1 1 1 3D 1
+cstackBANK0 BANK0 1 AC AC 8 1
+temp COMRAM 1 59 59 1 1
+bssBANK0 BANK0 1 60 60 4C 1
+bssBANK1 BANK1 1 100 100 FE 1
+bssBANK2 BANK2 1 200 200 100 1
+intcode CODE 0 8 8 6 1
+smallconst SMALLCONST 0 1000 1000 20 1
+bssCOMRAM COMRAM 1 3E 3E 1B 1
+config CONFIG 4 300000 300000 E 1
+$/tmp/xcXLiJkLD.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 E E 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM B4-FF 1
+RAM 1FE-1FF 1
+RAM 300-F5F 1
+SFR F60-FFF 1
+BANK0 B4-FF 1
+BANK1 1FE-1FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 12-FFF 1
+CONST 2BF0-1FFFF 1
+STACK 300-F5F 1
+SMALLCONST 2BF0-1FFFF 1
+CODE 4-7 1
+CODE 12-FFF 1
+CODE 2BF0-1FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F5F 1
+BIGRAM 5A-5F 1
+BIGRAM B4-FF 1
+BIGRAM 1FE-1FF 1
+BIGRAM 300-F5F 1
+COMRAM 5A-5F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 2BF0-FFFF 1
+MEDIUMCONST 11000-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/Simulator/debug/the3.debug.o
+8 intcode CODE >2139:/tmp/xcXHhIdLH.s
+8 intcode CODE >453:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+27E4 text26 CODE >429:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+27E4 text26 CODE >430:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2800 text26 CODE >431:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2822 text26 CODE >432:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2846 text26 CODE >433:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+286A text26 CODE >434:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2872 text26 CODE >435:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AAE text25 CODE >200:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AB0 text25 CODE >201:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AE6 text25 CODE >202:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AEE text25 CODE >203:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+24A0 text24 CODE >212:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+24A2 text24 CODE >214:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+24BA text24 CODE >215:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+24C0 text24 CODE >217:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+24F6 text24 CODE >218:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2518 text24 CODE >219:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2526 text24 CODE >220:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2554 text24 CODE >221:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2556 text24 CODE >223:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23DC text23 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+23DC text23 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+23E0 text23 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+23EE text23 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+23F6 text23 CODE >16:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+23FA text23 CODE >18:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2408 text23 CODE >19:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2410 text23 CODE >20:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2414 text23 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+241C text23 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+242E text23 CODE >24:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2432 text23 CODE >25:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2436 text23 CODE >26:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+243C text23 CODE >27:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+243E text23 CODE >25:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+244C text23 CODE >30:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2452 text23 CODE >31:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2468 text23 CODE >32:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2470 text23 CODE >33:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2472 text23 CODE >35:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2478 text23 CODE >36:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+247E text23 CODE >38:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+248E text23 CODE >39:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2496 text23 CODE >40:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+249E text23 CODE >41:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+2558 text22 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+2558 text22 CODE >12:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+255C text22 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+256A text22 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+2572 text22 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+2576 text22 CODE >17:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+2584 text22 CODE >18:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+258C text22 CODE >19:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+259E text22 CODE >20:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25A2 text22 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25A6 text22 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25AC text22 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25AE text22 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25BC text22 CODE >26:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25D2 text22 CODE >27:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25DA text22 CODE >28:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25E0 text22 CODE >29:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25E6 text22 CODE >31:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25F6 text22 CODE >32:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+25FE text22 CODE >33:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+2606 text22 CODE >34:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+274C text21 CODE >205:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+274E text21 CODE >206:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2784 text21 CODE >207:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+27A6 text21 CODE >208:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+27B4 text21 CODE >209:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+27E2 text21 CODE >210:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26B2 text20 CODE >188:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26B2 text20 CODE >189:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26CE text20 CODE >190:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26D6 text20 CODE >191:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26E2 text20 CODE >192:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+270E text20 CODE >193:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2730 text20 CODE >194:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2736 text20 CODE >195:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2742 text20 CODE >197:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+274A text20 CODE >198:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AF0 text19 CODE >181:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AF0 text19 CODE >182:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B0E text19 CODE >183:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B28 text19 CODE >184:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B2C text19 CODE >186:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B8C text18 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B8C text18 CODE >37:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B98 text18 CODE >38:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2BA0 text18 CODE >39:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2BA8 text18 CODE >52:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2BB0 text18 CODE >53:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+1F78 text17 CODE >97:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F78 text17 CODE >98:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F80 text17 CODE >99:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F88 text17 CODE >100:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2044 text17 CODE >101:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2070 text17 CODE >102:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2080 text17 CODE >103:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+208C text17 CODE >105:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+20AC text17 CODE >106:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+20CC text17 CODE >107:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+20D4 text17 CODE >108:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+221E text16 CODE >123:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+221E text16 CODE >124:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2226 text16 CODE >125:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+222E text16 CODE >126:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2292 text16 CODE >127:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+22BE text16 CODE >128:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+22D2 text16 CODE >131:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+22F2 text16 CODE >132:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2312 text16 CODE >133:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E14 text15 CODE >110:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E14 text15 CODE >111:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E1C text15 CODE >112:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E24 text15 CODE >113:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1EE6 text15 CODE >114:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F12 text15 CODE >115:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F22 text15 CODE >116:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F2E text15 CODE >118:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F4E text15 CODE >119:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F6E text15 CODE >120:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1F76 text15 CODE >121:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2874 text14 CODE >225:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2874 text14 CODE >226:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2880 text14 CODE >227:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+28C4 text14 CODE >228:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+28E6 text14 CODE >229:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+28EE text14 CODE >230:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1020 text13 CODE >296:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1020 text13 CODE >297:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+104E text13 CODE >298:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1056 text13 CODE >299:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1058 text13 CODE >300:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+108A text13 CODE >301:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1092 text13 CODE >302:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+10D6 text13 CODE >303:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1104 text13 CODE >306:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1132 text13 CODE >307:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+117E text13 CODE >308:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1194 text13 CODE >309:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+119C text13 CODE >310:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11A0 text13 CODE >311:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11AA text13 CODE >312:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11B4 text13 CODE >313:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11BE text13 CODE >314:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11C8 text13 CODE >315:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+11FC text13 CODE >316:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1230 text13 CODE >317:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1250 text13 CODE >318:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+125A text13 CODE >319:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+127A text13 CODE >320:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+129A text13 CODE >321:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+12A4 text13 CODE >322:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+12B0 text13 CODE >323:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+12B4 text13 CODE >325:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+12C0 text13 CODE >326:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1302 text13 CODE >327:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+130E text13 CODE >328:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+135A text13 CODE >329:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13A6 text13 CODE >330:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13BC text13 CODE >331:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13C4 text13 CODE >332:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13C8 text13 CODE >333:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13D2 text13 CODE >334:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13DC text13 CODE >335:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13E6 text13 CODE >336:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+13F0 text13 CODE >337:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1424 text13 CODE >338:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1458 text13 CODE >339:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1478 text13 CODE >340:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1482 text13 CODE >341:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+14A2 text13 CODE >342:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+14C2 text13 CODE >343:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+14D0 text13 CODE >346:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1510 text13 CODE >347:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+153E text13 CODE >350:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+155A text13 CODE >351:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+15B0 text13 CODE >352:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+15FC text13 CODE >353:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1612 text13 CODE >354:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1618 text13 CODE >355:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1622 text13 CODE >356:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+162C text13 CODE >357:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1636 text13 CODE >358:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1640 text13 CODE >359:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1674 text13 CODE >360:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16A8 text13 CODE >361:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16C8 text13 CODE >362:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16D2 text13 CODE >363:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16DC text13 CODE >364:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16E6 text13 CODE >365:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16F0 text13 CODE >366:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+16F4 text13 CODE >367:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1764 text13 CODE >368:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+176C text13 CODE >369:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17B8 text13 CODE >370:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17CE text13 CODE >371:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17D4 text13 CODE >372:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17DE text13 CODE >373:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17E8 text13 CODE >374:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17F2 text13 CODE >375:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+17FC text13 CODE >376:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1830 text13 CODE >377:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1864 text13 CODE >378:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1884 text13 CODE >379:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+18B8 text13 CODE >380:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+18EC text13 CODE >381:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+190C text13 CODE >382:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+191A text13 CODE >386:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+195A text13 CODE >387:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1988 text13 CODE >388:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+198C text13 CODE >389:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19AC text13 CODE >390:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19B2 text13 CODE >391:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19BC text13 CODE >392:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19C6 text13 CODE >393:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19D0 text13 CODE >394:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+19DA text13 CODE >395:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1A0E text13 CODE >396:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1A42 text13 CODE >397:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1A62 text13 CODE >398:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1B0E text13 CODE >399:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1B5A text13 CODE >400:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BA6 text13 CODE >401:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BB0 text13 CODE >402:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BBA text13 CODE >403:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BC2 text13 CODE >404:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BC6 text13 CODE >405:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BD0 text13 CODE >406:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BDA text13 CODE >407:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BDA text13 CODE >408:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BE8 text13 CODE >411:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29C8 text12 CODE >285:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29C8 text12 CODE >286:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29D0 text12 CODE >287:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29D4 text12 CODE >288:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29EC text12 CODE >289:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+29F0 text12 CODE >287:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A08 text12 CODE >291:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A18 text12 CODE >293:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A1C text12 CODE >294:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A68 text11 CODE >274:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A6A text11 CODE >275:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A7C text11 CODE >276:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A80 text11 CODE >277:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A84 text11 CODE >278:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A9A text11 CODE >279:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A9E text11 CODE >280:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AA2 text11 CODE >281:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2AAC text11 CODE >283:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2608 text10 CODE >413:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2608 text10 CODE >414:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+261A text10 CODE >415:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+261C text10 CODE >416:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2624 text10 CODE >417:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2628 text10 CODE >418:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2632 text10 CODE >419:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+263C text10 CODE >420:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2646 text10 CODE >421:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2650 text10 CODE >422:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2684 text10 CODE >423:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26A4 text10 CODE >424:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26AE text10 CODE >425:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+26B0 text10 CODE >427:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B2E text9 CODE >437:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B2E text9 CODE >438:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B46 text9 CODE >439:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B54 text9 CODE >440:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B5A text9 CODE >443:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B62 text9 CODE >445:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+28F0 text8 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+28F0 text8 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+28F8 text8 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+290A text8 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+290E text8 CODE >16:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2912 text8 CODE >17:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2918 text8 CODE >18:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+291A text8 CODE >16:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2928 text8 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+292E text8 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2944 text8 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+294C text8 CODE >24:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+294E text8 CODE >26:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2954 text8 CODE >27:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+295A text8 CODE >28:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+295A text8 CODE >29:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2962 text8 CODE >30:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwdiv.c
+2964 text7 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+2964 text7 CODE >12:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+2976 text7 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+297A text7 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+297E text7 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+2984 text7 CODE >16:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+2986 text7 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+2994 text7 CODE >19:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29AA text7 CODE >20:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29B2 text7 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29B8 text7 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29BE text7 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29BE text7 CODE >24:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+29C6 text7 CODE >25:/opt/microchip/xc8/v2.30/pic/sources/c99/common/lwmod.c
+1BEA text6 CODE >135:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BEA text6 CODE >136:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1BF6 text6 CODE >138:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1C08 text6 CODE >139:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1C10 text6 CODE >140:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1C4A text6 CODE >141:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1C84 text6 CODE >142:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1CBE text6 CODE >143:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1CE4 text6 CODE >144:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1CE8 text6 CODE >145:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D10 text6 CODE >146:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D14 text6 CODE >147:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D18 text6 CODE >148:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D52 text6 CODE >149:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D78 text6 CODE >152:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D7C text6 CODE >153:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D8E text6 CODE >154:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D90 text6 CODE >155:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D92 text6 CODE >156:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D94 text6 CODE >157:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D96 text6 CODE >158:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1D9A text6 CODE >159:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DB2 text6 CODE >160:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DB4 text6 CODE >161:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DB6 text6 CODE >162:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DB8 text6 CODE >163:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DBA text6 CODE >164:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DBE text6 CODE >165:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DD6 text6 CODE >166:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DD8 text6 CODE >167:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DDA text6 CODE >168:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DDC text6 CODE >169:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DDE text6 CODE >170:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DE2 text6 CODE >171:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DFA text6 CODE >172:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DFC text6 CODE >173:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1DFE text6 CODE >174:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E00 text6 CODE >175:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E02 text6 CODE >176:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E06 text6 CODE >177:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E12 text6 CODE >178:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+1E12 text6 CODE >179:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+20D6 intcode_body CODE >453:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2100 intcode_body CODE >454:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+210E intcode_body CODE >455:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2110 intcode_body CODE >456:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2114 intcode_body CODE >457:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2118 intcode_body CODE >458:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+212A intcode_body CODE >459:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+212E intcode_body CODE >460:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2136 intcode_body CODE >461:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+213A intcode_body CODE >462:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+214E intcode_body CODE >463:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2156 intcode_body CODE >464:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+215A intcode_body CODE >466:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+216E intcode_body CODE >467:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2176 intcode_body CODE >468:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+217A intcode_body CODE >470:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+217E intcode_body CODE >473:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+219A intcode_body CODE >474:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+219C intcode_body CODE >475:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21C4 intcode_body CODE >478:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21D2 intcode_body CODE >479:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21D4 intcode_body CODE >480:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21D8 intcode_body CODE >481:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21DE intcode_body CODE >483:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21EC intcode_body CODE >484:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21EE intcode_body CODE >485:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+21F2 intcode_body CODE >488:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BB2 text4 CODE >232:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BB2 text4 CODE >233:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BBA text4 CODE >234:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BBC text4 CODE >235:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BC0 text4 CODE >236:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BC4 text4 CODE >237:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BC8 text4 CODE >238:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BCC text4 CODE >239:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2B64 text3 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B64 text3 CODE >37:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B72 text3 CODE >38:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B7A text3 CODE >39:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B82 text3 CODE >52:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2B8A text3 CODE >53:/opt/microchip/xc8/v2.30/pic/sources/c99/common/Umul16.c
+2314 text2 CODE >248:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2314 text2 CODE >249:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2316 text2 CODE >250:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2318 text2 CODE >251:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+231A text2 CODE >252:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+231C text2 CODE >253:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2320 text2 CODE >254:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2324 text2 CODE >255:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2328 text2 CODE >256:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+232C text2 CODE >257:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2330 text2 CODE >258:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2332 text2 CODE >259:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2336 text2 CODE >260:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+233A text2 CODE >261:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2344 text2 CODE >262:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+236C text2 CODE >263:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2396 text2 CODE >264:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23B6 text2 CODE >265:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23C0 text2 CODE >266:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23CA text2 CODE >267:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23D2 text2 CODE >268:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23D4 text2 CODE >269:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23D6 text2 CODE >270:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+23DA text2 CODE >272:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BE2 text1 CODE >241:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BE2 text1 CODE >242:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BE6 text1 CODE >243:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BEA text1 CODE >244:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BEE text1 CODE >246:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BCE text0 CODE >494:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BCE text0 CODE >495:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BD2 text0 CODE >496:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BD6 text0 CODE >497:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BDA text0 CODE >498:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2BDA text0 CODE >499:/home/bs2022/e2581155/MPLABXProjects/the3/main.c
+2A1E cinit CODE >734:/tmp/xcXHhIdLH.s
+2A1E cinit CODE >736:/tmp/xcXHhIdLH.s
+2A1E cinit CODE >739:/tmp/xcXHhIdLH.s
+2A1E cinit CODE >819:/tmp/xcXHhIdLH.s
+2A22 cinit CODE >820:/tmp/xcXHhIdLH.s
+2A26 cinit CODE >821:/tmp/xcXHhIdLH.s
+2A26 cinit CODE >822:/tmp/xcXHhIdLH.s
+2A28 cinit CODE >823:/tmp/xcXHhIdLH.s
+2A2A cinit CODE >824:/tmp/xcXHhIdLH.s
+2A2C cinit CODE >825:/tmp/xcXHhIdLH.s
+2A2E cinit CODE >826:/tmp/xcXHhIdLH.s
+2A30 cinit CODE >827:/tmp/xcXHhIdLH.s
+2A32 cinit CODE >830:/tmp/xcXHhIdLH.s
+2A36 cinit CODE >831:/tmp/xcXHhIdLH.s
+2A38 cinit CODE >832:/tmp/xcXHhIdLH.s
+2A38 cinit CODE >833:/tmp/xcXHhIdLH.s
+2A3A cinit CODE >834:/tmp/xcXHhIdLH.s
+2A3C cinit CODE >835:/tmp/xcXHhIdLH.s
+2A3E cinit CODE >838:/tmp/xcXHhIdLH.s
+2A42 cinit CODE >839:/tmp/xcXHhIdLH.s
+2A44 cinit CODE >840:/tmp/xcXHhIdLH.s
+2A44 cinit CODE >841:/tmp/xcXHhIdLH.s
+2A46 cinit CODE >842:/tmp/xcXHhIdLH.s
+2A48 cinit CODE >843:/tmp/xcXHhIdLH.s
+2A4A cinit CODE >846:/tmp/xcXHhIdLH.s
+2A4E cinit CODE >847:/tmp/xcXHhIdLH.s
+2A50 cinit CODE >848:/tmp/xcXHhIdLH.s
+2A50 cinit CODE >849:/tmp/xcXHhIdLH.s
+2A52 cinit CODE >850:/tmp/xcXHhIdLH.s
+2A54 cinit CODE >851:/tmp/xcXHhIdLH.s
+2A56 cinit CODE >857:/tmp/xcXHhIdLH.s
+2A56 cinit CODE >859:/tmp/xcXHhIdLH.s
+2A58 cinit CODE >860:/tmp/xcXHhIdLH.s
+2A5A cinit CODE >862:/tmp/xcXHhIdLH.s
+2A5C cinit CODE >863:/tmp/xcXHhIdLH.s
+2A5E cinit CODE >864:/tmp/xcXHhIdLH.s
+2A60 cinit CODE >865:/tmp/xcXHhIdLH.s
+2A62 cinit CODE >866:/tmp/xcXHhIdLH.s
+2A64 cinit CODE >867:/tmp/xcXHhIdLH.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_q 60 0 BANK0 1 bssBANK0 dist/Simulator/debug/the3.debug.o
+find_parked@slot B 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___awdiv@counter B 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___lwmod@counter C 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Simulator/debug/the3.debug.o
+__Hspace_0 2BF0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hspace_1 300 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hspace_2 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hspace_4 60000E 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_enqueue 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_init_adc 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_transmit_isr 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/Simulator/debug/the3.debug.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcXLiJkLD.o
+eval_message@tmp_lvl 2D 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/Simulator/debug/the3.debug.o
+__Lsmallconst 1000 0 SMALLCONST 0 smallconst dist/Simulator/debug/the3.debug.o
+_LATJ F91 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_PIR1 F9E 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+___sp 0 0 STACK 2 stack /tmp/xcXLiJkLD.o
+_dest 84 0 BANK0 1 bssBANK0 dist/Simulator/debug/the3.debug.o
+_head 54 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+_main 2BCE 0 CODE 0 text0 dist/Simulator/debug/the3.debug.o
+_park 100 0 BANK1 1 bssBANK1 dist/Simulator/debug/the3.debug.o
+_tail 52 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_init_others 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+btemp 59 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+start E 0 CODE 0 init /tmp/xcXLiJkLD.o
+__size_of___awdiv 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of___awmod 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+init_others@k B2 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+_exit_flag 48 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_main 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of___lwdiv 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of___lwmod 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+find_parked@level 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/Simulator/debug/the3.debug.o
+buf_pop@v 8 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?___wmul AC 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+eval_message@tmp_slot 2E 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_transmit_isr 2B64 0 CODE 0 text9 dist/Simulator/debug/the3.debug.o
+__Hpowerup E 0 CODE 0 powerup dist/Simulator/debug/the3.debug.o
+___awmod@sign 14 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_T0CONbits FD5 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_check_level 27E4 0 CODE 0 text26 dist/Simulator/debug/the3.debug.o
+ttemp5 5A 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+ttemp6 5D 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+ttemp7 61 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+eval_message@tmp_slot_677 28 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+find_subscribed@id B 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_send_message 2608 0 CODE 0 text10 dist/Simulator/debug/the3.debug.o
+__accesstop 60 0 ABS 0 - /tmp/xcXLiJkLD.o
+intlevel0 0 0 CODE 0 text /tmp/xcXLiJkLD.o
+intlevel1 0 0 CODE 0 text /tmp/xcXLiJkLD.o
+intlevel2 0 0 CODE 0 text /tmp/xcXLiJkLD.o
+intlevel3 0 0 CODE 0 text /tmp/xcXLiJkLD.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/Simulator/debug/the3.debug.o
+_init_adc 2BB2 0 CODE 0 text4 dist/Simulator/debug/the3.debug.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Simulator/debug/the3.debug.o
+_buf_isempty 2AAE 0 CODE 0 text25 dist/Simulator/debug/the3.debug.o
+wtemp8 5A 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+__Hifardata 0 0 CODE 0 ifardata dist/Simulator/debug/the3.debug.o
+handle_char@chr_buf 33 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_update_display 1BEA 0 CODE 0 text6 dist/Simulator/debug/the3.debug.o
+___awdiv@sign C 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Hclrtext 0 0 ABS 0 clrtext dist/Simulator/debug/the3.debug.o
+__end_of_init_adc 2BCE 0 CODE 0 text4 dist/Simulator/debug/the3.debug.o
+__size_of_buf_pop 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__end_of_receive_message 2A1E 0 CODE 0 text12 dist/Simulator/debug/the3.debug.o
+__end_of_find_available_slot 20D6 0 CODE 0 text17 dist/Simulator/debug/the3.debug.o
+__end_of_HandleInterrupt 221E 0 CODE 0 intcode_body dist/Simulator/debug/the3.debug.o
+_dequeue 26B2 0 CODE 0 text20 dist/Simulator/debug/the3.debug.o
+find_subscribed@j 13 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+find_subscribed@k 11 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___wmul@multiplicand AE 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+_ADCON1 FC1 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_ADCON2 FC0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_ADRESH FC4 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_ADRESL FC3 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+i2___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_enqueue 2B2E 0 CODE 0 text19 dist/Simulator/debug/the3.debug.o
+___awdiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcXLiJkLD.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcXLiJkLD.o
+__size_ofi2___wmul 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/Simulator/debug/the3.debug.o
+?_find_subscribed 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of___wmul 2B8C 0 CODE 0 text3 dist/Simulator/debug/the3.debug.o
+__size_of_send_message 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+update_display@val 1B 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Simulator/debug/the3.debug.o
+__end_of_find_subscribed 1F78 0 CODE 0 text15 dist/Simulator/debug/the3.debug.o
+_TXSTA1bits FAC 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Simulator/debug/the3.debug.o
+__size_of_init_ports 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hintcodelo E 0 CODE 0 intcodelo dist/Simulator/debug/the3.debug.o
+___awdiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___lwmod@divisor A 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of___awdiv 24A0 0 CODE 0 text23 dist/Simulator/debug/the3.debug.o
+__end_of___awmod 2608 0 CODE 0 text22 dist/Simulator/debug/the3.debug.o
+__size_of_is_same 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__end_of___lwdiv 2964 0 CODE 0 text8 dist/Simulator/debug/the3.debug.o
+__end_of___lwmod 29C8 0 CODE 0 text7 dist/Simulator/debug/the3.debug.o
+_find_parked 221E 0 CODE 0 text16 dist/Simulator/debug/the3.debug.o
+dequeue@car_id 4 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_send_message 26B2 0 CODE 0 text10 dist/Simulator/debug/the3.debug.o
+__end_of_update_display 1E14 0 CODE 0 text6 dist/Simulator/debug/the3.debug.o
+_receive_message 29C8 0 CODE 0 text12 dist/Simulator/debug/the3.debug.o
+___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_HandleInterrupt 8 0 CODE 0 intcode dist/Simulator/debug/the3.debug.o
+find_available_slot@level 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+enqueue@car_id 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?_dequeue 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___lwmod@dividend 8 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lintcodelo E 0 CODE 0 intcodelo dist/Simulator/debug/the3.debug.o
+start_initialization 2A1E 0 CODE 0 cinit dist/Simulator/debug/the3.debug.o
+update_display@empty 19 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Simulator/debug/the3.debug.o
+i2___wmul 2B8C 0 CODE 0 text18 dist/Simulator/debug/the3.debug.o
+___rparam_used 1 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_RCREG1 FAE 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_RCSTA1 FAB 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__end_ofi2___wmul 2BB2 0 CODE 0 text18 dist/Simulator/debug/the3.debug.o
+_find_subscribed 1E14 0 CODE 0 text15 dist/Simulator/debug/the3.debug.o
+__end_of_buf_pop 2558 0 CODE 0 text24 dist/Simulator/debug/the3.debug.o
+_SPBRG1 FAF 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__pcstackBANK0 AC 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+_total_score 3E 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+_TXREG1 FAD 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TXSTA1 FAC 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__end_of_handle_char 2AAE 0 CODE 0 text11 dist/Simulator/debug/the3.debug.o
+eval_message@id_676 2A 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@id_682 21 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+check_level@adc_val 3 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_init_others 2314 0 CODE 0 text2 dist/Simulator/debug/the3.debug.o
+__Hbank0 0 0 ABS 0 bank0 dist/Simulator/debug/the3.debug.o
+__Hbank1 0 0 ABS 0 bank1 dist/Simulator/debug/the3.debug.o
+__Hbank2 0 0 ABS 0 bank2 dist/Simulator/debug/the3.debug.o
+__Hbank3 0 0 ABS 0 bank3 dist/Simulator/debug/the3.debug.o
+__Hbank4 0 0 ABS 0 bank4 dist/Simulator/debug/the3.debug.o
+__Hbank5 0 0 ABS 0 bank5 dist/Simulator/debug/the3.debug.o
+__Hbank6 0 0 ABS 0 bank6 dist/Simulator/debug/the3.debug.o
+__Hbank7 0 0 ABS 0 bank7 dist/Simulator/debug/the3.debug.o
+__Hbank8 0 0 ABS 0 bank8 dist/Simulator/debug/the3.debug.o
+__Hbank9 0 0 ABS 0 bank9 dist/Simulator/debug/the3.debug.o
+__Hcinit 0 0 ABS 0 cinit dist/Simulator/debug/the3.debug.o
+__Hconst 0 0 CONST 0 const dist/Simulator/debug/the3.debug.o
+__Hidata 0 0 CODE 0 idata dist/Simulator/debug/the3.debug.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/Simulator/debug/the3.debug.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/Simulator/debug/the3.debug.o
+__Hparam 0 0 COMRAM 1 rparam dist/Simulator/debug/the3.debug.o
+__Hrdata 0 0 COMRAM 1 rdata dist/Simulator/debug/the3.debug.o
+__Hstack 0 0 STACK 2 stack dist/Simulator/debug/the3.debug.o
+__Htext0 0 0 ABS 0 text0 dist/Simulator/debug/the3.debug.o
+__Htext1 0 0 ABS 0 text1 dist/Simulator/debug/the3.debug.o
+__Htext2 0 0 ABS 0 text2 dist/Simulator/debug/the3.debug.o
+__Htext3 0 0 ABS 0 text3 dist/Simulator/debug/the3.debug.o
+__Htext4 0 0 ABS 0 text4 dist/Simulator/debug/the3.debug.o
+__Htext6 0 0 ABS 0 text6 dist/Simulator/debug/the3.debug.o
+__Htext7 0 0 ABS 0 text7 dist/Simulator/debug/the3.debug.o
+__Htext8 0 0 ABS 0 text8 dist/Simulator/debug/the3.debug.o
+__Htext9 0 0 ABS 0 text9 dist/Simulator/debug/the3.debug.o
+___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@lvl_no 25 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_message_counter 4C 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__Hbank10 0 0 ABS 0 bank10 dist/Simulator/debug/the3.debug.o
+__Hbank11 0 0 ABS 0 bank11 dist/Simulator/debug/the3.debug.o
+__Hbank12 0 0 ABS 0 bank12 dist/Simulator/debug/the3.debug.o
+__Hbank13 0 0 ABS 0 bank13 dist/Simulator/debug/the3.debug.o
+__Hbank14 0 0 ABS 0 bank14 dist/Simulator/debug/the3.debug.o
+__Hbank15 0 0 ABS 0 bank15 dist/Simulator/debug/the3.debug.o
+find_subscribed@slot 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/Simulator/debug/the3.debug.o
+__Hbigram 0 0 ABS 0 bigram dist/Simulator/debug/the3.debug.o
+__smallconst 1000 0 SMALLCONST 0 smallconst /tmp/xcXLiJkLD.o
+__Hcomram 0 0 ABS 0 comram dist/Simulator/debug/the3.debug.o
+__Hconfig 30000E 0 CONFIG 4 config dist/Simulator/debug/the3.debug.o
+__end_of_is_same 28F0 0 CODE 0 text14 dist/Simulator/debug/the3.debug.o
+__Lbank0 0 0 ABS 0 bank0 dist/Simulator/debug/the3.debug.o
+__Lbank1 0 0 ABS 0 bank1 dist/Simulator/debug/the3.debug.o
+__Lbank2 0 0 ABS 0 bank2 dist/Simulator/debug/the3.debug.o
+__Lbank3 0 0 ABS 0 bank3 dist/Simulator/debug/the3.debug.o
+__Lbank4 0 0 ABS 0 bank4 dist/Simulator/debug/the3.debug.o
+__Lbank5 0 0 ABS 0 bank5 dist/Simulator/debug/the3.debug.o
+__Lbank6 0 0 ABS 0 bank6 dist/Simulator/debug/the3.debug.o
+__Lbank7 0 0 ABS 0 bank7 dist/Simulator/debug/the3.debug.o
+__Lbank8 0 0 ABS 0 bank8 dist/Simulator/debug/the3.debug.o
+__Lbank9 0 0 ABS 0 bank9 dist/Simulator/debug/the3.debug.o
+__Lcinit 0 0 ABS 0 cinit dist/Simulator/debug/the3.debug.o
+__Lconst 0 0 CONST 0 const dist/Simulator/debug/the3.debug.o
+__Lidata 0 0 CODE 0 idata dist/Simulator/debug/the3.debug.o
+__Lidloc 0 0 IDLOC 5 idloc dist/Simulator/debug/the3.debug.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/Simulator/debug/the3.debug.o
+_display_mode 40 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__Lparam 0 0 COMRAM 1 rparam dist/Simulator/debug/the3.debug.o
+__Lrdata 0 0 COMRAM 1 rdata dist/Simulator/debug/the3.debug.o
+__Lstack 0 0 STACK 2 stack dist/Simulator/debug/the3.debug.o
+__Ltext0 0 0 ABS 0 text0 dist/Simulator/debug/the3.debug.o
+__Ltext1 0 0 ABS 0 text1 dist/Simulator/debug/the3.debug.o
+__Ltext2 0 0 ABS 0 text2 dist/Simulator/debug/the3.debug.o
+__Ltext3 0 0 ABS 0 text3 dist/Simulator/debug/the3.debug.o
+__Ltext4 0 0 ABS 0 text4 dist/Simulator/debug/the3.debug.o
+__Ltext6 0 0 ABS 0 text6 dist/Simulator/debug/the3.debug.o
+__Ltext7 0 0 ABS 0 text7 dist/Simulator/debug/the3.debug.o
+__Ltext8 0 0 ABS 0 text8 dist/Simulator/debug/the3.debug.o
+__Ltext9 0 0 ABS 0 text9 dist/Simulator/debug/the3.debug.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/Simulator/debug/the3.debug.o
+i2___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/Simulator/debug/the3.debug.o
+_PORTBbits F81 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_INTCONbits FF2 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Habs1 0 0 ABS 0 abs1 dist/Simulator/debug/the3.debug.o
+__Hdata 0 0 ABS 0 data dist/Simulator/debug/the3.debug.o
+__Hinit 12 0 CODE 0 init dist/Simulator/debug/the3.debug.o
+__Hrbit 0 0 COMRAM 1 rbit dist/Simulator/debug/the3.debug.o
+__Hrbss 0 0 COMRAM 1 rbss dist/Simulator/debug/the3.debug.o
+__Htemp 5A 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+__Htext 0 0 ABS 0 text dist/Simulator/debug/the3.debug.o
+__Labs1 0 0 ABS 0 abs1 dist/Simulator/debug/the3.debug.o
+__Ldata 0 0 ABS 0 data dist/Simulator/debug/the3.debug.o
+__Linit E 0 CODE 0 init dist/Simulator/debug/the3.debug.o
+__Lrbit 0 0 COMRAM 1 rbit dist/Simulator/debug/the3.debug.o
+__Lrbss 0 0 COMRAM 1 rbss dist/Simulator/debug/the3.debug.o
+__Ltemp 59 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+__Ltext 0 0 ABS 0 text dist/Simulator/debug/the3.debug.o
+___wmul 2B64 0 CODE 0 text3 dist/Simulator/debug/the3.debug.o
+__size_of_receive_message 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/Simulator/debug/the3.debug.o
+int$flags 59 0 COMRAM 1 temp dist/Simulator/debug/the3.debug.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_HandleInterrupt 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hintret 0 0 ABS 0 intret dist/Simulator/debug/the3.debug.o
+__Hirdata 0 0 CODE 0 irdata dist/Simulator/debug/the3.debug.o
+__S0 2BF0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__S1 300 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__S2 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__S4 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__S5 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+buf_push@buf 15 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+is_same@a 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+is_same@b 3 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+is_same@k A 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+is_same@n 5 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_buffer 98 0 BANK0 1 bssBANK0 dist/Simulator/debug/the3.debug.o
+find_available_slot@j 11 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+find_available_slot@k F 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_check_level 2874 0 CODE 0 text26 dist/Simulator/debug/the3.debug.o
+_level_counter 50 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/Simulator/debug/the3.debug.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/Simulator/debug/the3.debug.o
+_current_level 4A 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_find_subscribed 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__end_of_buf_isempty 2AF0 0 CODE 0 text25 dist/Simulator/debug/the3.debug.o
+int_func 20D6 0 CODE 0 intcode_body dist/Simulator/debug/the3.debug.o
+update_display@bit0 18 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+update_display@bit1 17 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+update_display@bit2 16 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+update_display@bit3 15 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lintentry 0 0 ABS 0 intentry dist/Simulator/debug/the3.debug.o
+_enqueue 2AF0 0 CODE 0 text19 dist/Simulator/debug/the3.debug.o
+__Hramtop 1000 0 RAM 0 ramtop dist/Simulator/debug/the3.debug.o
+__Hrparam 0 0 COMRAM 1 rparam dist/Simulator/debug/the3.debug.o
+__activetblptr 1 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hstruct 0 0 COMRAM 1 struct dist/Simulator/debug/the3.debug.o
+__size_of___wmul 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/Simulator/debug/the3.debug.o
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/Simulator/debug/the3.debug.o
+__LbssBANK2 0 0 ABS 0 bssBANK2 dist/Simulator/debug/the3.debug.o
+__Htext10 0 0 ABS 0 text10 dist/Simulator/debug/the3.debug.o
+__Htext11 0 0 ABS 0 text11 dist/Simulator/debug/the3.debug.o
+__Htext12 0 0 ABS 0 text12 dist/Simulator/debug/the3.debug.o
+__Htext13 0 0 ABS 0 text13 dist/Simulator/debug/the3.debug.o
+__Htext14 0 0 ABS 0 text14 dist/Simulator/debug/the3.debug.o
+__Htext15 0 0 ABS 0 text15 dist/Simulator/debug/the3.debug.o
+__Htext16 0 0 ABS 0 text16 dist/Simulator/debug/the3.debug.o
+__Htext17 0 0 ABS 0 text17 dist/Simulator/debug/the3.debug.o
+__Htext18 0 0 ABS 0 text18 dist/Simulator/debug/the3.debug.o
+__Htext19 0 0 ABS 0 text19 dist/Simulator/debug/the3.debug.o
+__Htext20 0 0 ABS 0 text20 dist/Simulator/debug/the3.debug.o
+__Htext21 0 0 ABS 0 text21 dist/Simulator/debug/the3.debug.o
+__Htext22 0 0 ABS 0 text22 dist/Simulator/debug/the3.debug.o
+__Htext23 0 0 ABS 0 text23 dist/Simulator/debug/the3.debug.o
+__Htext24 0 0 ABS 0 text24 dist/Simulator/debug/the3.debug.o
+__Htext25 0 0 ABS 0 text25 dist/Simulator/debug/the3.debug.o
+__Htext26 0 0 ABS 0 text26 dist/Simulator/debug/the3.debug.o
+?i2___wmul 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_run_flag 56 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+___awmod@counter 13 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_PIE1bits F9D 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+find_parked@id 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__ptext10 2608 0 CODE 0 text10 dist/Simulator/debug/the3.debug.o
+__ptext11 2A68 0 CODE 0 text11 dist/Simulator/debug/the3.debug.o
+__ptext12 29C8 0 CODE 0 text12 dist/Simulator/debug/the3.debug.o
+__ptext13 1020 0 CODE 0 text13 dist/Simulator/debug/the3.debug.o
+__ptext14 2874 0 CODE 0 text14 dist/Simulator/debug/the3.debug.o
+__ptext15 1E14 0 CODE 0 text15 dist/Simulator/debug/the3.debug.o
+__ptext16 221E 0 CODE 0 text16 dist/Simulator/debug/the3.debug.o
+__ptext17 1F78 0 CODE 0 text17 dist/Simulator/debug/the3.debug.o
+__ptext18 2B8C 0 CODE 0 text18 dist/Simulator/debug/the3.debug.o
+__ptext19 2AF0 0 CODE 0 text19 dist/Simulator/debug/the3.debug.o
+__ptext20 26B2 0 CODE 0 text20 dist/Simulator/debug/the3.debug.o
+__ptext21 274C 0 CODE 0 text21 dist/Simulator/debug/the3.debug.o
+__ptext22 2558 0 CODE 0 text22 dist/Simulator/debug/the3.debug.o
+__ptext23 23DC 0 CODE 0 text23 dist/Simulator/debug/the3.debug.o
+__ptext24 24A0 0 CODE 0 text24 dist/Simulator/debug/the3.debug.o
+__ptext25 2AAE 0 CODE 0 text25 dist/Simulator/debug/the3.debug.o
+__ptext26 27E4 0 CODE 0 text26 dist/Simulator/debug/the3.debug.o
+___awdiv 23DC 0 CODE 0 text23 dist/Simulator/debug/the3.debug.o
+___awmod 2558 0 CODE 0 text22 dist/Simulator/debug/the3.debug.o
+__pintcode_body 20D6 0 CODE 0 intcode_body dist/Simulator/debug/the3.debug.o
+___lwdiv 28F0 0 CODE 0 text8 dist/Simulator/debug/the3.debug.o
+___lwmod 2964 0 CODE 0 text7 dist/Simulator/debug/the3.debug.o
+__Lbank10 0 0 ABS 0 bank10 dist/Simulator/debug/the3.debug.o
+__Lbank11 0 0 ABS 0 bank11 dist/Simulator/debug/the3.debug.o
+__Lbank12 0 0 ABS 0 bank12 dist/Simulator/debug/the3.debug.o
+__Lbank13 0 0 ABS 0 bank13 dist/Simulator/debug/the3.debug.o
+__Lbank14 0 0 ABS 0 bank14 dist/Simulator/debug/the3.debug.o
+__Lbank15 0 0 ABS 0 bank15 dist/Simulator/debug/the3.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/Simulator/debug/the3.debug.o
+__Lbigram 0 0 ABS 0 bigram dist/Simulator/debug/the3.debug.o
+_outbuf 200 0 BANK2 1 bssBANK2 dist/Simulator/debug/the3.debug.o
+buf_pop@buf 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_dequeue 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_buf_push 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lcomram 0 0 ABS 0 comram dist/Simulator/debug/the3.debug.o
+__Lconfig 0 0 CONFIG 4 config dist/Simulator/debug/the3.debug.o
+_seg_list 1001 0 SMALLCONST 0 smallconst dist/Simulator/debug/the3.debug.o
+___wmul@multiplier AC 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+_LATHbits F90 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+?_find_available_slot 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_handle_char 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/Simulator/debug/the3.debug.o
+___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_find_parked 2314 0 CODE 0 text16 dist/Simulator/debug/the3.debug.o
+_new_message_flag 44 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__Lfardata 0 0 FARRAM 0 fardata dist/Simulator/debug/the3.debug.o
+__end_of_seg_list 100B 0 SMALLCONST 0 smallconst dist/Simulator/debug/the3.debug.o
+stackhi F5F 0 ABS 0 - /tmp/xcXLiJkLD.o
+stacklo 300 0 ABS 0 - /tmp/xcXLiJkLD.o
+__Lintcode 8 0 CODE 0 intcode dist/Simulator/debug/the3.debug.o
+__Lintret 0 0 ABS 0 intret dist/Simulator/debug/the3.debug.o
+__Lirdata 0 0 CODE 0 irdata dist/Simulator/debug/the3.debug.o
+_ADCON0bits FC2 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lspace_0 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lspace_1 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lspace_2 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lspace_4 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__pbssCOMRAM 3E 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/Simulator/debug/the3.debug.o
+i2___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_PIR1bits F9E 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_update_display 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_buf_pop 24A0 0 CODE 0 text24 dist/Simulator/debug/the3.debug.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@slot_no 23 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+end_of_initialization 2A56 0 CODE 0 cinit dist/Simulator/debug/the3.debug.o
+dequeue@i 6 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/Simulator/debug/the3.debug.o
+__Hintentry 0 0 ABS 0 intentry dist/Simulator/debug/the3.debug.o
+_eval_message 1020 0 CODE 0 text13 dist/Simulator/debug/the3.debug.o
+___awdiv@quotient D 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?___awdiv 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?___awmod F 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+buf_push@v 18 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+?___lwmod 8 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_buf_push 274C 0 CODE 0 text21 dist/Simulator/debug/the3.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/Simulator/debug/the3.debug.o
+?_buf_isempty 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/Simulator/debug/the3.debug.o
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/Simulator/debug/the3.debug.o
+__HbssBANK2 0 0 ABS 0 bssBANK2 dist/Simulator/debug/the3.debug.o
+___awmod@dividend F 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+_display_counter 42 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__Lramtop 1000 0 RAM 0 ramtop dist/Simulator/debug/the3.debug.o
+__Lrparam 0 0 COMRAM 1 rparam dist/Simulator/debug/the3.debug.o
+__pcinit 2A1E 0 CODE 0 cinit dist/Simulator/debug/the3.debug.o
+__ptext0 2BCE 0 CODE 0 text0 dist/Simulator/debug/the3.debug.o
+__ptext1 2BE2 0 CODE 0 text1 dist/Simulator/debug/the3.debug.o
+__ptext2 2314 0 CODE 0 text2 dist/Simulator/debug/the3.debug.o
+__ptext3 2B64 0 CODE 0 text3 dist/Simulator/debug/the3.debug.o
+__ptext4 2BB2 0 CODE 0 text4 dist/Simulator/debug/the3.debug.o
+__ptext6 1BEA 0 CODE 0 text6 dist/Simulator/debug/the3.debug.o
+__ptext7 2964 0 CODE 0 text7 dist/Simulator/debug/the3.debug.o
+__ptext8 28F0 0 CODE 0 text8 dist/Simulator/debug/the3.debug.o
+__ptext9 2B2E 0 CODE 0 text9 dist/Simulator/debug/the3.debug.o
+__Lstruct 0 0 COMRAM 1 struct dist/Simulator/debug/the3.debug.o
+__end_of_buf_push 27E4 0 CODE 0 text21 dist/Simulator/debug/the3.debug.o
+__Ltext10 0 0 ABS 0 text10 dist/Simulator/debug/the3.debug.o
+__Ltext11 0 0 ABS 0 text11 dist/Simulator/debug/the3.debug.o
+__Ltext12 0 0 ABS 0 text12 dist/Simulator/debug/the3.debug.o
+__Ltext13 0 0 ABS 0 text13 dist/Simulator/debug/the3.debug.o
+__Ltext14 0 0 ABS 0 text14 dist/Simulator/debug/the3.debug.o
+__Ltext15 0 0 ABS 0 text15 dist/Simulator/debug/the3.debug.o
+__Ltext16 0 0 ABS 0 text16 dist/Simulator/debug/the3.debug.o
+__Ltext17 0 0 ABS 0 text17 dist/Simulator/debug/the3.debug.o
+__Ltext18 0 0 ABS 0 text18 dist/Simulator/debug/the3.debug.o
+__Ltext19 0 0 ABS 0 text19 dist/Simulator/debug/the3.debug.o
+__Ltext20 0 0 ABS 0 text20 dist/Simulator/debug/the3.debug.o
+__Ltext21 0 0 ABS 0 text21 dist/Simulator/debug/the3.debug.o
+__Ltext22 0 0 ABS 0 text22 dist/Simulator/debug/the3.debug.o
+__Ltext23 0 0 ABS 0 text23 dist/Simulator/debug/the3.debug.o
+__Ltext24 0 0 ABS 0 text24 dist/Simulator/debug/the3.debug.o
+__Ltext25 0 0 ABS 0 text25 dist/Simulator/debug/the3.debug.o
+__Ltext26 0 0 ABS 0 text26 dist/Simulator/debug/the3.debug.o
+__end_of_init_others 23DC 0 CODE 0 text2 dist/Simulator/debug/the3.debug.o
+__ramtop 1000 0 RAM 0 ramtop /tmp/xcXLiJkLD.o
+__size_of_check_level 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+find_subscribed@level 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Lpowerup E 0 CODE 0 powerup dist/Simulator/debug/the3.debug.o
+_init_ports 2BE2 0 CODE 0 text1 dist/Simulator/debug/the3.debug.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/Simulator/debug/the3.debug.o
+_is_same 2874 0 CODE 0 text14 dist/Simulator/debug/the3.debug.o
+buf_isempty@typ 5 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__psmallconst 1000 0 SMALLCONST 0 smallconst dist/Simulator/debug/the3.debug.o
+__end_of_dequeue 274C 0 CODE 0 text20 dist/Simulator/debug/the3.debug.o
+__size_of_buf_isempty 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/Simulator/debug/the3.debug.o
+___param_bank 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+find_parked@j 13 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+find_parked@k 11 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__size_of_eval_message 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/Simulator/debug/the3.debug.o
+__end_of__initialization 2A56 0 CODE 0 cinit dist/Simulator/debug/the3.debug.o
+___awmod@divisor 11 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@id 26 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Libigdata 0 0 CODE 0 ibigdata dist/Simulator/debug/the3.debug.o
+__Lclrtext 0 0 ABS 0 clrtext dist/Simulator/debug/the3.debug.o
+_SPBRGH1 F7F 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__size_of_find_available_slot 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@fee 1F 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+receive_message@i 31 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_eval_message 1BEA 0 CODE 0 text13 dist/Simulator/debug/the3.debug.o
+_chr_buf 58 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+__end_of_main 2BE2 0 CODE 0 text0 dist/Simulator/debug/the3.debug.o
+__pintcode 8 0 CODE 0 intcode dist/Simulator/debug/the3.debug.o
+_T0CON FD5 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TMR0H FD7 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TMR0L FD6 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TRISB F93 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TRISH F99 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+_TRISJ F9A 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__HRAM 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Hbss 0 0 RAM 1 bss dist/Simulator/debug/the3.debug.o
+__Hram 0 0 ABS 0 ram dist/Simulator/debug/the3.debug.o
+__Hsfr 0 0 ABS 0 sfr dist/Simulator/debug/the3.debug.o
+__LRAM 1 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__Lbss 0 0 RAM 1 bss dist/Simulator/debug/the3.debug.o
+__Lram 0 0 ABS 0 ram dist/Simulator/debug/the3.debug.o
+__Lsfr 0 0 ABS 0 sfr dist/Simulator/debug/the3.debug.o
+_time_counter 4E 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+_inbuf 280 0 BANK2 1 bssBANK2 dist/Simulator/debug/the3.debug.o
+_transmit_isr 2B2E 0 CODE 0 text9 dist/Simulator/debug/the3.debug.o
+__size_of_find_parked 0 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+___extmem_base 20000 0 ABS 0 - /tmp/xcXLiJkLD.o
+__end_of_init_ports 2BF0 0 CODE 0 text1 dist/Simulator/debug/the3.debug.o
+?_is_same 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+find_available_slot@slot 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__initialization 2A1E 0 CODE 0 cinit dist/Simulator/debug/the3.debug.o
+_BAUDCON1bits F7E 0 ABS 0 - dist/Simulator/debug/the3.debug.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/Simulator/debug/the3.debug.o
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/Simulator/debug/the3.debug.o
+__pbssBANK2 200 0 BANK2 1 bssBANK2 dist/Simulator/debug/the3.debug.o
+__Hfardata 0 0 FARRAM 0 fardata dist/Simulator/debug/the3.debug.o
+___wmul@product B0 0 BANK0 1 cstackBANK0 dist/Simulator/debug/the3.debug.o
+__Hsmallconst 1020 0 SMALLCONST 0 smallconst dist/Simulator/debug/the3.debug.o
+_find_available_slot 1F78 0 CODE 0 text17 dist/Simulator/debug/the3.debug.o
+__Lifardata 0 0 CODE 0 ifardata dist/Simulator/debug/the3.debug.o
+_handle_char 2A68 0 CODE 0 text11 dist/Simulator/debug/the3.debug.o
+_temp_id 46 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/the3.debug.o
+eval_message@tmp_lvl_678 2C 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/the3.debug.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Simulator/debug/the3.debug.o
+__Hintcode E 0 CODE 0 intcode dist/Simulator/debug/the3.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text13 0 1020 1020 1BD0 1
+cstackCOMRAM 1 1 1 59 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 54 1
+bssBANK1 1 100 100 FE 1
+bssBANK2 1 200 200 100 1
+intcode 0 8 8 A 1
+smallconst 0 1000 1000 20 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

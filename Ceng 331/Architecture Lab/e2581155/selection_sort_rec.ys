@@ -1,0 +1,121 @@
+# Musa Alper Yaman 2581155
+.pos 0x0
+	irmovq stack , %rsp
+	irmovq head, %rdi
+	call selection_sort_rec
+	halt
+
+.pos 0x200
+head:
+	.quad 17
+	.quad node1
+	node1:
+	.quad 24
+	.quad node2
+	node2:
+	.quad 6
+	.quad node3
+	node3:
+	.quad 11
+	.quad node4
+	node4:
+	.quad 4
+	.quad node5
+	node5:
+	.quad 5
+	.quad node6
+	node6:
+	.quad 3
+	.quad node7
+	node7:
+	.quad 40
+	.quad node8
+	node8:
+	.quad 19
+	.quad node9
+	node9:
+	.quad 52
+	.quad node10
+	node10:
+	.quad 8
+	.quad 0
+	
+.pos 0x800
+stack:
+	
+selection_sort_rec:
+	pushq %rbp
+	rrmovq %rsp, %rbp
+    pushq %r8     # min
+    pushq %r9     # prevMin
+    pushq %r10    # curr
+    pushq %r11    # temp
+    pushq %r12    # head
+	
+	andq %rdi, %rdi
+	je exit
+	mrmovq 8(%rdi) , %rcx
+	andq %rcx , %rcx
+	je exit
+	
+	rrmovq %rdi, %r8
+	irmovq $0, %r9
+	rrmovq %rdi, %r10
+	
+searchMin:
+	mrmovq 8(%r10), %rcx
+	andq %rcx, %rcx
+	je ifTest
+
+	mrmovq (%r8), %r12
+	mrmovq (%rcx), %r11
+	cmpq %r12, %r11
+	jge conditions
+
+	mrmovq 8(%r10), %r8
+	rrmovq %r10, %r9
+	
+conditions:
+	mrmovq 8(%r10), %r10
+	jmp searchMin
+	
+ifTest:
+	cmpq %r8, %rdi
+	je callRecur
+	
+swapHead:
+	mrmovq 8(%rdi), %rcx
+	mrmovq 8(%r8), %r11
+	rmmovq %r11, 8(%rdi)
+
+	cmpq %rcx, %r8
+	je headMin
+
+	rmmovq %rcx, 8(%r8)
+	rmmovq %rdi, 8(%r9)	
+	jmp changeHead
+	
+headMin: #min -> next = head
+	rmmovq %rdi, 8(%r8)
+	
+changeHead: #head = min
+	rrmovq %r8, %rdi
+	
+callRecur:
+    pushq %rdi
+    mrmovq 8(%rdi), %rdi
+    call selection_sort_rec
+    popq %rdi
+	rmmovq %rax, 8(%rdi)
+	
+exit:
+	rrmovq %rdi, %rax
+	popq %r12
+    popq %r11
+    popq %r10
+    popq %r9
+    popq %r8
+    popq %rbp
+	ret
+	
+	

@@ -1,0 +1,122 @@
+# Musa Alper Yaman 2581155
+.pos 0x0
+	irmovq stack , %rsp
+	irmovq head, %rdi
+	call selection_sort_it
+	halt
+
+.pos 0x200
+head:
+	.quad 17
+	.quad node1
+	node1:
+	.quad 24
+	.quad node2
+	node2:
+	.quad 6
+	.quad node3
+	node3:
+	.quad 11
+	.quad node4
+	node4:
+	.quad 4
+	.quad node5
+	node5:
+	.quad 5
+	.quad node6
+	node6:
+	.quad 3
+	.quad node7
+	node7:
+	.quad 40
+	.quad node8
+	node8:
+	.quad 19
+	.quad node9
+	node9:
+	.quad 52
+	.quad node10
+	node10:
+	.quad 8
+	.quad 0
+	
+.pos 0x800
+stack:
+		
+selection_sort_it:
+	pushq %rbp
+	rrmovq %rsp, %rbp
+	pushq %r8	#temp
+	pushq %r9	#sorted
+	pushq %r10	#prevMax
+	pushq %r11	#prev
+	pushq %r12	#head
+	pushq %rcx	#curr
+	pushq %rdx	#max
+	
+	rrmovq %rdi, %r12
+	irmovq $0, %r9
+	andq %r12, %r12
+	je Done
+	mrmovq 8(%r12) , %rdx
+	andq %rdx , %rdx
+	je Done
+
+loop:
+	rrmovq %r12, %rdx
+	irmovq $0, %r10		
+	rrmovq %r12, %rcx
+	irmovq $0, %r11		
+	
+findMax:
+	mrmovq (%rdx), %r8
+	mrmovq (%rcx), %rax
+	cmpq %r8,%rax
+	jle skipUpdate
+
+	rrmovq %rcx, %rdx
+	rrmovq %r11, %r10
+	
+skipUpdate:
+	rrmovq %rcx, %r11
+	mrmovq 8(%rcx), %rcx
+	andq %rcx, %rcx
+	jne findMax
+
+	andq %r10, %r10
+	je removeHead
+	mrmovq 8(%rdx), %rax
+	rmmovq %rax, 8(%r10)
+	jmp insertMax
+
+removeHead:
+	mrmovq 8(%r12), %r12
+
+insertMax:
+	rmmovq %r9, 8(%rdx)
+	rrmovq %rdx, %r9
+	andq %r12, %r12
+	jne loop	
+	rrmovq %r9, %rax
+	jmp returnAdd
+
+Done:
+	rrmovq %r12, %rax
+	jmp returnAdd
+	
+returnAdd:
+	popq %r8
+	popq %r9
+	popq %r10
+	popq %r11
+	popq %rcx
+	popq %rdx
+	rrmovq %rbp, %rsp
+	popq %rbp
+	ret
+
+
+	
+
+	
+

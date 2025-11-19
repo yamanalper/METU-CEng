@@ -1,0 +1,665 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcXKhBgeE.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 E E 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+$dist/Simulator/debug/THE2-Starter.X.debug.o
+cinit CODE 0 6C2 6C2 36 1
+idloc IDLOC 5 200000 200000 8 1
+intcode_body CODE 0 12 12 218 1
+text0 CODE 0 772 772 C 1
+text1 CODE 0 594 594 A0 1
+text3 CODE 0 22A 22A 154 1
+text4 CODE 0 442 442 B0 1
+text5 CODE 0 37E 37E C4 1
+text6 CODE 0 750 750 22 1
+text7 CODE 0 4F2 4F2 A2 1
+text8 CODE 0 6F8 6F8 2E 1
+text9 CODE 0 634 634 8E 1
+text10 CODE 0 726 726 2A 1
+idataCOMRAM CODE 0 77E 77E A 1
+cstackCOMRAM COMRAM 1 1 1 1A 1
+temp COMRAM 1 3D 3D 1 1
+intcode CODE 0 8 8 6 1
+dataCOMRAM COMRAM 1 33 33 A 1
+bssCOMRAM COMRAM 1 1B 1B 18 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 60-F5F 1
+SFR F60-FFF 1
+BANK0 60-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 788-1FFFF 1
+STACK 60-F5F 1
+SMALLCONST 1000-1FFFF 1
+CODE 4-7 1
+CODE 788-1FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F5F 1
+BIGRAM 3E-F5F 1
+COMRAM 3E-5F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1000-FFFF 1
+MEDIUMCONST 11000-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/Simulator/debug/THE2-Starter.X.debug.o
+8 intcode CODE >1390:/tmp/xcXMbdJoj.s
+8 intcode CODE >210:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+726 text10 CODE >113:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+726 text10 CODE >114:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+72E text10 CODE >115:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+74E text10 CODE >116:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+634 text9 CODE >117:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+634 text9 CODE >118:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+63C text9 CODE >119:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+656 text9 CODE >120:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+65C text9 CODE >121:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+65E text9 CODE >122:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+660 text9 CODE >123:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+662 text9 CODE >124:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+664 text9 CODE >125:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+666 text9 CODE >126:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+668 text9 CODE >127:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+66A text9 CODE >128:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+676 text9 CODE >129:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+69E text9 CODE >130:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+6C0 text9 CODE >133:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+6F8 text8 CODE >134:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+6F8 text8 CODE >135:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+700 text8 CODE >136:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+71C text8 CODE >137:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+724 text8 CODE >139:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4F2 text7 CODE >153:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4F2 text7 CODE >154:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4F6 text7 CODE >155:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+516 text7 CODE >156:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+51A text7 CODE >157:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+522 text7 CODE >158:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+52A text7 CODE >159:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+52E text7 CODE >160:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+52E text7 CODE >161:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+530 text7 CODE >162:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+532 text7 CODE >163:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+534 text7 CODE >164:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+536 text7 CODE >165:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+538 text7 CODE >166:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+53A text7 CODE >167:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+53C text7 CODE >168:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+548 text7 CODE >169:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+570 text7 CODE >170:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+592 text7 CODE >172:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+750 text6 CODE >142:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+750 text6 CODE >143:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+754 text6 CODE >144:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+75C text6 CODE >145:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+764 text6 CODE >146:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+76C text6 CODE >147:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+76E text6 CODE >148:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+770 text6 CODE >149:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+37E text5 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+37E text5 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+382 text5 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+390 text5 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+398 text5 CODE >16:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+39C text5 CODE >18:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3AA text5 CODE >19:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3B2 text5 CODE >20:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3B6 text5 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3BE text5 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3D0 text5 CODE >24:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3D4 text5 CODE >25:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3D8 text5 CODE >26:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3DE text5 CODE >27:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3E0 text5 CODE >25:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3EE text5 CODE >30:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+3F4 text5 CODE >31:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+40A text5 CODE >32:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+412 text5 CODE >33:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+414 text5 CODE >35:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+41A text5 CODE >36:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+420 text5 CODE >38:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+430 text5 CODE >39:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+438 text5 CODE >40:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+440 text5 CODE >41:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awdiv.c
+442 text4 CODE >7:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+442 text4 CODE >12:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+446 text4 CODE >13:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+454 text4 CODE >14:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+45C text4 CODE >15:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+460 text4 CODE >17:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+46E text4 CODE >18:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+476 text4 CODE >19:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+488 text4 CODE >20:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+48C text4 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+490 text4 CODE >22:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+496 text4 CODE >23:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+498 text4 CODE >21:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4A6 text4 CODE >26:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4BC text4 CODE >27:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4C4 text4 CODE >28:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4CA text4 CODE >29:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4D0 text4 CODE >31:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4E0 text4 CODE >32:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4E8 text4 CODE >33:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+4F0 text4 CODE >34:/opt/microchip/xc8/v2.30/pic/sources/c99/common/awmod.c
+22A text3 CODE >174:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+22A text3 CODE >175:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+246 text3 CODE >176:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+276 text3 CODE >177:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2A6 text3 CODE >178:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2C2 text3 CODE >179:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2C6 text3 CODE >180:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2D8 text3 CODE >181:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2DA text3 CODE >182:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2DC text3 CODE >183:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2EC text3 CODE >184:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2F0 text3 CODE >185:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+304 text3 CODE >186:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+306 text3 CODE >187:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+308 text3 CODE >188:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+318 text3 CODE >189:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+31C text3 CODE >190:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+330 text3 CODE >191:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+332 text3 CODE >192:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+334 text3 CODE >193:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+344 text3 CODE >194:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+348 text3 CODE >195:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+35C text3 CODE >196:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+35E text3 CODE >197:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+360 text3 CODE >198:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+370 text3 CODE >199:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+37C text3 CODE >200:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+37C text3 CODE >201:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+12 intcode_body CODE >210:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1C intcode_body CODE >212:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2A intcode_body CODE >213:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+3C intcode_body CODE >214:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+3E intcode_body CODE >215:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+40 intcode_body CODE >216:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+48 intcode_body CODE >217:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+50 intcode_body CODE >218:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+54 intcode_body CODE >219:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+58 intcode_body CODE >220:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+6C intcode_body CODE >221:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+74 intcode_body CODE >222:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+7C intcode_body CODE >223:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+84 intcode_body CODE >224:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+8C intcode_body CODE >225:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+94 intcode_body CODE >226:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+9C intcode_body CODE >227:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+A4 intcode_body CODE >228:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+A8 intcode_body CODE >229:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+C2 intcode_body CODE >230:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+DE intcode_body CODE >231:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+FA intcode_body CODE >232:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+116 intcode_body CODE >233:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+132 intcode_body CODE >234:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+152 intcode_body CODE >237:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+164 intcode_body CODE >238:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+168 intcode_body CODE >239:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+16A intcode_body CODE >240:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+16A intcode_body CODE >241:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+16E intcode_body CODE >242:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+182 intcode_body CODE >243:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+186 intcode_body CODE >244:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+18E intcode_body CODE >245:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+196 intcode_body CODE >249:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+196 intcode_body CODE >250:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+198 intcode_body CODE >251:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+19C intcode_body CODE >252:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1A0 intcode_body CODE >253:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1A4 intcode_body CODE >254:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1BC intcode_body CODE >255:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1C0 intcode_body CODE >256:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1D8 intcode_body CODE >257:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1DC intcode_body CODE >258:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1F4 intcode_body CODE >260:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1F8 intcode_body CODE >263:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+206 intcode_body CODE >264:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+218 intcode_body CODE >265:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+21A intcode_body CODE >266:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+21E intcode_body CODE >271:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+594 text1 CODE >80:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+594 text1 CODE >81:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+598 text1 CODE >82:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+59C text1 CODE >83:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5A0 text1 CODE >84:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5A4 text1 CODE >85:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5A8 text1 CODE >86:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5AC text1 CODE >87:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5B0 text1 CODE >88:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5B4 text1 CODE >89:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5B8 text1 CODE >90:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5BC text1 CODE >91:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5C0 text1 CODE >92:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5C4 text1 CODE >93:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5C8 text1 CODE >94:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5CC text1 CODE >95:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5E2 text1 CODE >96:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5E6 text1 CODE >97:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5EA text1 CODE >98:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5EE text1 CODE >99:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5F6 text1 CODE >100:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5FE text1 CODE >101:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+606 text1 CODE >102:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+60E text1 CODE >103:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+616 text1 CODE >104:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+61E text1 CODE >105:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+620 text1 CODE >106:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+622 text1 CODE >107:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+62A text1 CODE >108:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+632 text1 CODE >110:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+772 text0 CODE >276:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+772 text0 CODE >278:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+776 text0 CODE >279:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+6C2 cinit CODE >606:/tmp/xcXMbdJoj.s
+6C2 cinit CODE >608:/tmp/xcXMbdJoj.s
+6C2 cinit CODE >611:/tmp/xcXMbdJoj.s
+6C2 cinit CODE >663:/tmp/xcXMbdJoj.s
+6C4 cinit CODE >664:/tmp/xcXMbdJoj.s
+6C6 cinit CODE >665:/tmp/xcXMbdJoj.s
+6C8 cinit CODE >666:/tmp/xcXMbdJoj.s
+6CA cinit CODE >667:/tmp/xcXMbdJoj.s
+6CC cinit CODE >668:/tmp/xcXMbdJoj.s
+6CE cinit CODE >669:/tmp/xcXMbdJoj.s
+6D2 cinit CODE >670:/tmp/xcXMbdJoj.s
+6D6 cinit CODE >671:/tmp/xcXMbdJoj.s
+6D6 cinit CODE >672:/tmp/xcXMbdJoj.s
+6D8 cinit CODE >673:/tmp/xcXMbdJoj.s
+6DC cinit CODE >674:/tmp/xcXMbdJoj.s
+6DE cinit CODE >675:/tmp/xcXMbdJoj.s
+6E0 cinit CODE >676:/tmp/xcXMbdJoj.s
+6E2 cinit CODE >680:/tmp/xcXMbdJoj.s
+6E6 cinit CODE >681:/tmp/xcXMbdJoj.s
+6E8 cinit CODE >682:/tmp/xcXMbdJoj.s
+6E8 cinit CODE >683:/tmp/xcXMbdJoj.s
+6EA cinit CODE >684:/tmp/xcXMbdJoj.s
+6EC cinit CODE >685:/tmp/xcXMbdJoj.s
+6EE cinit CODE >691:/tmp/xcXMbdJoj.s
+6EE cinit CODE >693:/tmp/xcXMbdJoj.s
+6F0 cinit CODE >694:/tmp/xcXMbdJoj.s
+6F2 cinit CODE >695:/tmp/xcXMbdJoj.s
+6F4 cinit CODE >696:/tmp/xcXMbdJoj.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hspace_0 1000 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hspace_1 3E 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hspace_2 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hspace_4 60000E 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcXKhBgeE.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATA F89 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATB F8A 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATC F8B 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATD F8C 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATE F8D 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATF F8E 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATG F8F 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATH F90 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATJ F91 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+___sp 0 0 STACK 2 stack /tmp/xcXKhBgeE.o
+_list 33 0 COMRAM 1 dataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+_main 772 0 CODE 0 text0 dist/Simulator/debug/THE2-Starter.X.debug.o
+_wait 27 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+btemp 3D 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_updateDisplay 37E 0 CODE 0 text3 dist/Simulator/debug/THE2-Starter.X.debug.o
+_gravity_counter 2F 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+start E 0 CODE 0 init /tmp/xcXKhBgeE.o
+__size_of___awdiv 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of___awmod 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_main 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hpowerup E 0 CODE 0 powerup dist/Simulator/debug/THE2-Starter.X.debug.o
+___awmod@sign E 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+ttemp5 3E 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+ttemp6 41 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+ttemp7 45 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__accesstop 60 0 ABS 0 - /tmp/xcXKhBgeE.o
+intlevel0 0 0 CODE 0 text /tmp/xcXKhBgeE.o
+intlevel1 0 0 CODE 0 text /tmp/xcXKhBgeE.o
+intlevel2 0 0 CODE 0 text /tmp/xcXKhBgeE.o
+intlevel3 0 0 CODE 0 text /tmp/xcXKhBgeE.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+wtemp8 3E 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hifardata 0 0 CODE 0 ifardata dist/Simulator/debug/THE2-Starter.X.debug.o
+___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hclrtext 0 0 ABS 0 clrtext dist/Simulator/debug/THE2-Starter.X.debug.o
+__pidataCOMRAM 77E 0 CODE 0 idataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_HandleInterrupt 22A 0 CODE 0 intcode_body dist/Simulator/debug/THE2-Starter.X.debug.o
+___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcXKhBgeE.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcXKhBgeE.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_initial 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_handleUp 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_softReset 21 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintcodelo E 0 CODE 0 intcodelo dist/Simulator/debug/THE2-Starter.X.debug.o
+___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+handleGravity@i 4 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of___awdiv 442 0 CODE 0 text5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of___awmod 4F2 0 CODE 0 text4 dist/Simulator/debug/THE2-Starter.X.debug.o
+_INTCON FF2 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+_HandleInterrupt 8 0 CODE 0 intcode dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintcodelo E 0 CODE 0 intcodelo dist/Simulator/debug/THE2-Starter.X.debug.o
+start_initialization 6C2 0 CODE 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+___rparam_used 1 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_handleUp 4F2 0 CODE 0 text7 dist/Simulator/debug/THE2-Starter.X.debug.o
+_total_score 25 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+_round_score 23 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_handleBlink 750 0 CODE 0 text10 dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_handleUp 594 0 CODE 0 text7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_handleScore 726 0 CODE 0 text8 dist/Simulator/debug/THE2-Starter.X.debug.o
+_softReset_counter 29 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_initial 634 0 CODE 0 text1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank0 0 0 ABS 0 bank0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank1 0 0 ABS 0 bank1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank2 0 0 ABS 0 bank2 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank3 0 0 ABS 0 bank3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank4 0 0 ABS 0 bank4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank5 0 0 ABS 0 bank5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank6 0 0 ABS 0 bank6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank7 0 0 ABS 0 bank7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank8 0 0 ABS 0 bank8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank9 0 0 ABS 0 bank9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hcinit 0 0 ABS 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hconst 0 0 CONST 0 const dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hidata 0 0 CODE 0 idata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hparam 0 0 COMRAM 1 rparam dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hrdata 0 0 COMRAM 1 rdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hstack 0 0 STACK 2 stack dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext0 0 0 ABS 0 text0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext1 0 0 ABS 0 text1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext3 0 0 ABS 0 text3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext4 0 0 ABS 0 text4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext5 0 0 ABS 0 text5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext6 0 0 ABS 0 text6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext7 0 0 ABS 0 text7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext8 0 0 ABS 0 text8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext9 0 0 ABS 0 text9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank10 0 0 ABS 0 bank10 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank11 0 0 ABS 0 bank11 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank12 0 0 ABS 0 bank12 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank13 0 0 ABS 0 bank13 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank14 0 0 ABS 0 bank14 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbank15 0 0 ABS 0 bank15 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbigram 0 0 ABS 0 bigram dist/Simulator/debug/THE2-Starter.X.debug.o
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcXKhBgeE.o
+__Hcomram 0 0 ABS 0 comram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hconfig 30000E 0 CONFIG 4 config dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank0 0 0 ABS 0 bank0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank1 0 0 ABS 0 bank1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank2 0 0 ABS 0 bank2 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank3 0 0 ABS 0 bank3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank4 0 0 ABS 0 bank4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank5 0 0 ABS 0 bank5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank6 0 0 ABS 0 bank6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank7 0 0 ABS 0 bank7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank8 0 0 ABS 0 bank8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank9 0 0 ABS 0 bank9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lcinit 0 0 ABS 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lconst 0 0 CONST 0 const dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lidata 0 0 CODE 0 idata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lidloc 0 0 IDLOC 5 idloc dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lparam 0 0 COMRAM 1 rparam dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lrdata 0 0 COMRAM 1 rdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lstack 0 0 STACK 2 stack dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext0 0 0 ABS 0 text0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext1 0 0 ABS 0 text1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext3 0 0 ABS 0 text3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext4 0 0 ABS 0 text4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext5 0 0 ABS 0 text5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext6 0 0 ABS 0 text6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext7 0 0 ABS 0 text7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext8 0 0 ABS 0 text8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext9 0 0 ABS 0 text9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/Simulator/debug/THE2-Starter.X.debug.o
+_INTCONbits FF2 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Habs1 0 0 ABS 0 abs1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hdata 0 0 ABS 0 data dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hinit 12 0 CODE 0 init dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hrbit 0 0 COMRAM 1 rbit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hrbss 0 0 COMRAM 1 rbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htemp 3E 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext 0 0 ABS 0 text dist/Simulator/debug/THE2-Starter.X.debug.o
+__Labs1 0 0 ABS 0 abs1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ldata 0 0 ABS 0 data dist/Simulator/debug/THE2-Starter.X.debug.o
+__Linit E 0 CODE 0 init dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lrbit 0 0 COMRAM 1 rbit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lrbss 0 0 COMRAM 1 rbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltemp 3D 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext 0 0 ABS 0 text dist/Simulator/debug/THE2-Starter.X.debug.o
+int$flags 3D 0 COMRAM 1 temp dist/Simulator/debug/THE2-Starter.X.debug.o
+_handleGravity 634 0 CODE 0 text9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_HandleInterrupt 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintret 0 0 ABS 0 intret dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hirdata 0 0 CODE 0 irdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__S0 788 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__S1 3E 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__S2 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__S4 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__S5 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/Simulator/debug/THE2-Starter.X.debug.o
+int_func 12 0 CODE 0 intcode_body dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintentry 0 0 ABS 0 intentry dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hramtop 1000 0 RAM 0 ramtop dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hrparam 0 0 COMRAM 1 rparam dist/Simulator/debug/THE2-Starter.X.debug.o
+__activetblptr 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hstruct 0 0 COMRAM 1 struct dist/Simulator/debug/THE2-Starter.X.debug.o
+__Htext10 0 0 ABS 0 text10 dist/Simulator/debug/THE2-Starter.X.debug.o
+handleUp@i 4 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+___awmod@counter D 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext10 726 0 CODE 0 text10 dist/Simulator/debug/THE2-Starter.X.debug.o
+___awdiv 37E 0 CODE 0 text5 dist/Simulator/debug/THE2-Starter.X.debug.o
+___awmod 442 0 CODE 0 text4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__pintcode_body 12 0 CODE 0 intcode_body dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank10 0 0 ABS 0 bank10 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank11 0 0 ABS 0 bank11 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank12 0 0 ABS 0 bank12 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank13 0 0 ABS 0 bank13 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank14 0 0 ABS 0 bank14 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbank15 0 0 ABS 0 bank15 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbigram 0 0 ABS 0 bigram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lcomram 0 0 ABS 0 comram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lconfig 0 0 CONFIG 4 config dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATDbits F8C 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_LATHbits F90 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_handleBlink 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_handleScore 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lfardata 0 0 FARRAM 0 fardata dist/Simulator/debug/THE2-Starter.X.debug.o
+updateDisplay@bit0 15 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+updateDisplay@bit1 13 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+updateDisplay@bit2 11 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+updateDisplay@bit3 F 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_handleGravity 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+stackhi F5F 0 ABS 0 - /tmp/xcXKhBgeE.o
+stacklo 60 0 ABS 0 - /tmp/xcXKhBgeE.o
+_blink_counter 31 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintcode 8 0 CODE 0 intcode dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lintret 0 0 ABS 0 intret dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lirdata 0 0 CODE 0 irdata dist/Simulator/debug/THE2-Starter.X.debug.o
+_score_counter 2D 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lspace_0 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lspace_1 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lspace_2 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lspace_4 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__pbssCOMRAM 1B 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_hardReset 772 0 CODE 0 text6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_hardReset 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+end_of_initialization 6EE 0 CODE 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintentry 0 0 ABS 0 intentry dist/Simulator/debug/THE2-Starter.X.debug.o
+___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+?___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+?___awmod 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_handleGravity 6C2 0 CODE 0 text9 dist/Simulator/debug/THE2-Starter.X.debug.o
+_initial 594 0 CODE 0 text1 dist/Simulator/debug/THE2-Starter.X.debug.o
+___awmod@dividend 9 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+_display_counter 2B 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+_hardReset 750 0 CODE 0 text6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lramtop 1000 0 RAM 0 ramtop dist/Simulator/debug/THE2-Starter.X.debug.o
+_reset_switch 1F 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lrparam 0 0 COMRAM 1 rparam dist/Simulator/debug/THE2-Starter.X.debug.o
+__pcinit 6C2 0 CODE 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext0 772 0 CODE 0 text0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext1 594 0 CODE 0 text1 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext3 22A 0 CODE 0 text3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext4 442 0 CODE 0 text4 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext5 37E 0 CODE 0 text5 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext6 750 0 CODE 0 text6 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext7 4F2 0 CODE 0 text7 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext8 6F8 0 CODE 0 text8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ptext9 634 0 CODE 0 text9 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lstruct 0 0 COMRAM 1 struct dist/Simulator/debug/THE2-Starter.X.debug.o
+_updateDisplay 22A 0 CODE 0 text3 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Ltext10 0 0 ABS 0 text10 dist/Simulator/debug/THE2-Starter.X.debug.o
+__ramtop 1000 0 RAM 0 ramtop /tmp/xcXKhBgeE.o
+__Lpowerup E 0 CODE 0 powerup dist/Simulator/debug/THE2-Starter.X.debug.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/Simulator/debug/THE2-Starter.X.debug.o
+___param_bank 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of__initialization 6EE 0 CODE 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+___awmod@divisor B 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Libigdata 0 0 CODE 0 ibigdata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lclrtext 0 0 ABS 0 clrtext dist/Simulator/debug/THE2-Starter.X.debug.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__end_of_main 77E 0 CODE 0 text0 dist/Simulator/debug/THE2-Starter.X.debug.o
+__pintcode 8 0 CODE 0 intcode dist/Simulator/debug/THE2-Starter.X.debug.o
+_T0CON FD5 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TMR0H FD7 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TMR0L FD6 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TRISB F93 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TRISD F95 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TRISH F99 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+_TRISJ F9A 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__HRAM 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hbss 0 0 RAM 1 bss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hram 0 0 ABS 0 ram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hsfr 0 0 ABS 0 sfr dist/Simulator/debug/THE2-Starter.X.debug.o
+__LRAM 1 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lbss 0 0 RAM 1 bss dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lram 0 0 ABS 0 ram dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lsfr 0 0 ABS 0 sfr dist/Simulator/debug/THE2-Starter.X.debug.o
+_hippo 1B 0 COMRAM 1 bssCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+___extmem_base 20000 0 ABS 0 - /tmp/xcXKhBgeE.o
+__initialization 6C2 0 CODE 0 cinit dist/Simulator/debug/THE2-Starter.X.debug.o
+__pdataCOMRAM 33 0 COMRAM 1 dataCOMRAM dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hfardata 0 0 FARRAM 0 fardata dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/Simulator/debug/THE2-Starter.X.debug.o
+_handleBlink 726 0 CODE 0 text10 dist/Simulator/debug/THE2-Starter.X.debug.o
+__Lifardata 0 0 CODE 0 ifardata dist/Simulator/debug/THE2-Starter.X.debug.o
+_handleScore 6F8 0 CODE 0 text8 dist/Simulator/debug/THE2-Starter.X.debug.o
+__size_of_updateDisplay 0 0 ABS 0 - dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/Simulator/debug/THE2-Starter.X.debug.o
+__Hintcode E 0 CODE 0 intcode dist/Simulator/debug/THE2-Starter.X.debug.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMRAM 1 1 1 3D 1
+reset_vec 0 0 0 4 1
+intcode 0 8 8 780 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

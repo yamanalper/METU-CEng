@@ -1,0 +1,433 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/UploadToBoard/production/THE2-Starter.X.production.o
+cinit CODE 0 11C 11C 16 1
+idloc IDLOC 5 200000 200000 8 1
+intcode_body CODE 0 9A 9A 82 1
+text0 CODE 0 140 140 C 1
+text1 CODE 0 12 12 88 1
+text3 CODE 0 14C 14C 2 1
+text4 CODE 0 14E 14E 2 1
+text5 CODE 0 132 132 E 1
+temp COMRAM 1 9 9 1 1
+intcode CODE 0 8 8 6 1
+bssCOMRAM COMRAM 1 1 1 8 1
+config CONFIG 4 300000 300000 E 1
+$/tmp/xcXCFpocP.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 E E 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 60-F5F 1
+SFR F60-FFF 1
+BANK0 60-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 150-1FFFF 1
+STACK 60-F5F 1
+SMALLCONST 1000-1FFFF 1
+CODE 4-7 1
+CODE 150-1FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F5F 1
+BIGRAM A-F5F 1
+COMRAM A-5F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1000-FFFF 1
+MEDIUMCONST 11000-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/UploadToBoard/production/THE2-Starter.X.production.o
+8 intcode CODE >1202:/tmp/xcXhCeJNG.s
+8 intcode CODE >108:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+132 text5 CODE >95:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+132 text5 CODE >96:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+13A text5 CODE >97:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+13C text5 CODE >98:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+13E text5 CODE >99:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+14E text4 CODE >100:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+14C text3 CODE >101:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+9A intcode_body CODE >108:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+9C intcode_body CODE >110:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+AA intcode_body CODE >111:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+AC intcode_body CODE >112:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+B0 intcode_body CODE >113:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+B4 intcode_body CODE >114:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+B8 intcode_body CODE >115:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+D0 intcode_body CODE >116:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+D4 intcode_body CODE >117:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+EC intcode_body CODE >118:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+F0 intcode_body CODE >119:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+108 intcode_body CODE >121:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+116 intcode_body CODE >122:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+118 intcode_body CODE >126:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+12 text1 CODE >59:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+12 text1 CODE >60:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+16 text1 CODE >61:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1A text1 CODE >62:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+1E text1 CODE >63:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+22 text1 CODE >64:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+26 text1 CODE >65:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2A text1 CODE >66:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+2E text1 CODE >67:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+32 text1 CODE >68:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+36 text1 CODE >69:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+3A text1 CODE >70:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+3E text1 CODE >71:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+42 text1 CODE >72:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+46 text1 CODE >73:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4A text1 CODE >74:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4C text1 CODE >75:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+4E text1 CODE >76:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+50 text1 CODE >77:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+52 text1 CODE >78:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+54 text1 CODE >79:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+56 text1 CODE >80:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5A text1 CODE >81:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+5E text1 CODE >82:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+62 text1 CODE >83:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+70 text1 CODE >84:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+74 text1 CODE >85:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+78 text1 CODE >86:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+7C text1 CODE >87:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+84 text1 CODE >88:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+8C text1 CODE >89:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+94 text1 CODE >90:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+96 text1 CODE >91:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+98 text1 CODE >93:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+140 text0 CODE >131:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+140 text0 CODE >133:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+144 text0 CODE >134:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+144 text0 CODE >137:/home/bs2022/e2581155/MPLABXProjects/THE2-Starter.X/main.c
+11C cinit CODE >574:/tmp/xcXhCeJNG.s
+11C cinit CODE >576:/tmp/xcXhCeJNG.s
+11C cinit CODE >579:/tmp/xcXhCeJNG.s
+11C cinit CODE >601:/tmp/xcXhCeJNG.s
+120 cinit CODE >602:/tmp/xcXhCeJNG.s
+122 cinit CODE >603:/tmp/xcXhCeJNG.s
+122 cinit CODE >604:/tmp/xcXhCeJNG.s
+124 cinit CODE >605:/tmp/xcXhCeJNG.s
+126 cinit CODE >606:/tmp/xcXhCeJNG.s
+128 cinit CODE >612:/tmp/xcXhCeJNG.s
+128 cinit CODE >614:/tmp/xcXhCeJNG.s
+12A cinit CODE >615:/tmp/xcXhCeJNG.s
+12C cinit CODE >616:/tmp/xcXhCeJNG.s
+12E cinit CODE >617:/tmp/xcXhCeJNG.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hspace_0 1000 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hspace_1 A 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcXCFpocP.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATA F89 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATB F8A 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATC F8B 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATD F8C 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATE F8D 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATF F8E 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATG F8F 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATH F90 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATJ F91 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcXCFpocP.o
+_main 140 0 CODE 0 text0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+_wait 1 0 COMRAM 1 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+btemp 9 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+_gravity_counter 5 0 COMRAM 1 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+start E 0 CODE 0 init /tmp/xcXCFpocP.o
+__size_of_main 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hpowerup E 0 CODE 0 powerup dist/UploadToBoard/production/THE2-Starter.X.production.o
+ttemp5 A 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+ttemp6 D 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+ttemp7 11 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+__accesstop 60 0 ABS 0 - /tmp/xcXCFpocP.o
+intlevel0 0 0 CODE 0 text /tmp/xcXCFpocP.o
+intlevel1 0 0 CODE 0 text /tmp/xcXCFpocP.o
+intlevel2 0 0 CODE 0 text /tmp/xcXCFpocP.o
+intlevel3 0 0 CODE 0 text /tmp/xcXCFpocP.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+wtemp8 A 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_HandleInterrupt 11C 0 CODE 0 intcode_body dist/UploadToBoard/production/THE2-Starter.X.production.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcXCFpocP.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcXCFpocP.o
+__size_of_initial 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintcodelo E 0 CODE 0 intcodelo dist/UploadToBoard/production/THE2-Starter.X.production.o
+_INTCON FF2 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_HandleInterrupt 8 0 CODE 0 intcode dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintcodelo E 0 CODE 0 intcodelo dist/UploadToBoard/production/THE2-Starter.X.production.o
+start_initialization 11C 0 CODE 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+___rparam_used 1 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_handleBlink 140 0 CODE 0 text5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_handleScore 14E 0 CODE 0 text3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_initial 9A 0 CODE 0 text1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hconst 0 0 CONST 0 const dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hidata 0 0 CODE 0 idata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hstack 0 0 STACK 2 stack dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbank15 0 0 ABS 0 bank15 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcXCFpocP.o
+__Hcomram 0 0 ABS 0 comram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lconst 0 0 CONST 0 const dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lidata 0 0 CODE 0 idata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lstack 0 0 STACK 2 stack dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/UploadToBoard/production/THE2-Starter.X.production.o
+_INTCONbits FF2 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hdata 0 0 ABS 0 data dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hinit 12 0 CODE 0 init dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htemp A 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Htext 0 0 ABS 0 text dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ldata 0 0 ABS 0 data dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Linit E 0 CODE 0 init dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltemp 9 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Ltext 0 0 ABS 0 text dist/UploadToBoard/production/THE2-Starter.X.production.o
+int$flags 9 0 COMRAM 1 temp dist/UploadToBoard/production/THE2-Starter.X.production.o
+_handleGravity 14E 0 CODE 0 text4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__size_of_HandleInterrupt 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintret 0 0 ABS 0 intret dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__S0 150 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__S1 A 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__S2 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__S4 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__S5 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/UploadToBoard/production/THE2-Starter.X.production.o
+int_func 9A 0 CODE 0 intcode_body dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hramtop 1000 0 RAM 0 ramtop dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/UploadToBoard/production/THE2-Starter.X.production.o
+__activetblptr 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/UploadToBoard/production/THE2-Starter.X.production.o
+__pintcode_body 9A 0 CODE 0 intcode_body dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbank15 0 0 ABS 0 bank15 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/UploadToBoard/production/THE2-Starter.X.production.o
+_LATDbits F8C 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__size_of_handleBlink 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__size_of_handleScore 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__size_of_handleGravity 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+stackhi F5F 0 ABS 0 - /tmp/xcXCFpocP.o
+stacklo 60 0 ABS 0 - /tmp/xcXCFpocP.o
+_blink_counter 7 0 COMRAM 1 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintcode 8 0 CODE 0 intcode dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lintret 0 0 ABS 0 intret dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+_score_counter 3 0 COMRAM 1 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+end_of_initialization 128 0 CODE 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_handleGravity 150 0 CODE 0 text4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+_initial 12 0 CODE 0 text1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lramtop 1000 0 RAM 0 ramtop dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/UploadToBoard/production/THE2-Starter.X.production.o
+__pcinit 11C 0 CODE 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ptext0 140 0 CODE 0 text0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ptext1 12 0 CODE 0 text1 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ptext3 14C 0 CODE 0 text3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ptext4 14E 0 CODE 0 text4 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ptext5 132 0 CODE 0 text5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/UploadToBoard/production/THE2-Starter.X.production.o
+__ramtop 1000 0 RAM 0 ramtop /tmp/xcXCFpocP.o
+__Lpowerup E 0 CODE 0 powerup dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/UploadToBoard/production/THE2-Starter.X.production.o
+___param_bank 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of__initialization 128 0 CODE 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/UploadToBoard/production/THE2-Starter.X.production.o
+__pcstackCOMRAM 0 0 COMRAM 1 cstackCOMRAM dist/UploadToBoard/production/THE2-Starter.X.production.o
+__end_of_main 14C 0 CODE 0 text0 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__pintcode 8 0 CODE 0 intcode dist/UploadToBoard/production/THE2-Starter.X.production.o
+_T0CON FD5 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TMR0H FD7 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TMR0L FD6 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TRISB F93 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TRISD F95 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TRISH F99 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+_TRISJ F9A 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__HRAM 0 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hbss 0 0 RAM 1 bss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hram 0 0 ABS 0 ram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/UploadToBoard/production/THE2-Starter.X.production.o
+__LRAM 1 0 ABS 0 - dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lbss 0 0 RAM 1 bss dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lram 0 0 ABS 0 ram dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/UploadToBoard/production/THE2-Starter.X.production.o
+___extmem_base 20000 0 ABS 0 - /tmp/xcXCFpocP.o
+__initialization 11C 0 CODE 0 cinit dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/UploadToBoard/production/THE2-Starter.X.production.o
+_handleBlink 132 0 CODE 0 text5 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/UploadToBoard/production/THE2-Starter.X.production.o
+_handleScore 14C 0 CODE 0 text3 dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/UploadToBoard/production/THE2-Starter.X.production.o
+__Hintcode E 0 CODE 0 intcode dist/UploadToBoard/production/THE2-Starter.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 4 1
+intcode 0 8 8 148 1
+bssCOMRAM 1 1 1 9 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
