@@ -1,0 +1,7 @@
+# Ignore SWIG interface files in stats
+*.i linguist-detectable=false
+
+# Ignore generated wrapper files (adjust pattern if needed)
+*_wrap.cxx linguist-generated
+*_wrap.c linguist-generated
+*_wrap.cpp linguist-generated
